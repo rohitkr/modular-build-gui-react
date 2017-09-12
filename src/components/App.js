@@ -54,7 +54,7 @@ class App extends Component {
   }
   clickHandler = (that, state) => {
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
-    this.size = (Math.round(moduleManager.getSize() * 10) / 10) + ' MB';
+    this.size = moduleManager.getSize();
     this.setState(({ isChecked }) => ({
       isChecked: !isChecked
     }));
