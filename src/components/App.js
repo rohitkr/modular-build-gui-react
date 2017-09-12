@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import Modules from './Modules';
 import './App.css';
-import ModuleManager from './module';
-import statsJSON from './data/stats.json';
+import ModuleManager from '../data/module';
+import statsJSON from '../data/stats.json';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
+// set header post to make ajax request
+axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
@@ -15,7 +18,37 @@ class App extends Component {
   }
   handleFormSubmit = (event) => {
     event.preventDefault();
-    console.log(this);
+
+    let modulesArr = [],
+      modName;
+
+    moduleManager.getPublicModules().forEach((module, ind) => {
+      if (module.checked && module.isUserSelected) {
+        modName = module.name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');
+        modulesArr.push(modName);
+      }
+    });
+
+    if (!modulesArr.length) {
+      console.warn('No modules selected.');
+      return;
+    }
+    axios({
+      url: '/build',
+      method: 'post',
+      headers: {"Content-type": "application/json"},
+      data: {
+        modularBuild: true,
+        modules: modulesArr
+      }
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
   }
   clickHandler = (that, state) => {
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
@@ -41,13 +74,14 @@ class App extends Component {
               <br/>You will get the FusionCharts build file containing only the modules that you have selected.</h4>
             </div>
             <div className="col-sm-12 pt-10">
-                {/* <form onSubmit={this.handleFormSubmit}> */}
+                <form onSubmit={this.handleFormSubmit} action="/build" method="post">
                   <div className="row pt-10">
                     <button className="btn btn-default pull-left" type="submit">Build</button>
                     <span className="pull-right">Total Size: {this.size}</span>
                   </div>
+                  <input type="hidden" value="This is a sample hidden input element" id="hiddeninp"/>
                   <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
-                {/* </form> */}
+                </form>
             </div>
           </div>
         </div>
