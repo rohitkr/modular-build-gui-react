@@ -22,14 +22,14 @@ class App extends Component {
     let modulesArr = [],
       modName;
 
-    // modulesArr = moduleManager.getUserSelectedModules(true);
+    modulesArr = moduleManager.getUserSelectedModules(true);
 
-    moduleManager.getPublicModules().forEach((module, ind) => {
-      if (module.checked && module.isUserSelected) {
-        modName = module.name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');
-        modulesArr.push(modName);
-      }
-    });
+    // moduleManager.getPublicModules().forEach((module, ind) => {
+    //   if (module.checked && module.isUserSelected) {
+    //     modName = module.name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');
+    //     modulesArr.push(modName);
+    //   }
+    // });
 
     if (!modulesArr.length) {
       console.warn('No modules selected.');
