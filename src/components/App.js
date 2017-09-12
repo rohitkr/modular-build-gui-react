@@ -22,6 +22,8 @@ class App extends Component {
     let modulesArr = [],
       modName;
 
+    // modulesArr = moduleManager.getUserSelectedModules(true);
+
     moduleManager.getPublicModules().forEach((module, ind) => {
       if (module.checked && module.isUserSelected) {
         modName = module.name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');

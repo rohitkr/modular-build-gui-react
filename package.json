@@ -18,6 +18,7 @@
     "start:server": "node server",
     "build": "react-scripts build",
     "build:start:server": "npm run build && npm run start:server",
+    "watch": "nodemon --exec 'npm run build:start:server' --watch src",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
