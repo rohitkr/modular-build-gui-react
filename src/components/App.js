@@ -19,8 +19,7 @@ class App extends Component {
   handleFormSubmit = (event) => {
     event.preventDefault();
 
-    let modulesArr = [],
-      modName;
+    let modulesArr = [];
 
     modulesArr = moduleManager.getUserSelectedModules(true);
 

@@ -214,9 +214,9 @@ class DependencyManager {
   }
   //get current total size 
   getSize() {
-    var kb = Math.round(this.totalSize / 1024 * 100)/100,
+    var kb = Math.round(this.totalSize / 1024 * 100) / 100,
       mb;
-    mb = Math.round(kb / 1024 * 100)/100;
+    mb = Math.round(kb / 1024 * 100) / 100;
     if (mb > 1)
       return mb.toString() + ' MB';
     else if (kb > 1)
@@ -255,6 +255,51 @@ class DependencyManager {
       }
     }
     return selectedModuleName;
+  }
+  //find cyclic dependencies and print the cyclic path
+  // path array contains the path of cyclic dependent modules
+  isCyclicGraph(startName, currentModule, path) {
+    let i, reasons = currentModule.reasons,
+      iterModule;
+    currentModule.visited = true;
+    for (i = 0; i < reasons.length; i++) {
+      if (reasons[i].moduleName === startName) {
+        return true;
+      }
+      if (reasons[i].moduleName) {
+        iterModule = this.getNode(reasons[i].moduleName);
+        if (iterModule && !iterModule.visited) {
+          if (this.isCyclicGraph(startName, iterModule, path)) {
+            path[path.length] = iterModule.name;
+            return true;
+          }
+        }
+      }
+    }
+    return false;
+  }
+
+  printCyclic() {
+    let modules = this.moduleData,
+      i, j, startModule, path = [];
+
+    for (j = 0; j < modules.length; j++) {
+      modules[j].visited = false;
+    }
+
+    for (i = 0; i < modules.length; i++) {
+      startModule = modules[i];
+      path = [];
+      path[0] = startModule.name;
+      if (this.isCyclicGraph(startModule.name, startModule, path)) {
+        console.log("Cyclic at: " + startModule.name);
+        path[path.length] = startModule.name;
+        console.log("Cyclic Path : " + path);
+      }
+      for (j = 0; j < modules.length; j++) {
+        modules[j].visited = false;
+      }
+    }
   }
 };
 
