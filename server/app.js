@@ -26,8 +26,8 @@ app.post('/build', function (req, res) {
   let modules = req.body.modules;
   // console.log('react post request req.params: ', req.params );
   // console.log('react post request req.body: ', req.body );
-  console.log(`webpack --env.modules=${modules.join(',')}`);
-  exec(`webpack --env.modules=${modules.join(',')}`);
+  exec(`cd ../xt-edge && rm -rf ./out/_build/*  && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`);
+  console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
   // console.log('react post request res: ', res);
   res.send('POST request to the homepage');
 });

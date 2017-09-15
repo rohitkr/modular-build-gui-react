@@ -34,6 +34,7 @@ class Modules extends Component {
         /*checked={this.state.checked}*/
         disabled={module.disabled}
         name={module.name}
+        displayName={module.displayName}
         checkboxClickHandler={this.onCheckboxClick}
         key={module.name}
       />

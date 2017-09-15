@@ -23,7 +23,7 @@ class Checkbox extends Component {
   }
   render () {
     const name = this.props.name;
-    const shortName = name.replace(/(.*)\/fusioncharts\./, '');
+    const shortName = this.props.displayName;
     const description = this.props.description;
     const isDisabled = this.props.disabled;
     const isChecked = this.props.checked;

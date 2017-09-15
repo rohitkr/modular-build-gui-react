@@ -1,3 +1,4 @@
+import PublicMod from '../dependency';
 class DependencyManager {
   constructor(treeJSON) {
     this.treeData = treeJSON;
@@ -5,7 +6,24 @@ class DependencyManager {
     this.totalSize = 0;
   }
   isPublic(modulePath) {
-    return !!modulePath.match(/mantle\/renderer-javascript\/charts\//ig);
+    var i, pubModule, strToMatch;
+
+    for (i in PublicMod) {
+      strToMatch = PublicMod[i].substr(2);
+      if (modulePath.indexOf(strToMatch) !== -1) {
+        pubModule = this.getNode(modulePath);
+        pubModule.displayName = i;
+        return true;
+      }
+    }
+    // for (i in PublicMod) {
+    //   if (new RegExp(PublicMod[i] + '.js').test(modulePath)) {
+    //     pubModule = this.getNode(modulePath);
+    //     pubModule.displayName = i;
+    //     return true;
+    //   }
+    // }
+    return false;
   }
   getNode(name) {
     let modules = this.moduleData,
@@ -189,13 +207,22 @@ class DependencyManager {
   }
   //return all public modules
   getPublicModules() {
+
+    function isNameAlreadyIncluded(displayName) {
+      var k = 0;
+      for (k = 0; k < publicModule.length; k++) {
+        if (displayName === publicModule[k].displayName) {
+          return true;
+        }
+      }
+      return false;
+    };
     let i = 0,
       node, key, moduleData = this.moduleData,
       publicModule = [];
-
     for (key in moduleData) {
       node = moduleData[key];
-      if (this.isPublic(node.name)) {
+      if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
         publicModule[i] = node;
         i++;
       }
@@ -247,7 +274,7 @@ class DependencyManager {
     for (key in publicModules) {
       if ((publicModules[key].checked === true) && (publicModules[key].isUserSelected === true)) {
         if (shortName) {
-          selectedModuleName[i] = publicModules[key].name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');
+          selectedModuleName[i] = publicModules[key].displayName;
         } else {
           selectedModuleName[i] = publicModules[key].name;
         }
