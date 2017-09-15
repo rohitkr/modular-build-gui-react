@@ -13,6 +13,7 @@ class DependencyManager {
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
         pubModule.displayName = i;
+        pubModule.description = PublicMod[i].description;
         return true;
       }
     }
