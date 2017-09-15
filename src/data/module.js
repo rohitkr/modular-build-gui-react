@@ -9,7 +9,7 @@ class DependencyManager {
     var i, pubModule, strToMatch;
 
     for (i in PublicMod) {
-      strToMatch = PublicMod[i].substr(2);
+      strToMatch = PublicMod[i].path.substr(2);
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
         pubModule.displayName = i;
