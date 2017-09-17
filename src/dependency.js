@@ -41,7 +41,7 @@ module.exports = exports = {
   },
   MSColumn2D: {
     'path': '../mantle/renderer-javascript/charts/fusioncharts.mscolumn2d',
-    'description': 'Plots data in Pareto2D'
+    'description': 'MSColumn2D allows to render a Multi-Series Column2D Chart in your page'
   },
   // MSColumn3D:{'../mantle/renderer-javascript/charts/fusioncharts.mscolumn3d'},
   MSBar2D: {

@@ -31,7 +31,10 @@ class Checkbox extends Component {
 
     return (
       <div className="row pt-10">
-        <div className="col-sm-5 col-md-3 col-lg-9">
+        <div className="col-6 col-md-4">
+          {/* Sample heading content if any */}
+        </div>
+        <div className="col-6 col-xs-4">
           <label>
             <input type="checkbox"
               value={name}
@@ -40,10 +43,11 @@ class Checkbox extends Component {
               onChange={this.onCheckboxChange}
             ></input>
             &nbsp;
+            &nbsp;
             {shortName}
           </label>
         </div>
-        <div className="col-sm-5 col-md-9 col-lg-10">
+        <div className="col-6 col-md-4">
           {description}
         </div>
       </div>

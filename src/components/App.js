@@ -74,7 +74,10 @@ class App extends Component {
               Please select the modules from the checkbox which you will be using in your project and click on the build button.
               <br/>You will get the FusionCharts build file containing only the modules that you have selected.</h4>
             </div>
-            <div className="col-sm-12 pt-10">
+          </div>
+
+
+            <div className="row">
                 <form onSubmit={this.handleFormSubmit} action="/build" method="post">
                   <div className="row pt-10">
                     <button className="btn btn-default pull-left" type="submit">Build</button>
@@ -84,7 +87,6 @@ class App extends Component {
                   <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
                 </form>
             </div>
-          </div>
         </div>
 
       </div>

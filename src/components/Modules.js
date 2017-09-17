@@ -51,9 +51,9 @@ class Modules extends Component {
     this.checkboxes = this.modulesJSON.map(module => this.createCheckbox(module));
 
     return (
-      <span>
+      <div className="row">
         {this.checkboxes}
-      </span>
+      </div>
     );
   }
 }
