@@ -1,0 +1,3 @@
+[submodule "vendors/xt-edge"]
+	path = vendors/xt-edge
+	url = git@bitbucket.org:fusioncharts/xt-edge.git

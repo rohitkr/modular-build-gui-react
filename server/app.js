@@ -28,7 +28,7 @@ app.post('/build', function (req, res) {
   // console.log('react post request req.params: ', req.params );
   // console.log('react post request req.body: ', req.body );
   // exec(`cd ../xt-edge && rm -rf ./out/_build/*  && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`);
-  exec(`cd ../../xt-edge/ && ls -la && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`, (err, stdout, stderr) => {
+  exec(`cd ./vendors/xt-edge/ && rm ./out/_build/* && ls -la && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`, (err, stdout, stderr) => {
     console.log('arg: ', stdout, stderr, err);
     console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
   });
