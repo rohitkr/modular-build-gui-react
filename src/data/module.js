@@ -14,6 +14,7 @@ class DependencyManager {
         pubModule = this.getNode(modulePath);
         pubModule.displayName = i;
         pubModule.description = PublicMod[i].description;
+        pubModule.category = PublicMod[i].category;
         return true;
       }
     }
@@ -228,6 +229,12 @@ class DependencyManager {
         i++;
       }
     }
+    publicModule.sort(function (a, b) {
+      if (a.category === b.category) {
+        return (a.displayName > b.displayName)?1:-1;
+      }
+      return (a.category > b.category)?1:-1;
+    });
     return publicModule;
   }
   //select module by name
