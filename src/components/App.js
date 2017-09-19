@@ -23,13 +23,6 @@ class App extends Component {
 
     modulesArr = moduleManager.getUserSelectedModules(true);
 
-    // moduleManager.getPublicModules().forEach((module, ind) => {
-    //   if (module.checked && module.isUserSelected) {
-    //     modName = module.name.replace(/(.*)\/fusioncharts\.(.*)\.js?/, '$2');
-    //     modulesArr.push(modName);
-    //   }
-    // });
-
     if (!modulesArr.length) {
       console.warn('No modules selected.');
       return;
@@ -49,6 +42,25 @@ class App extends Component {
     .catch(function (error) {
       console.log(error);
     });
+
+  }
+  downloadFile = (event) => {
+    window.open('download')
+    // axios({
+    //   url: '/download',
+    //   method: 'get',
+    //   headers: {"Content-type": "application/json"},
+    //   data: {
+    //     modularBuild: true,
+    //     modules: 'build.zip'
+    //   }
+    // })
+    // .then(function (response) {
+    //   console.log(response);
+    // })
+    // .catch(function (error) {
+    //   console.log(error);
+    // });
 
   }
   clickHandler = (that, state) => {
@@ -81,6 +93,7 @@ class App extends Component {
                 <form onSubmit={this.handleFormSubmit} action="/build" method="post">
                   <div className="row pt-10">
                     <button className="btn btn-default pull-left" type="submit">Build</button>
+                    <a href="javascript:void(0)" className="btn btn-default pull-left" onClick={this.downloadFile} >Download</a>
                     <span className="pull-right">Total Size: {this.size}</span>
                   </div>
                   <input type="hidden" value="This is a sample hidden input element" id="hiddeninp"/>
