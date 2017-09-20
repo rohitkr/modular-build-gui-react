@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Stop on error
+set -e
+
+cd ./vendors/xt-edge/;
+rm -rf ./out/_build/*;
+rm -rf build.zip;
+./node_modules/.bin/webpack --env.modules=$1;
+ls -la out/_build;
+cd out;
+rm -rf package/
+mkdir package/
+cp _build/*.js package/
+zip -r package.zip package/;

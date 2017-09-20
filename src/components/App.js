@@ -13,8 +13,13 @@ window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
 
 class App extends Component {
+  style = {
+    fontSize: ''
+  }
   state = {
-    isChecked: false
+    showLoading: false,
+    isChecked: false,
+    showDownloadButton: false
   }
   handleFormSubmit = (event) => {
     event.preventDefault();
@@ -27,6 +32,13 @@ class App extends Component {
       console.warn('No modules selected.');
       return;
     }
+    if (this.state.showLoading) {
+      console.warn('Please wait...');
+      return;
+    }
+
+    this.setState({showDownloadButton: false, showLoading: true});
+
     axios({
       url: '/build',
       method: 'post',
@@ -36,32 +48,14 @@ class App extends Component {
         modules: modulesArr
       }
     })
-    .then(function (response) {
+    .then((response) => {
       console.log(response);
+      this.setState({showDownloadButton: true, showLoading: false});
     })
-    .catch(function (error) {
+    .catch((error) => {
+      this.setState({showDownloadButton: false, showLoading: false});
       console.log(error);
     });
-
-  }
-  downloadFile = (event) => {
-    window.open('download')
-    // axios({
-    //   url: '/download',
-    //   method: 'get',
-    //   headers: {"Content-type": "application/json"},
-    //   data: {
-    //     modularBuild: true,
-    //     modules: 'build.zip'
-    //   }
-    // })
-    // .then(function (response) {
-    //   console.log(response);
-    // })
-    // .catch(function (error) {
-    //   console.log(error);
-    // });
-
   }
   clickHandler = (that, state) => {
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
@@ -87,19 +81,30 @@ class App extends Component {
               <br/>You will get the FusionCharts build file containing only the modules that you have selected.</h4>
             </div>
           </div>
-
-
-            <div className="row">
-                <form onSubmit={this.handleFormSubmit} action="/build" method="post">
-                  <div className="row pt-10">
-                    <button className="btn btn-default pull-left" type="submit">Build</button>
-                    <a href="javascript:void(0)" className="btn btn-default pull-left" onClick={this.downloadFile} >Download</a>
-                    <span className="pull-right">Total Size: {this.size}</span>
-                  </div>
-                  <input type="hidden" value="This is a sample hidden input element" id="hiddeninp"/>
-                  <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
-                </form>
+          <div className="row">
+            <div className={(this.state.showDownloadButton ? '' : 'hidden') + " row pt-10" }>
+              <span><strong>Download:</strong></span> &nbsp; &nbsp; &nbsp;<a href="download" className="" >package.zip</a>
             </div>
+          </div>
+          <div className="row">
+              <form onSubmit={this.handleFormSubmit} action="/build" method="post">
+                <div className="row pt-10">
+                  <button className={
+                      (this.state.showLoading ? 'disabled' : '' ) + " btn btn-default pull-left" 
+                    } type="submit">
+                    { this.state.showLoading ? <i style={this.style} className="fa fa-cog fa-spin"></i> : 'Build' }
+                  </button>
+                  {
+                    this.state.showDownloadButton ?
+                    <a href="download" className="btn btn-default pull-left mrg-left hidden" >Download</a>
+                    : null
+                  }
+                  <span className="pull-right">Total Size: {this.size}</span>
+                </div>
+                <input type="hidden" value="This is a sample hidden input element" id="hiddeninp"/>
+                <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
+              </form>
+          </div>
         </div>
 
       </div>
