@@ -6,6 +6,7 @@ const exec = require('child_process').exec;
 // parse urlencoded request bodies into req.body
 var bodyParser = require('body-parser');
 var http = require('http');
+require('dotenv').config();
 const app = express();
 
 // app.use(morgan(':remote-addr - :remote-user [:date[clf]] ':method :url HTTP/:http-version' :status :res[content-length] :response-time ms'));
@@ -53,7 +54,8 @@ app.get('*', function(req, res) {
 });
 
 const PORT = process.env.PORT || 9000;
+const HOST = process.env.HOST;
 
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`);
-});
+app.listen(PORT, HOST);
+
+console.log(`App listening on ${HOST}:${PORT}`);
