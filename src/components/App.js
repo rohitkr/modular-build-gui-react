@@ -50,15 +50,12 @@ class App extends Component {
     })
     .then((response) => {
       console.log(response);
-<<<<<<< HEAD
-      var blob = new Blob([response.data],{type: "octet/stream"});
-      var link = document.createElement('a');
-      link.href = window.URL.createObjectURL(blob);
-      link.download = "buildedModule.zip";
-      link.click();
-=======
+      // var blob = new Blob([response.data],{type: "octet/stream"});
+      // var link = document.createElement('a');
+      // link.href = window.URL.createObjectURL(blob);
+      // link.download = "buildedModule.zip";
+      // link.click();
       this.setState({showDownloadButton: true, showLoading: false});
->>>>>>> a2262738cc451d1b79a1e5217c8db323c7afc83d
     })
     .catch((error) => {
       this.setState({showDownloadButton: false, showLoading: false});
