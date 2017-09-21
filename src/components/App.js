@@ -45,6 +45,11 @@ class App extends Component {
     })
     .then(function (response) {
       console.log(response);
+      var blob = new Blob([response.data],{type: "octet/stream"});
+      var link = document.createElement('a');
+      link.href = window.URL.createObjectURL(blob);
+      link.download = "buildedModule.zip";
+      link.click();
     })
     .catch(function (error) {
       console.log(error);

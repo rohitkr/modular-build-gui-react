@@ -5,7 +5,9 @@ const path = require('path');
 // const exec = require('child_process').exec;
 // parse urlencoded request bodies into req.body
 var bodyParser = require('body-parser');
-const {exec} = require('child_process');
+const {
+  exec
+} = require('child_process');
 
 const app = express();
 
@@ -28,12 +30,14 @@ app.post('/build', function (req, res) {
   // console.log('react post request req.params: ', req.params );
   // console.log('react post request req.body: ', req.body );
   // exec(`cd ../xt-edge && rm -rf ./out/_build/*  && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`);
-  exec(`cd ./vendors/xt-edge/ && rm ./out/_build/* && ls -la && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`, (err, stdout, stderr) => {
+  exec(`cd ./vendors/xt-edge/ && rm -rf ./out/_build/* && ls -la && ./node_modules/.bin/webpack --env.modules=${modules.join(',')}`, (err, stdout, stderr) => {
     console.log('arg: ', stdout, stderr, err);
     console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
+    var file = './vendors/xt-edge/attachment.zip'
+    res.download(file);
   });
   // console.log('react post request res: ', res);
-  res.send('POST request to the homepage');
+  // res.send('POST request to the homepage');
 });
 
 module.exports = app;
