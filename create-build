@@ -6,7 +6,7 @@ set -e
 cd ./vendors/xt-edge/;
 rm -rf ./out/_build/*;
 rm -rf build.zip;
-./node_modules/.bin/webpack --env.modules=$1;
+./node_modules/.bin/webpack --env.modules=$1 --env.minify=true;
 ls -la out/_build;
 cd out;
 rm -rf package/

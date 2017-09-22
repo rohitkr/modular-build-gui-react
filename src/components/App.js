@@ -88,7 +88,7 @@ class App extends Component {
           </div>
           <div className="row">
             <div className={(this.state.showDownloadButton ? '' : 'hidden') + " row pt-10" }>
-              <span><strong>Download:</strong></span> &nbsp; &nbsp; &nbsp;<a href="download" className="" >package.zip</a>
+              <span><strong>Download:</strong></span> &nbsp; &nbsp; &nbsp;<a href="download" download className="" >package.zip</a>
             </div>
           </div>
           <div className="row">

@@ -54,8 +54,8 @@ app.get('*', function(req, res) {
 });
 
 const PORT = process.env.PORT || 9000;
-const HOST = process.env.HOST;
+const HOST = process.env.HOST || 'localhost';
 
 app.listen(PORT, HOST);
 
-console.log(`App listening on ${HOST}:${PORT}`);
+console.log(`App listening on http://${HOST}:${PORT}`);
