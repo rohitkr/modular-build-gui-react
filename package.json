@@ -25,6 +25,12 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "dotenv": "^4.0.0"
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express-session": "^1.15.5",
+    "googleapis": "^22.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }
