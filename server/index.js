@@ -17,6 +17,9 @@ var Strategy = require('passport-local').Strategy;
 const USER = 'admin';
 const PASS = 'admin';
 
+var userID = [];
+var uniqueID = Math.random()*100007+1;
+
 var obj = {
   id: 1,
   username: 'FusionCharts',
@@ -81,7 +84,7 @@ app.get('*', function(req, res, next) {
   console.log('Cookies: ', req.cookies);
 
   // Set start time in browser cookie
-  res.cookie('START', +new Date());
+  //res.cookie('START', +new Date());
   
   if (!req.user) {
     res.render('login', { user: req.user });
@@ -98,7 +101,11 @@ app.get('*', function(req, res, next) {
 });
 
 app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), function(req, res) {
-  res.cookie('12345','Build Column2d');
+  while(userID.indexOf(uniqueID) !== -1){
+    uniqueID = Math.random()*100007+1;
+  }
+  userID.push(uniqueID);
+  res.cookie(uniqueID.toString(),'Modular Build');
   res.redirect('/');
 });
 
@@ -121,11 +128,22 @@ app.get('/download', function(req, res) {
 // Build
 app.post('/build', function (req, res) {
   let modules = req.body.modules;
-  exec(`bash create-build ${modules.join(',')}`, (err, stdout, stderr) => {
+  var index = 0;
+  for(index = 0;index < userID.length; index++) {
+    if(uniqueID === userID[index]) {
+      break;
+    }
+  }
+  console.log(index);
+  var xtedge = 'xt-edge';
+  if(index>0) {
+    var xtedge = xtedge+index;
+  }
+  exec(`bash create-build ${modules.join(',')} ${xtedge}`, (err, stdout, stderr) => {
     console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
     var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     console.log('POST request to the homepage' + ip);
-    var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
+    var file = path.join(__dirname, '/../vendors/'+xtedge+'/out/package.zip');
     // res.download(file); // Set disposition and send it.
     res.send('POST request to the homepage' + ip);
   });

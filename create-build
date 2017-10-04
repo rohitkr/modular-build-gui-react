@@ -3,7 +3,7 @@
 # Stop on error
 set -e
 
-cd ./vendors/xt-edge/;
+cd ./vendors/$2/;
 rm -rf ./out/_build/*;
 rm -rf build.zip;
 ./node_modules/.bin/webpack --env.modules=$1 --env.minify=true;
