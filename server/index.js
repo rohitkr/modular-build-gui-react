@@ -98,6 +98,7 @@ app.get('*', function(req, res, next) {
 });
 
 app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), function(req, res) {
+  res.cookie('12345','Build Column2d');
   res.redirect('/');
 });
 
