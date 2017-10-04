@@ -98,6 +98,9 @@ function(req, res){
 app.post('/login', 
 passport.authenticate('local', { failureRedirect: '/login' }),
 function(req, res) {
+  //unique cookie per user
+  //key value pair xt-edge - > cookies
+  res.cookie('1st','Build column2d');
   res.redirect('/');
 });
 
