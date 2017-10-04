@@ -76,6 +76,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Define routes.
 app.get('*', function(req, res, next) {
+
+  // Cookies that have not been signed
+  console.log('Cookies: ', req.cookies);
+
+  // Set start time in browser cookie
+  res.cookie('START', +new Date());
+  
   if (!req.user) {
     res.render('login', { user: req.user });
   } else {
@@ -90,26 +97,14 @@ app.get('*', function(req, res, next) {
   }
 });
 
-app.get('/login',
-function(req, res){
-  res.render('login');
-});
-
-app.post('/login', 
-passport.authenticate('local', { failureRedirect: '/login' }),
-function(req, res) {
-  //unique cookie per user
-  //key value pair xt-edge - > cookies
-  res.cookie('1st','Build column2d');
+app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), function(req, res) {
   res.redirect('/');
 });
 
-app.get('/logout',
-function(req, res){
+app.get('/logout', function(req, res) {
   req.logout();
   res.redirect('/');
 });
-
 
 // About
 app.get('/about', function(req, res) {
