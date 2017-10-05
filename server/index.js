@@ -19,6 +19,7 @@ const PASS = 'admin';
 
 // var userID = [];
 // var uniqueID = Math.random()*100007+1;
+// names of available folder of xt-edge 
 let xtArr = ['xt-edge1','xt-edge2','xt-edge3'];
 let cookieID = {};
 
