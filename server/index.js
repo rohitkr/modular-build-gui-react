@@ -17,8 +17,15 @@ var Strategy = require('passport-local').Strategy;
 const USER = 'admin';
 const PASS = 'admin';
 
-var userID = [];
-var uniqueID = Math.random()*100007+1;
+// var userID = [];
+// var uniqueID = Math.random()*100007+1;
+let xtArr = ['xt-edge1','xt-edge2','xt-edge3'];
+let cookieID = {};
+
+for(var i = 0; i < xtArr.length; i++) {
+  cookieID[xtArr[i]] = {'occupied':false,
+                        'time':0 };
+}
 
 var obj = {
   id: 1,
@@ -81,7 +88,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('*', function(req, res, next) {
 
   // Cookies that have not been signed
-  console.log('Cookies: ', req.cookies);
+  // console.log('Cookies: ', req.cookies);
 
   // Set start time in browser cookie
   //res.cookie('START', +new Date());
@@ -101,11 +108,11 @@ app.get('*', function(req, res, next) {
 });
 
 app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), function(req, res) {
-  while(userID.indexOf(uniqueID) !== -1){
-    uniqueID = Math.random()*100007+1;
-  }
-  userID.push(uniqueID);
-  res.cookie(uniqueID.toString(),'Modular Build');
+  // while(userID.indexOf(uniqueID) !== -1){
+  //   uniqueID = Math.random()*100007+1;
+  // }
+  // userID.push(uniqueID);
+  // res.cookie(uniqueID.toString(),'Modular Build');
   res.redirect('/');
 });
 
@@ -128,22 +135,72 @@ app.get('/download', function(req, res) {
 // Build
 app.post('/build', function (req, res) {
   let modules = req.body.modules;
-  var index = 0;
-  for(index = 0;index < userID.length; index++) {
-    if(uniqueID === userID[index]) {
-      break;
+  let cookiesAtBrowser = req.cookies;
+  let isAuthorised = false;
+  let now, timeDiff, key;
+  // cookie id and xt-edge copy same
+  let folderName = '';
+
+  // unoccupy all expired cookie
+  Object.keys(cookieID).forEach(function(key){
+    timeDiff = new Date() - cookieID[key].time; 
+    if(timeDiff > 30*60*60*1000) {
+      cookieID[key].occupied = false;
     }
+  })
+
+  Object.keys(cookiesAtBrowser).forEach(function(key){
+    if(xtArr.indexOf(key)!==-1){
+     timeDiff = new Date() - cookiesAtBrowser[key];
+     if(timeDiff < 30*60*60*1000) {
+       isAuthorised = true;
+       folderName = key;
+     } else {
+       //unoccupy it
+       isAuthorised =  false;
+       folderName = '';
+       cookieID[key].occupied = false;
+     }
+    }
+  })
+
+  if(isAuthorised) {
+    //if already using or authorised user then update the time
+    now = new Date();
+    cookiesAtBrowser[folderName] = now;
+    cookieID[folderName].time = now;
+  } else {
+    //find empty cookie
+    for(key in cookieID) {
+      if(cookieID[key].occupied === false){
+        now = new Date();
+        res.cookie(key,now);
+        cookieID[key].time = now;
+        cookieID[key].occupied = true;
+        folderName = key;
+        break;
+      }
+      //else all occupied then wait
+    } 
+
   }
-  console.log(index);
-  var xtedge = 'xt-edge';
-  if(index>0) {
-    var xtedge = xtedge+index;
-  }
-  exec(`bash create-build ${modules.join(',')} ${xtedge}`, (err, stdout, stderr) => {
+  console.log(folderName);
+  // var index = 0;
+  // for(index = 0;index < userID.length; index++) {
+  //   if(uniqueID === userID[index]) {
+  //     break;
+  //   }
+  // }
+  // console.log(index);
+  // var xtedge = 'xt-edge';
+  // if(index>0) {
+  //   var xtedge = xtedge+index;
+  // }
+  exec(`bash create-build ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
     console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
     var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     console.log('POST request to the homepage' + ip);
-    var file = path.join(__dirname, '/../vendors/'+xtedge+'/out/package.zip');
+    var file = path.join(__dirname, '/../vendors/'+folderName+'/out/package.zip');
     // res.download(file); // Set disposition and send it.
     res.send('POST request to the homepage' + ip);
   });
