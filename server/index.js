@@ -20,12 +20,14 @@ const PASS = 'admin';
 // var userID = [];
 // var uniqueID = Math.random()*100007+1;
 // names of available folder of xt-edge 
-let xtArr = ['xt-edge1','xt-edge2','xt-edge3'];
+let xtArr = ['xt-edge1', 'xt-edge2', 'xt-edge3'];
 let cookieID = {};
 
-for(var i = 0; i < xtArr.length; i++) {
-  cookieID[xtArr[i]] = {'occupied':false,
-                        'time':0 };
+for (var i = 0; i < xtArr.length; i++) {
+  cookieID[xtArr[i]] = {
+    'occupied': false,
+    'time': 0
+  };
 }
 
 console.log(cookieID);
@@ -35,10 +37,12 @@ var obj = {
   username: 'FusionCharts',
   password: 'admin',
   displayName: 'FusionCharts',
-  emails: [ { value: 'support@fusioncharts.com' } ]
+  emails: [{
+    value: 'support@fusioncharts.com'
+  }]
 };
 
-function verify (username, password) {
+function verify(username, password) {
   return (username === USER && password === PASS) ? obj : false;
 }
 // Configure the local strategy for use by Passport.
@@ -48,7 +52,7 @@ function verify (username, password) {
 // that the password is correct and then invoke `cb` with a user object, which
 // will be set at `req.user` in route handlers after authentication.
 passport.use(new Strategy(
-  function(username, password, cb) {
+  function (username, password, cb) {
     cb(null, verify(username, password));
   }));
 
@@ -60,11 +64,11 @@ passport.use(new Strategy(
 // typical implementation of this is as simple as supplying the user ID when
 // serializing, and querying the user record by ID from the database when
 // deserializing.
-passport.serializeUser(function(user, cb) {
+passport.serializeUser(function (user, cb) {
   cb(null, user);
 });
 
-passport.deserializeUser(function(id, cb) {
+passport.deserializeUser(function (id, cb) {
   cb(null, obj);
 });
 
@@ -72,7 +76,11 @@ passport.deserializeUser(function(id, cb) {
 // logging, parsing, and session handling.
 // app.use(require('morgan')('combined'));
 app.use(cookieParser());
-app.use(expressSession({ secret: 'keyboard cat', resave: false, saveUninitialized: false }));
+app.use(expressSession({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: false
+}));
 
 app.set('views', __dirname + '/');
 app.set('view engine', 'ejs');
@@ -85,19 +93,23 @@ app.use(passport.session());
 // app.use(morgan(':remote-addr - :remote-user [:date[clf]] ':method :url HTTP/:http-version' :status :res[content-length] :response-time ms'));
 // app.use(express.static(path.resolve(__dirname, '..', 'build')));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 // Define routes.
-app.get('*', function(req, res, next) {
+app.get('*', function (req, res, next) {
 
   // Cookies that have not been signed
   // console.log('Cookies: ', req.cookies);
 
   // Set start time in browser cookie
   //res.cookie('START', +new Date());
-  
+
   if (!req.user) {
-    res.render('login', { user: req.user });
+    res.render('login', {
+      user: req.user
+    });
   } else {
     let file = req.params[0];
     file = file == '/' ? 'index.html' : file;
@@ -110,7 +122,9 @@ app.get('*', function(req, res, next) {
   }
 });
 
-app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), function(req, res) {
+app.post('/login', passport.authenticate('local', {
+  failureRedirect: '/login'
+}), function (req, res) {
   // while(userID.indexOf(uniqueID) !== -1){
   //   uniqueID = Math.random()*100007+1;
   // }
@@ -119,18 +133,18 @@ app.post('/login', passport.authenticate('local', {failureRedirect: '/login'}), 
   res.redirect('/');
 });
 
-app.get('/logout', function(req, res) {
+app.get('/logout', function (req, res) {
   req.logout();
   res.redirect('/');
 });
 
 // About
-app.get('/about', function(req, res) {
+app.get('/about', function (req, res) {
   res.end('Welcome to the about page!');
 });
 
 // Download
-app.get('/download', function(req, res) {
+app.get('/download', function (req, res) {
   var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
   res.download(file); // Set disposition and send it.
 });
@@ -146,37 +160,37 @@ app.post('/build', function (req, res) {
 
 
   // unoccupy all expired cookie
-  Object.keys(cookieID).forEach(function(key){
+  Object.keys(cookieID).forEach(function (key) {
     // console.log('TimeNow',key,new Date().getTime());
     // console.log('Time Set',cookieID[key].time);
-    timeDiff = new Date().getTime() - cookieID[key].time; 
-    if(timeDiff > 4*60*1000) {
-      console.log('TimeOut ',key);
+    timeDiff = new Date().getTime() - cookieID[key].time;
+    if (timeDiff > 4 * 60 * 1000) {
+      console.log('TimeOut ', key);
       cookieID[key].occupied = false;
     }
   })
 
-  Object.keys(cookiesAtBrowser).forEach(function(key){
-    if(xtArr.indexOf(key)!==-1){
-     timeDiff = new Date().getTime() - cookiesAtBrowser[key];
-     if(timeDiff < 4*60*1000) {
-       isAuthorised = true;
-       folderName = key;
-       //cookieID[key].occupied = true;
-       cookiesAtBrowser[key] = new Date().getTime();
-       cookieID[key].time  = cookiesAtBrowser[key];
-     } else {
-       //unoccupy it
-       console.log('TimeDiff: ',timeDiff,' TimeOut of ',key);
-       isAuthorised =  false;
-       folderName = '';
-       //cookieID[key].occupied = false;
-     }
+  Object.keys(cookiesAtBrowser).forEach(function (key) {
+    if (xtArr.indexOf(key) !== -1) {
+      timeDiff = new Date().getTime() - cookiesAtBrowser[key];
+      if (timeDiff < 4 * 60 * 1000) {
+        isAuthorised = true;
+        folderName = key;
+        //cookieID[key].occupied = true;
+        cookiesAtBrowser[key] = new Date().getTime();
+        cookieID[key].time = cookiesAtBrowser[key];
+      } else {
+        //unoccupy it
+        console.log('TimeDiff: ', timeDiff, ' TimeOut of ', key);
+        isAuthorised = false;
+        folderName = '';
+        //cookieID[key].occupied = false;
+      }
     }
   })
 
 
-  if(isAuthorised) {
+  if (isAuthorised) {
     //if already using or authorised user then update the time
     now = new Date().getTime();
     cookiesAtBrowser[folderName] = now;
@@ -185,20 +199,20 @@ app.post('/build', function (req, res) {
   } else {
     //find empty cookie
     console.log('UnAuthorised');
-    for(key in cookieID) {
+    for (key in cookieID) {
       console.log(cookieID);
-      if(cookieID[key].occupied === false){
+      if (cookieID[key].occupied === false) {
         now = new Date().getTime();
         //console.log(key,cookieID[key].occupied);
         cookieID[key].time = now;
         cookieID[key].occupied = true;
         //console.log(cookieID);
         folderName = key;
-        res.cookie(key,now);
+        res.cookie(key, now);
         break;
       }
       //else all occupied then wait
-    } 
+    }
 
   }
   console.log(folderName);
@@ -213,22 +227,39 @@ app.post('/build', function (req, res) {
   // if(index>0) {
   //   var xtedge = xtedge+index;
   // }
-  if(folderName !== '') {
-    exec(`bash create-build ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
+
+  // if all occupied then create a new copy
+  if (folderName === '') {
+    var numOfcopy = xtArr.length + 1;
+    xtArr.push('xt-edge' + numOfcopy);
+    folderName = xtArr[xtArr.length - 1];
+    console.log("New Folder: ", folderName);
+    exec(`bash create-new ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
+      if (err !== null) {
+        console.log('exec error: ' + err);
+      }
       console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
       var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
       console.log('POST request to the homepage' + ip);
-      var file = path.join(__dirname, '/../vendors/'+folderName+'/out/package.zip');
+      var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
       // res.download(file); // Set disposition and send it.
       res.send('POST request to the homepage' + ip);
     });
   } else {
-
+    exec(`bash create-build ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
+      console.log("FolderName: ", folderName);
+      console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
+      var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+      console.log('POST request to the homepage' + ip);
+      var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
+      // res.download(file); // Set disposition and send it.
+      res.send('POST request to the homepage' + ip);
+    });
   }
 });
 
 // 404, If path does not exist
-app.get('*', function(req, res) {
+app.get('*', function (req, res) {
   res.end('404! not found: ' + req.params[0]);
 });
 
