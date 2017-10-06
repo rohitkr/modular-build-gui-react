@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Stop on error
+set -e
+
+cd ./vendors/;
+cp -R xt-edge $2;
+cd $2/;
+rm -rf ./out/_build/*;
+rm -rf build.zip;
+./node_modules/.bin/webpack --env.modules=$1 --env.minify=true;
+ls -la out/_build;
+cd out;
+rm -rf package/
+mkdir package/
+cp _build/*.js package/
+zip -r package.zip package/;
