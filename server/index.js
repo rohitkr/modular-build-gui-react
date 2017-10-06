@@ -28,6 +28,8 @@ for(var i = 0; i < xtArr.length; i++) {
                         'time':0 };
 }
 
+console.log(cookieID);
+
 var obj = {
   id: 1,
   username: 'FusionCharts',
@@ -142,20 +144,15 @@ app.post('/build', function (req, res) {
   // cookie id and xt-edge copy same
   let folderName = '';
 
-  // unoccupy all expired cookie
-  Object.keys(cookieID).forEach(function(key){
-    timeDiff = new Date() - cookieID[key].time; 
-    if(timeDiff > 30*60*60*1000) {
-      cookieID[key].occupied = false;
-    }
-  })
-
   Object.keys(cookiesAtBrowser).forEach(function(key){
     if(xtArr.indexOf(key)!==-1){
-     timeDiff = new Date() - cookiesAtBrowser[key];
-     if(timeDiff < 30*60*60*1000) {
+     timeDiff = new Date().getTime() - cookiesAtBrowser[key];
+     if(timeDiff < 4*60*1000) {
        isAuthorised = true;
        folderName = key;
+       cookieID[key].occupied = true;
+       cookiesAtBrowser[key] = new Date().getTime();
+       cookieID[key].time  = cookiesAtBrowser[key];
      } else {
        //unoccupy it
        isAuthorised =  false;
@@ -165,20 +162,35 @@ app.post('/build', function (req, res) {
     }
   })
 
+    // unoccupy all expired cookie
+    Object.keys(cookieID).forEach(function(key){
+      // console.log('TimeNow',key,new Date().getTime());
+      // console.log('Time Set',cookieID[key].time);
+      timeDiff = new Date().getTime() - cookieID[key].time; 
+      if(timeDiff > 4*60*1000) {
+        cookieID[key].occupied = false;
+      }
+    })
+
   if(isAuthorised) {
     //if already using or authorised user then update the time
-    now = new Date();
+    now = new Date().getTime();
     cookiesAtBrowser[folderName] = now;
     cookieID[folderName].time = now;
+    console.log('Authorised');
   } else {
     //find empty cookie
+    console.log('UnAuthorised');
     for(key in cookieID) {
+      console.log(cookieID);
       if(cookieID[key].occupied === false){
-        now = new Date();
-        res.cookie(key,now);
+        now = new Date().getTime();
+        //console.log(key,cookieID[key].occupied);
         cookieID[key].time = now;
         cookieID[key].occupied = true;
+        //console.log(cookieID);
         folderName = key;
+        res.cookie(key,now);
         break;
       }
       //else all occupied then wait
@@ -197,14 +209,18 @@ app.post('/build', function (req, res) {
   // if(index>0) {
   //   var xtedge = xtedge+index;
   // }
-  exec(`bash create-build ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
-    console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
-    var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
-    console.log('POST request to the homepage' + ip);
-    var file = path.join(__dirname, '/../vendors/'+folderName+'/out/package.zip');
-    // res.download(file); // Set disposition and send it.
-    res.send('POST request to the homepage' + ip);
-  });
+  if(folderName !== '') {
+    exec(`bash create-build ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
+      console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
+      var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+      console.log('POST request to the homepage' + ip);
+      var file = path.join(__dirname, '/../vendors/'+folderName+'/out/package.zip');
+      // res.download(file); // Set disposition and send it.
+      res.send('POST request to the homepage' + ip);
+    });
+  } else {
+
+  }
 });
 
 // 404, If path does not exist
@@ -213,7 +229,7 @@ app.get('*', function(req, res) {
 });
 
 const PORT = process.env.PORT || 9000;
-const HOST = process.env.HOST || 'localhost';
+const HOST = process.env.HOST || '192.168.0.190';
 
 app.listen(PORT, HOST);
 
