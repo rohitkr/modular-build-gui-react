@@ -144,33 +144,37 @@ app.post('/build', function (req, res) {
   // cookie id and xt-edge copy same
   let folderName = '';
 
+
+  // unoccupy all expired cookie
+  Object.keys(cookieID).forEach(function(key){
+    // console.log('TimeNow',key,new Date().getTime());
+    // console.log('Time Set',cookieID[key].time);
+    timeDiff = new Date().getTime() - cookieID[key].time; 
+    if(timeDiff > 4*60*1000) {
+      console.log('TimeOut ',key);
+      cookieID[key].occupied = false;
+    }
+  })
+
   Object.keys(cookiesAtBrowser).forEach(function(key){
     if(xtArr.indexOf(key)!==-1){
      timeDiff = new Date().getTime() - cookiesAtBrowser[key];
      if(timeDiff < 4*60*1000) {
        isAuthorised = true;
        folderName = key;
-       cookieID[key].occupied = true;
+       //cookieID[key].occupied = true;
        cookiesAtBrowser[key] = new Date().getTime();
        cookieID[key].time  = cookiesAtBrowser[key];
      } else {
        //unoccupy it
+       console.log('TimeDiff: ',timeDiff,' TimeOut of ',key);
        isAuthorised =  false;
        folderName = '';
-       cookieID[key].occupied = false;
+       //cookieID[key].occupied = false;
      }
     }
   })
 
-    // unoccupy all expired cookie
-    Object.keys(cookieID).forEach(function(key){
-      // console.log('TimeNow',key,new Date().getTime());
-      // console.log('Time Set',cookieID[key].time);
-      timeDiff = new Date().getTime() - cookieID[key].time; 
-      if(timeDiff > 4*60*1000) {
-        cookieID[key].occupied = false;
-      }
-    })
 
   if(isAuthorised) {
     //if already using or authorised user then update the time
