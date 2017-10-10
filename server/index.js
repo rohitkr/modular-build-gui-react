@@ -155,17 +155,24 @@ app.get('/about', function (req, res) {
 // Download
 app.get('/download', function (req, res) {
   let cookiesAtBrowser = req.cookies;
-  let folderName = '';
+  let folderName = '', timeDiff = 0;
 
   console.log('\ndownloading...');
-  folderName = cookiesAtBrowser['project'];
+  folderName = cookiesAtBrowser.project;
   console.log('Folder Name : ', folderName);
-
+  // adding timeout check for cookie, if timeout then no download
   if (folderName !== 'undefined') {
+    timeDiff = new Date().getTime() - cookiesAtBrowser.time;
+
+    if(timeDiff > TIMEOUT) {
     var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
     //var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
     console.log('To be Downloaded: ', file);
     res.download(file); // Set disposition and send it.
+    }
+    else {
+      res.send('Download Copy Expired!!');
+    }
   }
 });
 
@@ -191,7 +198,7 @@ app.post('/build', function (req, res) {
   })
 
   // check whether user have valid cookie or not
-  folderName = cookiesAtBrowser['project'];
+  folderName = cookiesAtBrowser.project;
   if (typeof (cookieID[folderName]) !== 'undefined') {
     // now check for timeout
     if (cookieID[folderName].occupied === false) {
@@ -206,7 +213,7 @@ app.post('/build', function (req, res) {
   if (isAuthorised) {
     //if already using or authorised user then update the time
     now = new Date().getTime();
-    cookiesAtBrowser['time'] = now;
+    cookiesAtBrowser.time = now;
     cookieID[folderName].time = now;
     console.log('Authorised');
   } else {
