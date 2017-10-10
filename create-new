@@ -4,7 +4,7 @@
 set -e
 
 cd ./vendors/;
-cp -R xt-edge $2;
+yes | cp -rf xt-edge $2;
 cd $2/;
 rm -rf ./out/_build/*;
 rm -rf build.zip;

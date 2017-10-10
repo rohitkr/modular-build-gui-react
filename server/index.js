@@ -16,21 +16,30 @@ var Strategy = require('passport-local').Strategy;
 
 const USER = 'admin';
 const PASS = 'admin';
-
+// 40 minutes
+const TIMEOUT = 2400000;
 // var userID = [];
 // var uniqueID = Math.random()*100007+1;
+
+
 // names of available folder of xt-edge 
-let xtArr = ['xt-edge1', 'xt-edge2', 'xt-edge3'];
-let cookieID = {};
+// todo write it on json file use it as database and create .env file to set port and host
+// let cookieID = {
+//   'xt-edge1': {
+//     occupied: false,
+//     time: 0
+//   },
+//   'xt-edge2': {
+//     occupied: false,
+//     time: 0
+//   },
+//   'xt-edge3': {
+//     occupied: false,
+//     time: 0
+//   }
+// };
 
-for (var i = 0; i < xtArr.length; i++) {
-  cookieID[xtArr[i]] = {
-    'occupied': false,
-    'time': 0
-  };
-}
-
-console.log(cookieID);
+var cookieID = require(path.join(__dirname,'./xt-edge-storage'));
 
 var obj = {
   id: 1,
@@ -145,8 +154,19 @@ app.get('/about', function (req, res) {
 
 // Download
 app.get('/download', function (req, res) {
-  var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
-  res.download(file); // Set disposition and send it.
+  let cookiesAtBrowser = req.cookies;
+  let folderName = '';
+
+  console.log('\ndownloading...');
+  folderName = cookiesAtBrowser['project'];
+  console.log('Folder Name : ', folderName);
+
+  if (folderName !== 'undefined') {
+    var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
+    //var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
+    console.log('To be Downloaded: ', file);
+    res.download(file); // Set disposition and send it.
+  }
 });
 
 // Build
@@ -164,41 +184,36 @@ app.post('/build', function (req, res) {
     // console.log('TimeNow',key,new Date().getTime());
     // console.log('Time Set',cookieID[key].time);
     timeDiff = new Date().getTime() - cookieID[key].time;
-    if (timeDiff > 4 * 60 * 1000) {
+    if (timeDiff > TIMEOUT) {
       console.log('TimeOut ', key);
       cookieID[key].occupied = false;
     }
   })
 
-  Object.keys(cookiesAtBrowser).forEach(function (key) {
-    if (xtArr.indexOf(key) !== -1) {
-      timeDiff = new Date().getTime() - cookiesAtBrowser[key];
-      if (timeDiff < 4 * 60 * 1000) {
-        isAuthorised = true;
-        folderName = key;
-        //cookieID[key].occupied = true;
-        cookiesAtBrowser[key] = new Date().getTime();
-        cookieID[key].time = cookiesAtBrowser[key];
-      } else {
-        //unoccupy it
-        console.log('TimeDiff: ', timeDiff, ' TimeOut of ', key);
-        isAuthorised = false;
-        folderName = '';
-        //cookieID[key].occupied = false;
-      }
+  // check whether user have valid cookie or not
+  folderName = cookiesAtBrowser['project'];
+  if (typeof (cookieID[folderName]) !== 'undefined') {
+    // now check for timeout
+    if (cookieID[folderName].occupied === false) {
+      isAuthorised = false;
+    } else {
+      isAuthorised = true;
     }
-  })
+  }
 
-
+// use cookie as per the validation if browser already have cookie authorised continue using it
+// and extend its time else set new cookie
   if (isAuthorised) {
     //if already using or authorised user then update the time
     now = new Date().getTime();
-    cookiesAtBrowser[folderName] = now;
+    cookiesAtBrowser['time'] = now;
     cookieID[folderName].time = now;
     console.log('Authorised');
   } else {
     //find empty cookie
     console.log('UnAuthorised');
+    // folderName empty
+    folderName = '';
     for (key in cookieID) {
       console.log(cookieID);
       if (cookieID[key].occupied === false) {
@@ -208,40 +223,38 @@ app.post('/build', function (req, res) {
         cookieID[key].occupied = true;
         //console.log(cookieID);
         folderName = key;
-        res.cookie(key, now);
+        // set cookie
+        res.cookie('project', key);
+        res.cookie('time', now);
         break;
       }
-      //else all occupied then wait
+      //else all cookie occupied , then folderName = '' 
     }
 
   }
   console.log(folderName);
-  // var index = 0;
-  // for(index = 0;index < userID.length; index++) {
-  //   if(uniqueID === userID[index]) {
-  //     break;
-  //   }
-  // }
-  // console.log(index);
-  // var xtedge = 'xt-edge';
-  // if(index>0) {
-  //   var xtedge = xtedge+index;
-  // }
-
   // if all occupied then create a new copy
+  // testing if all occupied
+  //folderName = '';
   if (folderName === '') {
-    var numOfcopy = xtArr.length + 1;
-    xtArr.push('xt-edge' + numOfcopy);
-    folderName = xtArr[xtArr.length - 1];
+    folderName = 'xt-edge-new';
+    now = new Date().getTime();
+    cookieID[folderName] = {};
+    cookieID[folderName].occupied = true;
+    cookieID[folderName].time = now; 
+    res.cookie('project', folderName);
+    res.cookie('time', now);
     console.log("New Folder: ", folderName);
     exec(`bash create-new ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
       if (err !== null) {
         console.log('exec error: ' + err);
       }
+      console.log('Folder Name: ', folderName);
       console.log(`Build successful! webpack --env.modules=${modules.join(',')}`);
       var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
       console.log('POST request to the homepage' + ip);
       var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
+      console.log('New file: ', file);
       // res.download(file); // Set disposition and send it.
       res.send('POST request to the homepage' + ip);
     });
@@ -252,6 +265,7 @@ app.post('/build', function (req, res) {
       var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
       console.log('POST request to the homepage' + ip);
       var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
+      console.log('File: ', file);
       // res.download(file); // Set disposition and send it.
       res.send('POST request to the homepage' + ip);
     });
@@ -264,7 +278,7 @@ app.get('*', function (req, res) {
 });
 
 const PORT = process.env.PORT || 9000;
-const HOST = process.env.HOST || '192.168.0.190';
+const HOST = process.env.HOST || 'localhost';
 
 app.listen(PORT, HOST);
 
