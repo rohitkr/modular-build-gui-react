@@ -1,0 +1,14 @@
+{
+    "xtedge1": {
+        "occupied": false,
+        "time": 0
+    },
+    "xtedge2": {
+        "occupied": false,
+        "time": 0
+    },
+    "xtedge3": {
+        "occupied": false,
+        "time": 0
+    }
+}

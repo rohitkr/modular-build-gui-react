@@ -39,7 +39,17 @@ const TIMEOUT = 2400000;
 //   }
 // };
 
-var cookieID = require(path.join(__dirname,'./xt-edge-storage'));
+var cookieID = require(path.join(__dirname, '../xt-edge-storage.json'));
+//start server with intial value
+let key;
+Object.keys(cookieID).forEach(function (key) {
+  key.occupied = false;
+  key.time = 0;
+});
+
+// cookieID['xtedge1'].occupied = true;
+// console.log('CookieID Obj:', cookieID,'Typeof:',typeof(cookieID),cookieID.xtedge1);
+
 
 var obj = {
   id: 1,
@@ -155,7 +165,8 @@ app.get('/about', function (req, res) {
 // Download
 app.get('/download', function (req, res) {
   let cookiesAtBrowser = req.cookies;
-  let folderName = '', timeDiff = 0;
+  let folderName = '',
+    timeDiff = 0;
 
   console.log('\ndownloading...');
   folderName = cookiesAtBrowser.project;
@@ -164,13 +175,12 @@ app.get('/download', function (req, res) {
   if (folderName !== 'undefined') {
     timeDiff = new Date().getTime() - cookiesAtBrowser.time;
 
-    if(timeDiff > TIMEOUT) {
-    var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
-    //var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
-    console.log('To be Downloaded: ', file);
-    res.download(file); // Set disposition and send it.
-    }
-    else {
+    if (timeDiff > TIMEOUT) {
+      var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
+      //var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
+      console.log('To be Downloaded: ', file);
+      res.download(file); // Set disposition and send it.
+    } else {
       res.send('Download Copy Expired!!');
     }
   }
@@ -181,7 +191,7 @@ app.post('/build', function (req, res) {
   let modules = req.body.modules;
   let cookiesAtBrowser = req.cookies;
   let isAuthorised = false;
-  let now, timeDiff, key;
+  let now, timeDiff;
   // cookie id and xt-edge copy same
   let folderName = '';
 
@@ -208,8 +218,8 @@ app.post('/build', function (req, res) {
     }
   }
 
-// use cookie as per the validation if browser already have cookie authorised continue using it
-// and extend its time else set new cookie
+  // use cookie as per the validation if browser already have cookie authorised continue using it
+  // and extend its time else set new cookie
   if (isAuthorised) {
     //if already using or authorised user then update the time
     now = new Date().getTime();
@@ -242,16 +252,22 @@ app.post('/build', function (req, res) {
   console.log(folderName);
   // if all occupied then create a new copy
   // testing if all occupied
-  //folderName = '';
+  folderName = '';
   if (folderName === '') {
-    folderName = 'xt-edge-new';
+    folderName = 'xtedge' + (Object.keys(cookieID).length + 1);
     now = new Date().getTime();
     cookieID[folderName] = {};
     cookieID[folderName].occupied = true;
-    cookieID[folderName].time = now; 
+    cookieID[folderName].time = now;
+    // add it to file but as its
+    fs.writeFile('./xt-edge-storage.json', JSON.stringify(cookieID), 'utf8', function (err) {
+      if (err) throw err;
+    })
+
     res.cookie('project', folderName);
     res.cookie('time', now);
     console.log("New Folder: ", folderName);
+
     exec(`bash create-new ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
       if (err !== null) {
         console.log('exec error: ' + err);
