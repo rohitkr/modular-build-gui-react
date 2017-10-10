@@ -3,15 +3,47 @@
 # Stop on error
 set -e
 
+#modules to be build
+MODULES=$1;
+#directory in which build request will be served
+PROJECT_NAME=$2;
+
+echo ""> build.log;
+echo "Project = ${PROJECT_NAME}">>build.log;
+echo "Modules = ${MODULES}">>build.log;
+
+echo "cd to /vendors/">>build.log;
 cd ./vendors/;
+
+echo "copying xt-edge to ${PROJECT_NAME}">>build.log;
 yes | cp -rf xt-edge $2;
-cd $2/;
+
+echo "cd to ${PROJECT_NAME}">>build.log;
+cd ${PROJECT_NAME}/;
+
+echo "Removing ./out/_build/*">>build.log;
 rm -rf ./out/_build/*;
+
+echo "Removing build.zip">>build.log;
 rm -rf build.zip;
-./node_modules/.bin/webpack --env.modules=$1 --env.minify=true;
+
+echo "webpack building ${MODULES}">>build.log;
+./node_modules/.bin/webpack --env.modules=${MODULES} --env.minify=true;
+
+echo "Lists out ./out/_build/*">>build.log;
 ls -la out/_build;
+
+echo "cd to out/">>build.log;
 cd out;
-rm -rf package/
-mkdir package/
+
+echo "Removing package/">>build.log;
+rm -rf package/;
+
+echo "creating a directory package/">>build.log;
+mkdir package/;
+
+echo "Copying _build/* to package/">>build.log;
 cp _build/*.js package/
+
+echo "Creating zip of package/ as package.zip">>build.log;
 zip -r package.zip package/;

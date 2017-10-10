@@ -47,8 +47,8 @@ Object.keys(cookieID).forEach(function (key) {
   key.time = 0;
 });
 
-// cookieID['xtedge1'].occupied = true;
-// console.log('CookieID Obj:', cookieID,'Typeof:',typeof(cookieID),cookieID.xtedge1);
+//  cookieID['xt-edge1'].occupied = true;
+//  console.log('CookieID Obj:', cookieID,'Typeof:',typeof(cookieID),cookieID['xt-edge1']);
 
 
 var obj = {
@@ -254,12 +254,12 @@ app.post('/build', function (req, res) {
   // testing if all occupied
   folderName = '';
   if (folderName === '') {
-    folderName = 'xtedge' + (Object.keys(cookieID).length + 1);
+    folderName = 'xt-edge-' + (Object.keys(cookieID).length + 1);
     now = new Date().getTime();
     cookieID[folderName] = {};
     cookieID[folderName].occupied = true;
     cookieID[folderName].time = now;
-    // add it to file but as its
+    // add it to file 
     fs.writeFile('./xt-edge-storage.json', JSON.stringify(cookieID), 'utf8', function (err) {
       if (err) throw err;
     })

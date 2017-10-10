@@ -1,13 +1,5 @@
 {
-    "xtedge1": {
-        "occupied": false,
-        "time": 0
-    },
-    "xtedge2": {
-        "occupied": false,
-        "time": 0
-    },
-    "xtedge3": {
+    "xt-edge1": {
         "occupied": false,
         "time": 0
     }
