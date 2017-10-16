@@ -21,6 +21,9 @@ cd ./vendors/ >> ${DIR}/build.log;
 echo "copying xt-edge to ${PROJECT_NAME}" >> ${DIR}/build.log;
 yes | cp -rf xt-edge $2 >> ${DIR}/build.log;
 
+# in mac
+# cp -R xt-edge $2 >> ${DIR}/build.log;
+
 echo "cd to ${PROJECT_NAME}" >> ${DIR}/build.log;
 cd ${PROJECT_NAME}/ >> ${DIR}/build.log;
 
