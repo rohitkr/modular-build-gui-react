@@ -41,12 +41,13 @@ const TIMEOUT = 2400000;
 
 var cookieID = require(path.join(__dirname, '../xt-edge-storage.json'));
 //start server with intial value
-let key;
-Object.keys(cookieID).forEach(function (key) {
-  key.occupied = false;
-  key.time = 0;
-});
+let folder;
+for (folder in cookieID) {
+  cookieID[folder].occupied = false;
+  cookieID[folder].time = 0;
+}
 
+console.log(cookieID);
 //  cookieID['xt-edge1'].occupied = true;
 //  console.log('CookieID Obj:', cookieID,'Typeof:',typeof(cookieID),cookieID['xt-edge1']);
 
@@ -170,12 +171,12 @@ app.get('/download', function (req, res) {
 
   console.log('\ndownloading...');
   folderName = cookiesAtBrowser.project;
-  console.log('Folder Name : ', folderName);
+  console.log('Folder Name : ', folderName , 'Time : ', cookiesAtBrowser.time);
   // adding timeout check for cookie, if timeout then no download
   if (folderName !== 'undefined') {
     timeDiff = new Date().getTime() - cookiesAtBrowser.time;
 
-    if (timeDiff > TIMEOUT) {
+    if (timeDiff < TIMEOUT) {
       var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
       //var file = path.join(__dirname, '/../vendors/xt-edge/out/package.zip');
       console.log('To be Downloaded: ', file);
@@ -197,15 +198,15 @@ app.post('/build', function (req, res) {
 
 
   // unoccupy all expired cookie
-  Object.keys(cookieID).forEach(function (key) {
+  for( folder in cookieID) {
     // console.log('TimeNow',key,new Date().getTime());
     // console.log('Time Set',cookieID[key].time);
-    timeDiff = new Date().getTime() - cookieID[key].time;
+    timeDiff = new Date().getTime() - cookieID[folder].time;
     if (timeDiff > TIMEOUT) {
-      console.log('TimeOut ', key);
-      cookieID[key].occupied = false;
+      console.log('TimeOut ', folder);
+      cookieID[folder].occupied = false;
     }
-  })
+  }
 
   // check whether user have valid cookie or not
   folderName = cookiesAtBrowser.project;
@@ -252,7 +253,7 @@ app.post('/build', function (req, res) {
   console.log(folderName);
   // if all occupied then create a new copy
   // testing if all occupied
-  folderName = '';
+  //folderName = '';
   if (folderName === '') {
     folderName = 'xt-edge-' + (Object.keys(cookieID).length + 1);
     now = new Date().getTime();
