@@ -232,17 +232,17 @@ app.post('/build', function (req, res) {
     console.log('UnAuthorised');
     // folderName empty
     folderName = '';
-    for (key in cookieID) {
+    for (folder in cookieID) {
       console.log(cookieID);
-      if (cookieID[key].occupied === false) {
+      if (cookieID[folder].occupied === false) {
         now = new Date().getTime();
         //console.log(key,cookieID[key].occupied);
-        cookieID[key].time = now;
-        cookieID[key].occupied = true;
+        cookieID[folder].time = now;
+        cookieID[folder].occupied = true;
         //console.log(cookieID);
-        folderName = key;
+        folderName = folder;
         // set cookie
-        res.cookie('project', key);
+        res.cookie('project', folder);
         res.cookie('time', now);
         break;
       }
