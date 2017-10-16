@@ -212,7 +212,8 @@ app.post('/build', function (req, res) {
   folderName = cookiesAtBrowser.project;
   if (typeof (cookieID[folderName]) !== 'undefined') {
     // now check for timeout
-    if (cookieID[folderName].occupied === false) {
+    timeDiff = new Date().getTime() - cookiesAtBrowser.time;
+    if (cookieID[folderName].occupied === false || timeDiff > TIMEOUT) {
       isAuthorised = false;
     } else {
       isAuthorised = true;
