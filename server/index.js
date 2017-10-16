@@ -16,8 +16,8 @@ var Strategy = require('passport-local').Strategy;
 
 const USER = 'admin';
 const PASS = 'admin';
-// 40 minutes
-const TIMEOUT = 2400000;
+// 4 minutes
+const TIMEOUT = 240000;
 // var userID = [];
 // var uniqueID = Math.random()*100007+1;
 
