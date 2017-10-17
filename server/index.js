@@ -16,8 +16,8 @@ var Strategy = require('passport-local').Strategy;
 
 const USER = 'admin';
 const PASS = 'admin';
-// 4 minutes
-const TIMEOUT = 240000;
+// 40 minutes
+const TIMEOUT = 2400000;
 // var userID = [];
 // var uniqueID = Math.random()*100007+1;
 
@@ -48,6 +48,18 @@ for (folder in cookieID) {
 }
 
 console.log(cookieID);
+
+//encrypting the string
+var encryptDecrypt = function (str) {
+  var key = 2317893;
+  var cryptStr = '';
+  var xorValue;
+  for (var i = 0; i < str.length; i++) {
+    xorValue = str[i].charCodeAt(0) ^ key;
+    cryptStr += String.fromCharCode(xorValue);
+  }
+  return cryptStr;
+}
 //  cookieID['xt-edge1'].occupied = true;
 //  console.log('CookieID Obj:', cookieID,'Typeof:',typeof(cookieID),cookieID['xt-edge1']);
 
@@ -167,14 +179,16 @@ app.get('/about', function (req, res) {
 app.get('/download', function (req, res) {
   let cookiesAtBrowser = req.cookies;
   let folderName = '',
-    timeDiff = 0;
+    timeDiff = 0,
+    timeAtBrowser;
 
   console.log('\ndownloading...');
-  folderName = cookiesAtBrowser.project;
-  console.log('Folder Name : ', folderName , 'Time : ', cookiesAtBrowser.time);
+  timeAtBrowser = encryptDecrypt(cookiesAtBrowser.time);
+  folderName = encryptDecrypt(cookiesAtBrowser.project);
+  console.log('Folder Name : ', folderName, 'Time : ', timeAtBrowser);
   // adding timeout check for cookie, if timeout then no download
   if (folderName !== 'undefined') {
-    timeDiff = new Date().getTime() - cookiesAtBrowser.time;
+    timeDiff = new Date().getTime() - timeAtBrowser;
 
     if (timeDiff < TIMEOUT) {
       var file = path.join(__dirname, '/../vendors/' + folderName + '/out/package.zip');
@@ -192,13 +206,13 @@ app.post('/build', function (req, res) {
   let modules = req.body.modules;
   let cookiesAtBrowser = req.cookies;
   let isAuthorised = false;
-  let now, timeDiff;
+  let now, timeDiff,timeAtBrowser;
   // cookie id and xt-edge copy same
   let folderName = '';
 
 
   // unoccupy all expired cookie
-  for( folder in cookieID) {
+  for (folder in cookieID) {
     // console.log('TimeNow',key,new Date().getTime());
     // console.log('Time Set',cookieID[key].time);
     timeDiff = new Date().getTime() - cookieID[folder].time;
@@ -209,10 +223,11 @@ app.post('/build', function (req, res) {
   }
 
   // check whether user have valid cookie or not
-  folderName = cookiesAtBrowser.project;
+  folderName = encryptDecrypt(cookiesAtBrowser.project);
+  timeAtBrowser = encryptDecrypt(cookiesAtBrowser.time)
   if (typeof (cookieID[folderName]) !== 'undefined') {
     // now check for timeout
-    timeDiff = new Date().getTime() - cookiesAtBrowser.time;
+    timeDiff = new Date().getTime() - timeAtBrowser;
     if (cookieID[folderName].occupied === false || timeDiff > TIMEOUT) {
       isAuthorised = false;
     } else {
@@ -225,7 +240,7 @@ app.post('/build', function (req, res) {
   if (isAuthorised) {
     //if already using or authorised user then update the time
     now = new Date().getTime();
-    cookiesAtBrowser.time = now;
+    cookiesAtBrowser.time = encryptDecrypt(now.toString());
     cookieID[folderName].time = now;
     console.log('Authorised');
   } else {
@@ -243,8 +258,8 @@ app.post('/build', function (req, res) {
         //console.log(cookieID);
         folderName = folder;
         // set cookie
-        res.cookie('project', folder);
-        res.cookie('time', now);
+        res.cookie('project', encryptDecrypt(folder));
+        res.cookie('time', encryptDecrypt(now.toString()));
         break;
       }
       //else all cookie occupied , then folderName = '' 
@@ -266,8 +281,8 @@ app.post('/build', function (req, res) {
       if (err) throw err;
     })
 
-    res.cookie('project', folderName);
-    res.cookie('time', now);
+    res.cookie('project', encryptDecrypt(folderName));
+    res.cookie('time', encryptDecrypt(now.toString()));
     console.log("New Folder: ", folderName);
 
     exec(`bash create-new ${modules.join(',')} ${folderName}`, (err, stdout, stderr) => {
