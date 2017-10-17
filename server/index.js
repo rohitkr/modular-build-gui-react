@@ -206,7 +206,7 @@ app.post('/build', function (req, res) {
   let modules = req.body.modules;
   let cookiesAtBrowser = req.cookies;
   let isAuthorised = false;
-  let now, timeDiff,timeAtBrowser;
+  let now, timeDiff, timeAtBrowser;
   // cookie id and xt-edge copy same
   let folderName = '';
 
@@ -223,8 +223,11 @@ app.post('/build', function (req, res) {
   }
 
   // check whether user have valid cookie or not
-  folderName = encryptDecrypt(cookiesAtBrowser.project);
-  timeAtBrowser = encryptDecrypt(cookiesAtBrowser.time)
+  if (cookiesAtBrowser.project && cookiesAtBrowser.time) {
+    folderName = encryptDecrypt(cookiesAtBrowser.project);
+    timeAtBrowser = encryptDecrypt(cookiesAtBrowser.time);
+  }
+
   if (typeof (cookieID[folderName]) !== 'undefined') {
     // now check for timeout
     timeDiff = new Date().getTime() - timeAtBrowser;
