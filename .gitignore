@@ -22,3 +22,6 @@ yarn-error.log*
 
 # Ignore env file
 .env
+
+# Ignore log files
+*.log
