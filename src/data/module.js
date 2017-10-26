@@ -252,7 +252,7 @@ class DependencyManager {
   }
   //get current total size 
   getSize() {
-    var kb = Math.round((this.totalSize + 735000/*+ 1470000 */ )/ 1000 * 100) / 100 ,
+    var kb = Math.round((this.totalSize + 740000/*+ 1470000 */ )/ 1000 * 100) / 100 ,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -260,7 +260,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize + 735000/*+ 1470000 */) + ' bytes';
+      return (this.totalSize + 740000/*+ 1470000 */) + ' bytes';
   }
   //list of current public modules selected
   getModules() {
