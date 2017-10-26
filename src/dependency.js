@@ -505,6 +505,6 @@ module.exports = exports = {
     'path': '../mantle/renderer-javascript/redraphael/redraphael.vml',
     'description': 'VML/ ie8 Support',
     'displayName': 'ie8',
-    'category': 'xVML'
+    'category': 'a ie8 support'
   }
 };
