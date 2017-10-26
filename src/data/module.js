@@ -12,7 +12,7 @@ class DependencyManager {
       strToMatch = PublicMod[i].path.substr(2);
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
-        pubModule.displayName = i;
+        pubModule.displayName = PublicMod[i].displayName;
         pubModule.description = PublicMod[i].description;
         pubModule.category = PublicMod[i].category;
         return true;
@@ -96,6 +96,7 @@ class DependencyManager {
     node.visitedCount = (node.visitedCount || 0);
     // if visitedCount is 0 then add its size 
     if (node.visitedCount === 0) {
+      // console.log(name);
       this.totalSize += (node.size || 0);
       // increment the count
       node.visitedCount = node.visitedCount + 1;
@@ -163,6 +164,7 @@ class DependencyManager {
       node.isUserSelected = true;
       node.checked = true;
       node.disabled = false;
+      // console.log(name);
       this.totalSize += (node.size || 0);
       this.iterateDep(name, true);
       return true;
@@ -249,15 +251,15 @@ class DependencyManager {
   }
   //get current total size 
   getSize() {
-    var kb = Math.round(this.totalSize / 1024 * 100) / 100,
+    var kb = Math.round((this.totalSize + 1470000  )/ 1000 * 100) / 100 ,
       mb;
-    mb = Math.round(kb / 1024 * 100) / 100;
+    mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
       return mb.toString() + ' MB';
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return this.totalSize + ' bytes';
+      return (this.totalSize + 1470000) + ' bytes';
   }
   //list of current public modules selected
   getModules() {

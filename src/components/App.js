@@ -4,6 +4,7 @@ import Modules from './Modules';
 import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
+import alreadySelected from './selected-modules';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 // set header post to make ajax request
@@ -11,7 +12,9 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
-
+// for(var i in alreadySelected) {
+//   moduleManager.selectModule(alreadySelected[i]);
+// }
 class App extends Component {
   style = {
     fontSize: ''
@@ -71,6 +74,7 @@ class App extends Component {
     
   }
   render() {
+    // this.size = moduleManager.getSize();
     return (
       <div className="App">
         <div className="App-header">
