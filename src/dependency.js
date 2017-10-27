@@ -458,7 +458,7 @@ module.exports = exports = {
   Spline: {
     'path': '../mantle/renderer-javascript/charts/fusioncharts.spline.js',
     'description': 'Visualize data in Spline',
-    'displayName': 'Column2D',
+    'displayName': 'Spline',
     'category': {
       'categoryName': 'powerchart',
       'categoryIndex': 2,
