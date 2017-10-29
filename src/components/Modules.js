@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Checkbox from './Checkbox';
+import PublicMod from '../dependency';
 
 class Modules extends Component {
 

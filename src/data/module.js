@@ -8,12 +8,21 @@ class DependencyManager {
   isPublic(modulePath) {
     var i, pubModule, strToMatch;
 
+    // write a function avoid redundancy
+    if(modulePath.endsWith('mapCategory')){
+      return true;
+    }
+
     for (i in PublicMod) {
+      // console.log('path:',PublicMod[i].path);
+      // console.log('ModulePath:',modulePath);
       strToMatch = PublicMod[i].path.substr(2);
+      // console.log('String to match: ',strToMatch);
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
+        // console.log("ModulePath: ",modulePath);
         pubModule.displayName = PublicMod[i].displayName;
-        pubModule.description = PublicMod[i].description;
+        pubModule.description = PublicMod[i].description; 
         pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -232,28 +241,73 @@ class DependencyManager {
         i++;
       }
     }
+
+    // for (var k in PublicMod) {
+    //   var addObj = {};
+    //   if (PublicMod[k].category.categoryName === 'map') {
+    //     // added name that will be used for search
+    //     addObj.name = PublicMod[k].displayName + 'mapCategory';
+    //     addObj.isPublic = true;
+    //     addObj.description = PublicMod[k].description;
+    //     addObj.displayName = PublicMod[k].displayName;
+    //     addObj.size = 0;
+    //     addObj.isUserSelected = true;
+    //     addObj.primaryIndex = PublicMod[k].category.categoryIndex;
+    //     addObj.secondaryIndex = PublicMod[k].category.subcategoryIndex;
+    //     publicModule.push(addObj);
+    //   }
+    // }
+
     // first sort on basis of primaryIndex then on basis of secondary Index
     publicModule.sort(function (a, b) {
       if (a.primaryIndex === b.primaryIndex) {
-        return (a.secondaryIndex > b.secondaryIndex)?1:-1;
+        return (a.secondaryIndex > b.secondaryIndex) ? 1 : -1;
       }
-      return (a.primaryIndex > b.primaryIndex)?1:-1;
+      return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
     return publicModule;
   }
   //select module by name
   selectModule(name) {
-    this.nodeSelect(name);
-    return this.getPublicModules();
+    console.log('Selecting Module: ', name);
+    if (name.endsWith('mapCategory')) {
+      var dName = name.slice(0,-11);
+      for (var i in this.moduleData) {
+        if (this.moduleData[i].displayName === dName) {
+          this.moduleData[i].checked = true;
+          this.moduleData[i].disabled = false;
+          this.moduleData[i].isUserSelected = true;
+          console.log('Selected Module: ',name);
+          return this.getPublicModules();
+        }
+      }
+    } else {
+      this.nodeSelect(name);
+      return this.getPublicModules();
+    }
   }
   //deselect module by name
   deselectModule(name) {
-    this.nodeDeSelect(name);
-    return this.getPublicModules();
+    console.log('DeSelecting Module: ', name);
+    if (name.endsWith('mapCategory')) {
+      var dName = name.slice(0,-11);
+      for (var i in this.moduleData) {
+        if (this.moduleData[i].displayName === dName) {
+          this.moduleData[i].checked = false;
+          this.moduleData[i].disabled = false;
+          this.moduleData[i].isUserSelected = true;
+          console.log('DeSelected Module: ',name);
+          return this.getPublicModules();
+        }
+      }
+    } else {
+      this.nodeDeSelect(name);
+      return this.getPublicModules();
+    }
   }
   //get current total size 
   getSize() {
-    var kb = Math.round((this.totalSize + 740000/*+ 1470000 */ )/ 1000 * 100) / 100 ,
+    var kb = Math.round((this.totalSize + 740000 /*+ 1470000 */ ) / 1000 * 100) / 100,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -261,7 +315,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize + 740000/*+ 1470000 */) + ' bytes';
+      return (this.totalSize + 740000 /*+ 1470000 */ ) + ' bytes';
   }
   //list of current public modules selected
   getModules() {
@@ -282,7 +336,7 @@ class DependencyManager {
     let publicModules = this.getPublicModules(),
       key, selectedModuleName = [],
       i = 0;
-
+    console.log(publicModules);
     for (key in publicModules) {
       if ((publicModules[key].checked === true) && (publicModules[key].isUserSelected === true)) {
         if (shortName) {
@@ -293,6 +347,7 @@ class DependencyManager {
         i++;
       }
     }
+    console.log(selectedModuleName);
     return selectedModuleName;
   }
   //find cyclic dependencies and print the cyclic path

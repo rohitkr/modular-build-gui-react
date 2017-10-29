@@ -5,13 +5,26 @@ import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
 import alreadySelected from './selected-modules';
-
+import publicModules from '../dependency';
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 // set header post to make ajax request
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
+
+// for(var i in publicModules) {
+//   var addObj = {};
+//   if(publicModules[i].category.categoryName === 'map') {
+//     // addObj.name = publicModules[i].path;
+//     addObj.description = publicModules[i].description;
+//     addObj.displayName = publicModules[i].displayName;
+//     addObj.size = 0;
+//     modulesJSON.push(addObj);
+//   }
+// }
+
+console.log(modulesJSON);
 // for(var i in alreadySelected) {
 //   moduleManager.selectModule(alreadySelected[i]);
 // }
@@ -30,7 +43,7 @@ class App extends Component {
     let modulesArr = [];
 
     modulesArr = moduleManager.getUserSelectedModules(true);
-
+    console.log(modulesArr);
     if (!modulesArr.length) {
       console.warn('No modules selected.');
       return;
@@ -66,12 +79,13 @@ class App extends Component {
     });
   }
   clickHandler = (that, state) => {
+    console.log('That: ', that);
+    console.log('That Name: ',that.name);
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
     this.size = moduleManager.getSize();
     this.setState(({ isChecked }) => ({
       isChecked: !isChecked
     }));
-    
   }
   render() {
     // this.size = moduleManager.getSize();
