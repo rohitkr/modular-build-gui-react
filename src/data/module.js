@@ -277,7 +277,7 @@ class DependencyManager {
           this.moduleData[i].checked = true;
           this.moduleData[i].disabled = false;
           this.moduleData[i].isUserSelected = true;
-          console.log('Selected Module: ',name);
+          //console.log('Selected Module: ',name);
           return this.getPublicModules();
         }
       }
@@ -288,7 +288,7 @@ class DependencyManager {
   }
   //deselect module by name
   deselectModule(name) {
-    console.log('DeSelecting Module: ', name);
+    //console.log('DeSelecting Module: ', name);
     if (name.endsWith('mapCategory')) {
       var dName = name.slice(0,-11);
       for (var i in this.moduleData) {
@@ -296,7 +296,7 @@ class DependencyManager {
           this.moduleData[i].checked = false;
           this.moduleData[i].disabled = false;
           this.moduleData[i].isUserSelected = true;
-          console.log('DeSelected Module: ',name);
+          //console.log('DeSelected Module: ',name);
           return this.getPublicModules();
         }
       }
@@ -336,7 +336,7 @@ class DependencyManager {
     let publicModules = this.getPublicModules(),
       key, selectedModuleName = [],
       i = 0;
-    console.log(publicModules);
+    //console.log(publicModules);
     for (key in publicModules) {
       if ((publicModules[key].checked === true) && (publicModules[key].isUserSelected === true)) {
         if (shortName) {
@@ -347,7 +347,7 @@ class DependencyManager {
         i++;
       }
     }
-    console.log(selectedModuleName);
+    //console.log(selectedModuleName);
     return selectedModuleName;
   }
   //find cyclic dependencies and print the cyclic path

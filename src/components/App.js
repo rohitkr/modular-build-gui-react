@@ -43,7 +43,7 @@ class App extends Component {
     let modulesArr = [];
 
     modulesArr = moduleManager.getUserSelectedModules(true);
-    console.log(modulesArr);
+    // console.log(modulesArr);
     if (!modulesArr.length) {
       console.warn('No modules selected.');
       return;
@@ -79,8 +79,8 @@ class App extends Component {
     });
   }
   clickHandler = (that, state) => {
-    console.log('That: ', that);
-    console.log('That Name: ',that.name);
+    // console.log('That: ', that);
+    // console.log('That Name: ',that.name);
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
     this.size = moduleManager.getSize();
     this.setState(({ isChecked }) => ({
