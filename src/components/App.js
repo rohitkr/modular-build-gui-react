@@ -6,6 +6,25 @@ import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
 import alreadySelected from './selected-modules';
 import publicModules from '../dependency';
+
+var arr= statsJSON.children[0].modules;
+
+for (var k in publicModules) {
+    var addObj = {};
+    if (publicModules[k].category.categoryName === 'map') {
+      // added name that will be used for search
+      addObj.name = publicModules[k].displayName + 'mapCategory';
+      addObj.isPublic = true;
+      addObj.description = publicModules[k].description;
+      addObj.displayName = publicModules[k].displayName;
+      addObj.size = 0;
+      addObj.isUserSelected = true;
+      addObj.primaryIndex = publicModules[k].category.categoryIndex;
+      addObj.secondaryIndex = publicModules[k].category.subcategoryIndex;
+      arr.push(addObj);
+    }
+  }
+
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 // set header post to make ajax request
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
