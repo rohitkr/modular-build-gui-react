@@ -3,11 +3,34 @@
 # Stop on error
 set -e
 
-cd ./vendors/$2/;
-rm -rf ./out/_build/*;
-rm -rf build.zip;
-./node_modules/.bin/webpack --env.modules=$1 --env.minify=true;
-ls -la out/_build;
+# modules to be build
+MODULES=$1;
+# directory in which build request will be served
+PROJECT_NAME=$2;
+
+# Current directory
+DIR=`pwd`;
+
+echo "test" > ${DIR}/build.log;
+
+echo "Project = ${PROJECT_NAME}" >> ${DIR}/build.log;
+echo "Modules = ${MODULES}" >> ${DIR}/build.log;
+
+echo "cd to ./vendors/${PROJECT_NAME}" >> ${DIR}/build.log;
+cd ./vendors/${PROJECT_NAME} >> ${DIR}/build.log;
+
+echo "Removing ./out/_build/*" >> ${DIR}/build.log;
+rm -rf ./out/_build/* >> ${DIR}/build.log;
+
+echo "Removing build.zip" >> ${DIR}/build.log;
+rm -rf build.zip >> ${DIR}/build.log;
+
+echo "webpack building ${MODULES}" >> ${DIR}/build.log;
+./node_modules/.bin/webpack --env.modules=${MODULES} --env.minify=true >> ${DIR}/build.log;
+
+echo "Lists out ./out/_build/*" >> ${DIR}/build.log;
+ls -la out/_build >> ${DIR}/build.log;
+
 cd out;
 rm -rf package/
 mkdir package/

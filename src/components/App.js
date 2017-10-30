@@ -24,7 +24,7 @@ let modulesJSON = moduleManager.getPublicModules();
 //   }
 // }
 
-console.log(modulesJSON);
+// console.log(modulesJSON);
 // for(var i in alreadySelected) {
 //   moduleManager.selectModule(alreadySelected[i]);
 // }

@@ -269,7 +269,7 @@ class DependencyManager {
   }
   //select module by name
   selectModule(name) {
-    console.log('Selecting Module: ', name);
+    // console.log('Selecting Module: ', name);
     if (name.endsWith('mapCategory')) {
       var dName = name.slice(0,-11);
       for (var i in this.moduleData) {
@@ -295,7 +295,6 @@ class DependencyManager {
         if (this.moduleData[i].displayName === dName) {
           this.moduleData[i].checked = false;
           this.moduleData[i].disabled = false;
-          this.moduleData[i].isUserSelected = true;
           //console.log('DeSelected Module: ',name);
           return this.getPublicModules();
         }
