@@ -5,12 +5,12 @@ import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
 import mapSize from '../data/mapSizeObj.json';
-import alreadySelected from './selected-modules';
 import publicModules from '../dependency';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 
 var arr= statsJSON.children[0].modules;
+// to calculate size of maps and make it compatible pushing it in stats array
 for (var k in publicModules) {
     var addObj = {};
     if (publicModules[k].category.categoryName === 'map') {

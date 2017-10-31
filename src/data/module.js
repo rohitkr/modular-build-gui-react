@@ -5,33 +5,49 @@ class DependencyManager {
     this.moduleData = treeJSON.modules;
     this.totalSize = 0;
     this.offset = 0;
+    this.publicModules = [];
+  }
+  // for optimisation replaced
+  _isPublic(modulePath) {
+    for(var i = 0;i< this.publicModules.length;i++) {
+      if(this.publicModules[i].name === modulePath){
+        console.log('Public Modulesss...');
+        return true;
+      }
+    }
+    return false;
   }
   isPublic(modulePath) {
     var i, pubModule, strToMatch;
 
     // write a function avoid redundancy
-    if(modulePath.endsWith('mapCategory')){
+    if (modulePath.endsWith('mapCategory')) {
       return true;
     }
+
+
 
     for (i in PublicMod) {
       // console.log('path:',PublicMod[i].path);
       // console.log('ModulePath:',modulePath);
       strToMatch = PublicMod[i].path.substr(2);
+      if (modulePath === './develop/src/mantle/renderer-javascript/redraphael/redraphael.svg.js') {
+        console.log(modulePath, ' ', i);
+      }
       // console.log('String to match: ',strToMatch);
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
         // console.log("ModulePath: ",modulePath);
         pubModule.displayName = PublicMod[i].displayName;
-        pubModule.description = PublicMod[i].description; 
+        pubModule.description = PublicMod[i].description;
         pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
-        if(PublicMod[i].checked) {
-          console.log('Public Module: ',PublicMod[i].displayName);
+        if (PublicMod[i].checked) {
+          // console.log('Public Module: ',PublicMod[i].displayName);
           PublicMod[i].checked = false;
           this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
-          pubModule.notUserSelected = true;
+          // pubModule.notUserSelected = true;
         }
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -62,9 +78,9 @@ class DependencyManager {
     node.visitedCount = (node.visitedCount || 1) - 1;
     // console.log(name + " visited count: " + node.visitedCount);
     // if for the first time it is getting included
-    if (this.isPublic(node.name) && node.visitedCount === 0 && node.isUserSelected && !node.disabled) {
+    if (this._isPublic(node.name) && node.visitedCount === 0 && node.isUserSelected && !node.disabled) {
       this.totalSize -= (node.size || 0);
-      if (this.isPublic(node.name)) {
+      if (this._isPublic(node.name)) {
         // public nodes should be reset now
         // remove the disablity
         node.disabled = false;
@@ -73,10 +89,10 @@ class DependencyManager {
       }
       return true;
     } else
-    if (!(this.isPublic(node.name)) && node.visitedCount === 0) {
+    if (!(this._isPublic(node.name)) && node.visitedCount === 0) {
       // do the first inclusion procedure
       this.totalSize -= (node.size || 0);
-      if (this.isPublic(node.name)) {
+      if (this._isPublic(node.name)) {
         // public nodes should be reset now
         // remove the disablity
         node.disabled = false;
@@ -85,10 +101,10 @@ class DependencyManager {
       }
       return true;
     } else {
-      if (this.isPublic(node.name) && node.isUserSelected && (node.visitedCount === 0 || node.visitedCount === 1)) {
+      if (this._isPublic(node.name) && node.isUserSelected && (node.visitedCount === 0 || node.visitedCount === 1)) {
         // call this for public nodes that are direct inclusion, should be enabled now
         node.disabled = false;
-      } else if (this.isPublic(node.name) && (node.visitedCount === 0 || node.visitedCount === 1)) {
+      } else if (this._isPublic(node.name) && (node.visitedCount === 0 || node.visitedCount === 1)) {
         // remove the disablity
         node.disabled = false;
         // make it un-checked
@@ -121,7 +137,7 @@ class DependencyManager {
       // increment the count
       node.visitedCount = node.visitedCount + 1;
       // console.log(name +" visited count: "+node.visitedCount);
-      if (this.isPublic(node.name)) {
+      if (this._isPublic(node.name)) {
         this._includePublicDep(name);
       }
       isTraverseFurther = true;
@@ -131,7 +147,7 @@ class DependencyManager {
       // console.log(name +" visited count: "+node.visitedCount);
       // ** Special case **//
       // If the node is already included but it is a public one, then we might need to disable it
-      if (this.isPublic(node.name)) {
+      if (this._isPublic(node.name)) {
         this._includePublicDep(name);
       }
       // Already included, so don't need to iterate through children
@@ -212,7 +228,7 @@ class DependencyManager {
       //iterate through all checkbox of public modules
       for (key in modules) {
         node = modules[key];
-        if (this.isPublic(node.name)) {
+        if (this._isPublic(node.name)) {
           if ((node.checked === true) && (node.disabled === true)) {
             node.disabled = false;
             if (!node.isUserSelected) node.checked = false;
@@ -222,7 +238,7 @@ class DependencyManager {
       //iterate through all checkbox of public modules
       for (key in modules) {
         node = modules[key];
-        if (this.isPublic(node.name)) {
+        if (this._isPublic(node.name)) {
           if ((node.checked === true) && (node.disabled === false)) {
             this.nodeSelect(node.name);
           }
@@ -276,13 +292,14 @@ class DependencyManager {
       }
       return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
+    this.publicModules = publicModule;
     return publicModule;
   }
   //select module by name
   selectModule(name) {
     // console.log('Selecting Module: ', name);
     if (name.endsWith('mapCategory')) {
-      var dName = name.slice(0,-11);
+      var dName = name.slice(0, -11);
       for (var i in this.moduleData) {
         if (this.moduleData[i].displayName === dName) {
           this.moduleData[i].checked = true;
@@ -290,32 +307,32 @@ class DependencyManager {
           this.moduleData[i].isUserSelected = true;
           this.totalSize += (this.moduleData[i].size || 0);
           // console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
-          return this.getPublicModules();
+          // return this.getPublicModules();
         }
       }
     } else {
       // console.log('Selected Module   not a Map Category: ',name);
       this.nodeSelect(name);
-      return this.getPublicModules();
+      // return this.getPublicModules();
     }
   }
   //deselect module by name
   deselectModule(name) {
     // console.log('DeSelecting Module: ', name);
     if (name.endsWith('mapCategory')) {
-      var dName = name.slice(0,-11);
+      var dName = name.slice(0, -11);
       for (var i in this.moduleData) {
         if (this.moduleData[i].displayName === dName) {
           this.moduleData[i].checked = false;
           this.moduleData[i].disabled = false;
           this.totalSize -= (this.moduleData[i].size || 0);
           //console.log('DeSelected Module: ',name);
-          return this.getPublicModules();
+          // return this.getPublicModules();
         }
       }
     } else {
       this.nodeDeSelect(name);
-      return this.getPublicModules();
+      // return this.getPublicModules();
     }
   }
   //get current total size , according to build offset added
@@ -332,7 +349,7 @@ class DependencyManager {
   }
   //list of current public modules selected
   getModules() {
-    let publicModules = this.getPublicModules(),
+    let publicModules = this.publicModules,
       key, selectedModule = [],
       i = 0;
 
@@ -346,12 +363,12 @@ class DependencyManager {
   }
   //list of userselected modules
   getUserSelectedModules(shortName) {
-    let publicModules = this.getPublicModules(),
+    let publicModules = this.publicModules,
       key, selectedModuleName = [],
       i = 0;
     // console.log(publicModules);
     for (key in publicModules) {
-      if ((publicModules[key].checked) && (publicModules[key].isUserSelected) && !publicModules[key].notUserSelected) {
+      if ((publicModules[key].checked) && (publicModules[key].isUserSelected)) {
         if (shortName) {
           selectedModuleName[i] = publicModules[key].displayName;
         } else {
