@@ -31,6 +31,7 @@ class DependencyManager {
           this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
+          pubModule.notUserSelected = true;
         }
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -350,7 +351,7 @@ class DependencyManager {
       i = 0;
     // console.log(publicModules);
     for (key in publicModules) {
-      if ((publicModules[key].checked === true) && (publicModules[key].isUserSelected === true)) {
+      if ((publicModules[key].checked) && (publicModules[key].isUserSelected) && !publicModules[key].notUserSelected) {
         if (shortName) {
           selectedModuleName[i] = publicModules[key].displayName;
         } else {
