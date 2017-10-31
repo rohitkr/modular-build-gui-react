@@ -24,18 +24,14 @@ class DependencyManager {
         // console.log("ModulePath: ",modulePath);
         pubModule.displayName = PublicMod[i].displayName;
         pubModule.description = PublicMod[i].description; 
-        if(PublicMod[i].checked){
-          // console.log('Module: ',i);
-          // this.totalSize += (pubModule.size || 0);
+        pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
+        if(PublicMod[i].checked) {
+          console.log('Public Module: ',PublicMod[i].displayName);
+          PublicMod[i].checked = false;
+          this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
-          if(PublicMod[i].disabled === false) {
-            console.log('Module: ',i,' Size: ',pubModule.size);
-            this.offset += (pubModule.size || 0);
-          }
-          PublicMod[i].disabled = true;
         }
-        pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
       }
@@ -352,7 +348,7 @@ class DependencyManager {
     let publicModules = this.getPublicModules(),
       key, selectedModuleName = [],
       i = 0;
-    //console.log(publicModules);
+    // console.log(publicModules);
     for (key in publicModules) {
       if ((publicModules[key].checked === true) && (publicModules[key].isUserSelected === true)) {
         if (shortName) {
@@ -363,7 +359,7 @@ class DependencyManager {
         i++;
       }
     }
-    //console.log(selectedModuleName);
+    // console.log('Selected module: ',selectedModuleName);
     return selectedModuleName;
   }
   //find cyclic dependencies and print the cyclic path

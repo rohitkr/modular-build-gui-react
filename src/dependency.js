@@ -730,7 +730,7 @@ module.exports = exports = {
         "displayName": "AngularGauge"
     },
     "Annotation": {
-        "path": "../../vendors/fc-ext-annotation/src/index",
+        "path": "../vendors/fc-ext-annotation/src/index",
         "category": {
             "categoryName": "xTranscoder",
             "categoryIndex": 4,
@@ -738,7 +738,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in Annotation",
         "displayName": "Annotation",
-        "disabled": false,
+        
         "checked": true
     },
     "XMLTranscoder": {
@@ -750,7 +750,7 @@ module.exports = exports = {
             "subcategoryIndex": 2
         },
         "displayName": "XMLTranscoder",
-        "disabled": false,
+        
         "checked": true
     },
     "JSONTranscoder": {
@@ -762,7 +762,7 @@ module.exports = exports = {
             "subcategoryIndex": 3
         },
         "displayName": "JSONTranscoder",
-        "disabled": false,
+        
         "checked": true
     },
     "JSONUrlTranscoder": {
@@ -774,7 +774,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in JSONUrlTranscoder",
         "displayName": "JSONUrlTranscoder",
-        "disabled": false,
+        
         "checked": true
     },
     "XMLUrlTranscoder": {
@@ -786,7 +786,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in XMLUrlTranscoder",
         "displayName": "XMLUrlTranscoder",
-        "disabled": false,
+        
         "checked": true
     },
     "IgnoreCaseExt": {
@@ -798,7 +798,7 @@ module.exports = exports = {
             "subcategoryIndex": 6
         },
         "displayName": "IgnoreCaseExt",
-        "disabled": false,
+        
         "checked": true
     },
     "ThemeEngine": {
@@ -810,7 +810,7 @@ module.exports = exports = {
             "subcategoryIndex": 7
         },
         "displayName": "ThemeEngine",
-        "disabled": false,
+        
         "checked": true
     },
     "DefaultTheme": {
@@ -822,7 +822,7 @@ module.exports = exports = {
             "subcategoryIndex": 8
         },
         "displayName": "DefaultTheme",
-        "disabled": false,
+        
         "checked": true
     },
     "ToolTipController": {
@@ -834,7 +834,7 @@ module.exports = exports = {
             "subcategoryIndex": 9
         },
         "displayName": "ToolTipController",
-        "disabled": false,
+        
         "checked": true
     },
     "ToolTipAdapter": {
@@ -846,7 +846,7 @@ module.exports = exports = {
             "subcategoryIndex": 10
         },
         "displayName": "ToolTipAdapter",
-        "disabled": false,
+        
         "checked": true
     },
     "InteractionAdapter": {
@@ -858,7 +858,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in InteractionAdapter",
         "displayName": "InteractionAdapter",
-        "disabled": false,
+        
         "checked": true
     },
     "AlertManager": {
@@ -870,7 +870,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in AlertManager",
         "displayName": "AlertManager",
-        "disabled": false,
+        
         "checked": true
     },
     "MessageLogger": {
@@ -882,7 +882,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in MessageLogger",
         "displayName": "MessageLogger",
-        "disabled": false,
+        
         "checked": true
     },
     "RedRaphael": {
@@ -894,11 +894,11 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphael",
         "displayName": "RedRaphael",
-        "disabled": false,
+        
         "checked": true
     },
     "RedRaphaelSVG": {
-        "path": "../mantle/renderer-javascript/redraphael/redraphael.svg",
+        "path": "../mantle/renderer-javascript/redraphael/redraphael.svg.js",
         "category": {
             "categoryName": "xTranscoder",
             "categoryIndex": 4,
@@ -906,7 +906,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphaelSVG",
         "displayName": "RedRaphaelSVG",
-        "disabled": false,
+        
         "checked": true
     },
     "VML": {
@@ -920,7 +920,7 @@ module.exports = exports = {
         "displayName": "VML"
     },
     "RedRaphaelEXT": {
-        "path": "../mantle/renderer-javascript/redraphael/redraphael.ext",
+        "path": "../mantle/renderer-javascript/redraphael/redraphael.ext.js",
         "category": {
             "categoryName": "xTranscoder",
             "categoryIndex": 4,
@@ -928,7 +928,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphaelEXT",
         "displayName": "RedRaphaelEXT",
-        "disabled": false,
+        
         "checked": true
     },
     "BaseChart": {
@@ -940,7 +940,7 @@ module.exports = exports = {
             "subcategoryIndex": 30
         },
         "displayName": "BaseChart",
-        "disabled": false,
+        
         "checked": true
     },
     "Maps": {
@@ -952,7 +952,7 @@ module.exports = exports = {
         },
         "description": "Visualize Data in Maps",
         "displayName": "Maps",
-        "disabled": false,
+        
         "checked": true
     },
     "Aargau": {

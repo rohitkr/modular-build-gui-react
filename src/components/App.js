@@ -5,13 +5,12 @@ import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
 import mapSize from '../data/mapSizeObj.json';
-// import alreadySelected from './selected-modules';
+import alreadySelected from './selected-modules';
 import publicModules from '../dependency';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 
 var arr= statsJSON.children[0].modules;
-
 for (var k in publicModules) {
     var addObj = {};
     if (publicModules[k].category.categoryName === 'map') {
@@ -42,31 +41,6 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
-
-// for(var i = 0;i< modulesJSON.length; i++) {
-//   if(alreadySelected[modulesJSON[i].name]) {
-//     // console.log('Module Selected: ',arr[i]);
-//     moduleManager.selectModule(modulesJSON[i].name);
-//     modulesJSON[i].checked = true;
-//     modulesJSON[i].disabled = true;
-//   }
-// }
-
-// for(var i in publicModules) {
-//   var addObj = {};
-//   if(publicModules[i].category.categoryName === 'map') {
-//     // addObj.name = publicModules[i].path;
-//     addObj.description = publicModules[i].description;
-//     addObj.displayName = publicModules[i].displayName;
-//     addObj.size = 0;
-//     modulesJSON.push(addObj);
-//   }
-// }
-
-// console.log(modulesJSON);
-// for(var i in alreadySelected) {
-//   moduleManager.selectModule(alreadySelected[i]);
-// }
 class App extends Component {
   style = {
     fontSize: ''
