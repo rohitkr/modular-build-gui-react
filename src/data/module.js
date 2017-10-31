@@ -4,6 +4,7 @@ class DependencyManager {
     this.treeData = treeJSON;
     this.moduleData = treeJSON.modules;
     this.totalSize = 0;
+    this.offset = 0;
   }
   isPublic(modulePath) {
     var i, pubModule, strToMatch;
@@ -23,6 +24,17 @@ class DependencyManager {
         // console.log("ModulePath: ",modulePath);
         pubModule.displayName = PublicMod[i].displayName;
         pubModule.description = PublicMod[i].description; 
+        if(PublicMod[i].checked){
+          // console.log('Module: ',i);
+          // this.totalSize += (pubModule.size || 0);
+          pubModule.checked = true;
+          pubModule.disabled = true;
+          if(PublicMod[i].disabled === false) {
+            console.log('Module: ',i,' Size: ',pubModule.size);
+            this.offset += (pubModule.size || 0);
+          }
+          PublicMod[i].disabled = true;
+        }
         pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -51,7 +63,7 @@ class DependencyManager {
     let node = this.getNode(name);
     // decrease the selectedDep count
     node.visitedCount = (node.visitedCount || 1) - 1;
-    //console.log(name + " visited count: " + node.visitedCount);
+    // console.log(name + " visited count: " + node.visitedCount);
     // if for the first time it is getting included
     if (this.isPublic(node.name) && node.visitedCount === 0 && node.isUserSelected && !node.disabled) {
       this.totalSize -= (node.size || 0);
@@ -108,7 +120,7 @@ class DependencyManager {
     if (node.visitedCount === 0) {
       // console.log(name);
       this.totalSize += (node.size || 0);
-      console.log(node.name,':',node.size);
+      // console.log(node.name,':',node.size);
       // increment the count
       node.visitedCount = node.visitedCount + 1;
       // console.log(name +" visited count: "+node.visitedCount);
@@ -177,7 +189,7 @@ class DependencyManager {
       node.disabled = false;
       // console.log(name);
       this.totalSize += (node.size || 0);
-      console.log(node.displayName,':',node.size);
+      // console.log(node.displayName,':',node.size);
       this.iterateDep(name, true);
       return true;
     }
@@ -280,19 +292,19 @@ class DependencyManager {
           this.moduleData[i].disabled = false;
           this.moduleData[i].isUserSelected = true;
           this.totalSize += (this.moduleData[i].size || 0);
-          console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
+          // console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
           return this.getPublicModules();
         }
       }
     } else {
-      console.log('Selected Module   not a Map Category: ',name);
+      // console.log('Selected Module   not a Map Category: ',name);
       this.nodeSelect(name);
       return this.getPublicModules();
     }
   }
   //deselect module by name
   deselectModule(name) {
-    //console.log('DeSelecting Module: ', name);
+    // console.log('DeSelecting Module: ', name);
     if (name.endsWith('mapCategory')) {
       var dName = name.slice(0,-11);
       for (var i in this.moduleData) {
@@ -311,7 +323,7 @@ class DependencyManager {
   }
   //get current total size , according to build offset added
   getSize() {
-    var kb = Math.round((this.totalSize  /*+ 1470000 */ ) / 1000 * 100) / 100,
+    var kb = Math.round((this.totalSize + this.offset /*+ 1470000 */ ) / 1000 * 100) / 100,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -319,7 +331,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize /*+ 1470000 */ ) + ' bytes';
+      return (this.totalSize + this.offset /*+ 1470000 */ ) + ' bytes';
   }
   //list of current public modules selected
   getModules() {

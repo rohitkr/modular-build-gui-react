@@ -737,7 +737,9 @@ module.exports = exports = {
             "subcategoryIndex": 1
         },
         "description": "Visualize Data in Annotation",
-        "displayName": "Annotation"
+        "displayName": "Annotation",
+        "disabled": false,
+        "checked": true
     },
     "XMLTranscoder": {
         "path": "../mantle/updater/xml-transcoder",
@@ -747,7 +749,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 2
         },
-        "displayName": "XMLTranscoder"
+        "displayName": "XMLTranscoder",
+        "disabled": false,
+        "checked": true
     },
     "JSONTranscoder": {
         "path": "../mantle/updater/json-transcoder",
@@ -757,7 +761,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 3
         },
-        "displayName": "JSONTranscoder"
+        "displayName": "JSONTranscoder",
+        "disabled": false,
+        "checked": true
     },
     "JSONUrlTranscoder": {
         "path": "../mantle/updater/json-url-transcoder",
@@ -767,7 +773,9 @@ module.exports = exports = {
             "subcategoryIndex": 4
         },
         "description": "Visualize Data in JSONUrlTranscoder",
-        "displayName": "JSONUrlTranscoder"
+        "displayName": "JSONUrlTranscoder",
+        "disabled": false,
+        "checked": true
     },
     "XMLUrlTranscoder": {
         "path": "../mantle/updater/xml-url-transcoder",
@@ -777,7 +785,9 @@ module.exports = exports = {
             "subcategoryIndex": 5
         },
         "description": "Visualize Data in XMLUrlTranscoder",
-        "displayName": "XMLUrlTranscoder"
+        "displayName": "XMLUrlTranscoder",
+        "disabled": false,
+        "checked": true
     },
     "IgnoreCaseExt": {
         "path": "../mantle/updater/ignore_case_ext",
@@ -787,7 +797,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 6
         },
-        "displayName": "IgnoreCaseExt"
+        "displayName": "IgnoreCaseExt",
+        "disabled": false,
+        "checked": true
     },
     "ThemeEngine": {
         "path": "../crust/themes/themes",
@@ -797,7 +809,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 7
         },
-        "displayName": "ThemeEngine"
+        "displayName": "ThemeEngine",
+        "disabled": false,
+        "checked": true
     },
     "DefaultTheme": {
         "path": "../crust/themes/themes.default",
@@ -807,7 +821,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 8
         },
-        "displayName": "DefaultTheme"
+        "displayName": "DefaultTheme",
+        "disabled": false,
+        "checked": true
     },
     "ToolTipController": {
         "path": "../mantle/renderer-javascript/redraphael/tooltip-controller",
@@ -817,7 +833,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 9
         },
-        "displayName": "ToolTipController"
+        "displayName": "ToolTipController",
+        "disabled": false,
+        "checked": true
     },
     "ToolTipAdapter": {
         "path": "../mantle/renderer-javascript/redraphael/tooltip-adapter",
@@ -827,7 +845,9 @@ module.exports = exports = {
             "categoryIndex": 4,
             "subcategoryIndex": 10
         },
-        "displayName": "ToolTipAdapter"
+        "displayName": "ToolTipAdapter",
+        "disabled": false,
+        "checked": true
     },
     "InteractionAdapter": {
         "path": "../mantle/renderer-javascript/components/interaction-manager/interaction-adapter",
@@ -837,7 +857,9 @@ module.exports = exports = {
             "subcategoryIndex": 11
         },
         "description": "Visualize Data in InteractionAdapter",
-        "displayName": "InteractionAdapter"
+        "displayName": "InteractionAdapter",
+        "disabled": false,
+        "checked": true
     },
     "AlertManager": {
         "path": "../mantle/renderer-javascript/components/alertmanager-linker",
@@ -847,7 +869,9 @@ module.exports = exports = {
             "subcategoryIndex": 12
         },
         "description": "Visualize Data in AlertManager",
-        "displayName": "AlertManager"
+        "displayName": "AlertManager",
+        "disabled": false,
+        "checked": true
     },
     "MessageLogger": {
         "path": "../mantle/renderer-javascript/components/msglogger-linker",
@@ -857,7 +881,9 @@ module.exports = exports = {
             "subcategoryIndex": 13
         },
         "description": "Visualize Data in MessageLogger",
-        "displayName": "MessageLogger"
+        "displayName": "MessageLogger",
+        "disabled": false,
+        "checked": true
     },
     "RedRaphael": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael",
@@ -867,7 +893,9 @@ module.exports = exports = {
             "subcategoryIndex": 14
         },
         "description": "Visualize Data in RedRaphael",
-        "displayName": "RedRaphael"
+        "displayName": "RedRaphael",
+        "disabled": false,
+        "checked": true
     },
     "RedRaphaelSVG": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael.svg",
@@ -877,7 +905,9 @@ module.exports = exports = {
             "subcategoryIndex": 15
         },
         "description": "Visualize Data in RedRaphaelSVG",
-        "displayName": "RedRaphaelSVG"
+        "displayName": "RedRaphaelSVG",
+        "disabled": false,
+        "checked": true
     },
     "VML": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael.vml",
@@ -897,7 +927,9 @@ module.exports = exports = {
             "subcategoryIndex": 16
         },
         "description": "Visualize Data in RedRaphaelEXT",
-        "displayName": "RedRaphaelEXT"
+        "displayName": "RedRaphaelEXT",
+        "disabled": false,
+        "checked": true
     },
     "BaseChart": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.basechart",
@@ -907,7 +939,9 @@ module.exports = exports = {
             "categoryIndex": 1,
             "subcategoryIndex": 30
         },
-        "displayName": "BaseChart"
+        "displayName": "BaseChart",
+        "disabled": false,
+        "checked": true
     },
     "Maps": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.maps",
@@ -917,7 +951,9 @@ module.exports = exports = {
             "subcategoryIndex": 31
         },
         "description": "Visualize Data in Maps",
-        "displayName": "Maps"
+        "displayName": "Maps",
+        "disabled": false,
+        "checked": true
     },
     "Aargau": {
         "path": "../../vendors/xt-maps/source/maps/fusioncharts.aargau",

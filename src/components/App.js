@@ -5,11 +5,8 @@ import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
 import mapSize from '../data/mapSizeObj.json';
-import alreadySelected from './selected-modules';
+// import alreadySelected from './selected-modules';
 import publicModules from '../dependency';
-
-
-
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 
@@ -45,6 +42,15 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
+
+// for(var i = 0;i< modulesJSON.length; i++) {
+//   if(alreadySelected[modulesJSON[i].name]) {
+//     // console.log('Module Selected: ',arr[i]);
+//     moduleManager.selectModule(modulesJSON[i].name);
+//     modulesJSON[i].checked = true;
+//     modulesJSON[i].disabled = true;
+//   }
+// }
 
 // for(var i in publicModules) {
 //   var addObj = {};
@@ -122,6 +128,7 @@ class App extends Component {
   }
   render() {
     // this.size = moduleManager.getSize();
+    // console.log('Rendered....');
     return (
       <div className="App">
         <div className="App-header">
