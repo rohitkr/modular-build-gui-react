@@ -108,6 +108,7 @@ class DependencyManager {
     if (node.visitedCount === 0) {
       // console.log(name);
       this.totalSize += (node.size || 0);
+      console.log(node.name,':',node.size);
       // increment the count
       node.visitedCount = node.visitedCount + 1;
       // console.log(name +" visited count: "+node.visitedCount);
@@ -176,6 +177,7 @@ class DependencyManager {
       node.disabled = false;
       // console.log(name);
       this.totalSize += (node.size || 0);
+      console.log(node.displayName,':',node.size);
       this.iterateDep(name, true);
       return true;
     }
@@ -277,11 +279,13 @@ class DependencyManager {
           this.moduleData[i].checked = true;
           this.moduleData[i].disabled = false;
           this.moduleData[i].isUserSelected = true;
-          //console.log('Selected Module: ',name);
+          this.totalSize += (this.moduleData[i].size || 0);
+          console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
           return this.getPublicModules();
         }
       }
     } else {
+      console.log('Selected Module   not a Map Category: ',name);
       this.nodeSelect(name);
       return this.getPublicModules();
     }
@@ -295,6 +299,7 @@ class DependencyManager {
         if (this.moduleData[i].displayName === dName) {
           this.moduleData[i].checked = false;
           this.moduleData[i].disabled = false;
+          this.totalSize -= (this.moduleData[i].size || 0);
           //console.log('DeSelected Module: ',name);
           return this.getPublicModules();
         }
@@ -304,9 +309,9 @@ class DependencyManager {
       return this.getPublicModules();
     }
   }
-  //get current total size 
+  //get current total size , according to build offset added
   getSize() {
-    var kb = Math.round((this.totalSize + 740000 /*+ 1470000 */ ) / 1000 * 100) / 100,
+    var kb = Math.round((this.totalSize  /*+ 1470000 */ ) / 1000 * 100) / 100,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -314,7 +319,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize + 740000 /*+ 1470000 */ ) + ' bytes';
+      return (this.totalSize /*+ 1470000 */ ) + ' bytes';
   }
   //list of current public modules selected
   getModules() {

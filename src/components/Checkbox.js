@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import alreadySelected from './selected-modules';
+// import alreadySelected from './selected-modules';
 class Checkbox extends Component {
   state = {
     isChecked: false,
@@ -22,12 +22,12 @@ class Checkbox extends Component {
     
   }
   render () {
-    // to test whether size equals build size
-    if(alreadySelected[this.props.displayName] !== undefined) {
-      // console.log(this.props.displayName);
-      this.props.checked = true;
-      this.props.disabled = true;
-    }
+    // // to test whether size equals build size
+    // if(alreadySelected[this.props.displayName] !== undefined) {
+    //   // console.log(this.props.displayName);
+    //   this.props.checked = true;
+    //   this.props.disabled = true;
+    // }
     const name = this.props.name;
     const shortName = this.props.displayName;
     const description = this.props.description;

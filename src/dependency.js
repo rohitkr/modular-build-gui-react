@@ -911,13 +911,13 @@ module.exports = exports = {
     },
     "Maps": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.maps",
-        "description": "Visualize Data in Maps",
-        "displayName": "Maps",
         "category": {
-            "categoryName": "map",
-            "categoryIndex": 5,
-            "subcategoryIndex": 1
-        }
+            "categoryName": "chart",
+            "categoryIndex": 1,
+            "subcategoryIndex": 31
+        },
+        "description": "Visualize Data in Maps",
+        "displayName": "Maps"
     },
     "Aargau": {
         "path": "../../vendors/xt-maps/source/maps/fusioncharts.aargau",
@@ -926,7 +926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 2
+            "subcategoryIndex": 1
         }
     },
     "Malta": {
@@ -936,7 +936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 3
+            "subcategoryIndex": 2
         }
     },
     "Abra": {
@@ -946,7 +946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 4
+            "subcategoryIndex": 3
         }
     },
     "Manatuto": {
@@ -956,7 +956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 5
+            "subcategoryIndex": 4
         }
     },
     "Abruzzo": {
@@ -966,7 +966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 6
+            "subcategoryIndex": 5
         }
     },
     "Manawatuwanganui": {
@@ -976,7 +976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 7
+            "subcategoryIndex": 6
         }
     },
     "Absheron": {
@@ -986,7 +986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 8
+            "subcategoryIndex": 7
         }
     },
     "Mangystau": {
@@ -996,7 +996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 9
+            "subcategoryIndex": 8
         }
     },
     "Acre": {
@@ -1006,7 +1006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 10
+            "subcategoryIndex": 9
         }
     },
     "Manipur": {
@@ -1016,7 +1016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 11
+            "subcategoryIndex": 10
         }
     },
     "Adana": {
@@ -1026,7 +1026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 12
+            "subcategoryIndex": 11
         }
     },
     "Manisa": {
@@ -1036,7 +1036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 13
+            "subcategoryIndex": 12
         }
     },
     "Adiyaman": {
@@ -1046,7 +1046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 14
+            "subcategoryIndex": 13
         }
     },
     "Manitoba": {
@@ -1056,7 +1056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 15
+            "subcategoryIndex": 14
         }
     },
     "Afghanistan": {
@@ -1066,7 +1066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 16
+            "subcategoryIndex": 15
         }
     },
     "Mansa": {
@@ -1076,7 +1076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 17
+            "subcategoryIndex": 16
         }
     },
     "Africa": {
@@ -1086,7 +1086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 18
+            "subcategoryIndex": 17
         }
     },
     "Manufahi": {
@@ -1096,7 +1096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 19
+            "subcategoryIndex": 18
         }
     },
     "Africaregion": {
@@ -1106,7 +1106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 20
+            "subcategoryIndex": 19
         }
     },
     "Maranhao": {
@@ -1116,7 +1116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 21
+            "subcategoryIndex": 20
         }
     },
     "Afyonkarahisar": {
@@ -1126,7 +1126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 22
+            "subcategoryIndex": 21
         }
     },
     "Marche": {
@@ -1136,7 +1136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 23
+            "subcategoryIndex": 22
         }
     },
     "Agri": {
@@ -1146,7 +1146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 24
+            "subcategoryIndex": 23
         }
     },
     "Mardin": {
@@ -1156,7 +1156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 25
+            "subcategoryIndex": 24
         }
     },
     "Aguascalientes": {
@@ -1166,7 +1166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 26
+            "subcategoryIndex": 25
         }
     },
     "Marinduque": {
@@ -1176,7 +1176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 27
+            "subcategoryIndex": 26
         }
     },
     "Agusandelnorte": {
@@ -1186,7 +1186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 28
+            "subcategoryIndex": 27
         }
     },
     "Marlborough": {
@@ -1196,7 +1196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 29
+            "subcategoryIndex": 28
         }
     },
     "Agusandelsur": {
@@ -1206,7 +1206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 30
+            "subcategoryIndex": 29
         }
     },
     "Marseille": {
@@ -1216,7 +1216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 31
+            "subcategoryIndex": 30
         }
     },
     "Aichi": {
@@ -1226,7 +1226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 32
+            "subcategoryIndex": 31
         }
     },
     "Marshallisland": {
@@ -1236,7 +1236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 33
+            "subcategoryIndex": 32
         }
     },
     "Aileu": {
@@ -1246,7 +1246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 34
+            "subcategoryIndex": 33
         }
     },
     "Martinique": {
@@ -1256,7 +1256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 35
+            "subcategoryIndex": 34
         }
     },
     "Ainaro": {
@@ -1266,7 +1266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 36
+            "subcategoryIndex": 35
         }
     },
     "Maryland": {
@@ -1276,7 +1276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 37
+            "subcategoryIndex": 36
         }
     },
     "Ajitgarh": {
@@ -1286,7 +1286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 38
+            "subcategoryIndex": 37
         }
     },
     "Marylandareacode": {
@@ -1296,7 +1296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 39
+            "subcategoryIndex": 38
         }
     },
     "Akershus": {
@@ -1306,7 +1306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 40
+            "subcategoryIndex": 39
         }
     },
     "Marylandcongressional": {
@@ -1316,7 +1316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 41
+            "subcategoryIndex": 40
         }
     },
     "Akita": {
@@ -1326,7 +1326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 42
+            "subcategoryIndex": 41
         }
     },
     "Masbate": {
@@ -1336,7 +1336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 43
+            "subcategoryIndex": 42
         }
     },
     "Aklan": {
@@ -1346,7 +1346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 44
+            "subcategoryIndex": 43
         }
     },
     "Mashhad": {
@@ -1356,7 +1356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 45
+            "subcategoryIndex": 44
         }
     },
     "Akmola": {
@@ -1366,7 +1366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 46
+            "subcategoryIndex": 45
         }
     },
     "Massachusetts": {
@@ -1376,7 +1376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 47
+            "subcategoryIndex": 46
         }
     },
     "Aksaray": {
@@ -1386,7 +1386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 48
+            "subcategoryIndex": 47
         }
     },
     "Massachusettsareacode": {
@@ -1396,7 +1396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 49
+            "subcategoryIndex": 48
         }
     },
     "Aktobe": {
@@ -1406,7 +1406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 50
+            "subcategoryIndex": 49
         }
     },
     "Massachusettscongressional": {
@@ -1416,7 +1416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 51
+            "subcategoryIndex": 50
         }
     },
     "Alabama": {
@@ -1426,7 +1426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 52
+            "subcategoryIndex": 51
         }
     },
     "Matogrosso": {
@@ -1436,7 +1436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 53
+            "subcategoryIndex": 52
         }
     },
     "Alabamaareacode": {
@@ -1446,7 +1446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 54
+            "subcategoryIndex": 53
         }
     },
     "Matogrossodosul": {
@@ -1456,7 +1456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 55
+            "subcategoryIndex": 54
         }
     },
     "Alabamacongressional": {
@@ -1466,7 +1466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 56
+            "subcategoryIndex": 55
         }
     },
     "Matrouh": {
@@ -1476,7 +1476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 57
+            "subcategoryIndex": 56
         }
     },
     "Alagoas": {
@@ -1486,7 +1486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 58
+            "subcategoryIndex": 57
         }
     },
     "Mauritania": {
@@ -1496,7 +1496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 59
+            "subcategoryIndex": 58
         }
     },
     "Alaska": {
@@ -1506,7 +1506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 60
+            "subcategoryIndex": 59
         }
     },
     "Mauritius": {
@@ -1516,7 +1516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 61
+            "subcategoryIndex": 60
         }
     },
     "Alaskaareacode": {
@@ -1526,7 +1526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 62
+            "subcategoryIndex": 61
         }
     },
     "Mazowieckie": {
@@ -1536,7 +1536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 63
+            "subcategoryIndex": 62
         }
     },
     "Alaskacongressional": {
@@ -1546,7 +1546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 64
+            "subcategoryIndex": 63
         }
     },
     "Mechi": {
@@ -1556,7 +1556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 65
+            "subcategoryIndex": 64
         }
     },
     "Albania": {
@@ -1566,7 +1566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 66
+            "subcategoryIndex": 65
         }
     },
     "Mecklenburgvorpommern": {
@@ -1576,7 +1576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 67
+            "subcategoryIndex": 66
         }
     },
     "Albay": {
@@ -1586,7 +1586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 68
+            "subcategoryIndex": 67
         }
     },
     "Meghalaya": {
@@ -1596,7 +1596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 69
+            "subcategoryIndex": 68
         }
     },
     "Alberta": {
@@ -1606,7 +1606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 70
+            "subcategoryIndex": 69
         }
     },
     "Melilla": {
@@ -1616,7 +1616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 71
+            "subcategoryIndex": 70
         }
     },
     "Aleppo": {
@@ -1626,7 +1626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 72
+            "subcategoryIndex": 71
         }
     },
     "Mersin": {
@@ -1636,7 +1636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 73
+            "subcategoryIndex": 72
         }
     },
     "Alexandria": {
@@ -1646,7 +1646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 74
+            "subcategoryIndex": 73
         }
     },
     "Mexico": {
@@ -1656,7 +1656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 75
+            "subcategoryIndex": 74
         }
     },
     "Algeria": {
@@ -1666,7 +1666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 76
+            "subcategoryIndex": 75
         }
     },
     "Mexicodistritofederal": {
@@ -1676,7 +1676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 77
+            "subcategoryIndex": 76
         }
     },
     "Almaty": {
@@ -1686,7 +1686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 78
+            "subcategoryIndex": 77
         }
     },
     "Miaolicounty": {
@@ -1696,7 +1696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 79
+            "subcategoryIndex": 78
         }
     },
     "Almatycity": {
@@ -1706,7 +1706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 80
+            "subcategoryIndex": 79
         }
     },
     "Michigan": {
@@ -1716,7 +1716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 81
+            "subcategoryIndex": 80
         }
     },
     "Alminya": {
@@ -1726,7 +1726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 82
+            "subcategoryIndex": 81
         }
     },
     "Michiganareacode": {
@@ -1736,7 +1736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 83
+            "subcategoryIndex": 82
         }
     },
     "Alsharqeyah": {
@@ -1746,7 +1746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 84
+            "subcategoryIndex": 83
         }
     },
     "Michigancongressional": {
@@ -1756,7 +1756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 85
+            "subcategoryIndex": 84
         }
     },
     "Amapa": {
@@ -1766,7 +1766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 86
+            "subcategoryIndex": 85
         }
     },
     "Micronesia": {
@@ -1776,7 +1776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 87
+            "subcategoryIndex": 86
         }
     },
     "Amasya": {
@@ -1786,7 +1786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 88
+            "subcategoryIndex": 87
         }
     },
     "Middleatlanticdma": {
@@ -1796,7 +1796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 89
+            "subcategoryIndex": 88
         }
     },
     "Amazonas": {
@@ -1806,7 +1806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 90
+            "subcategoryIndex": 89
         }
     },
     "Middleeast": {
@@ -1816,7 +1816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 91
+            "subcategoryIndex": 90
         }
     },
     "Americansamoacongressional": {
@@ -1826,7 +1826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 92
+            "subcategoryIndex": 91
         }
     },
     "Midtjylland": {
@@ -1836,7 +1836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 93
+            "subcategoryIndex": 92
         }
     },
     "Amritsar": {
@@ -1846,7 +1846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 94
+            "subcategoryIndex": 93
         }
     },
     "Midwesterndevelopmentregion": {
@@ -1856,7 +1856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 95
+            "subcategoryIndex": 94
         }
     },
     "Andalusia": {
@@ -1866,7 +1866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 96
+            "subcategoryIndex": 95
         }
     },
     "Mie": {
@@ -1876,7 +1876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 97
+            "subcategoryIndex": 96
         }
     },
     "Andamanandnicobar": {
@@ -1886,7 +1886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 98
+            "subcategoryIndex": 97
         }
     },
     "Minasgerais": {
@@ -1896,7 +1896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 99
+            "subcategoryIndex": 98
         }
     },
     "Andhrapradesh": {
@@ -1906,7 +1906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 100
+            "subcategoryIndex": 99
         }
     },
     "Minnesota": {
@@ -1916,7 +1916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 101
+            "subcategoryIndex": 100
         }
     },
     "Andijan": {
@@ -1926,7 +1926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 102
+            "subcategoryIndex": 101
         }
     },
     "Minnesotaareacode": {
@@ -1936,7 +1936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 103
+            "subcategoryIndex": 102
         }
     },
     "Andorra": {
@@ -1946,7 +1946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 104
+            "subcategoryIndex": 103
         }
     },
     "Minnesotacongressional": {
@@ -1956,7 +1956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 105
+            "subcategoryIndex": 104
         }
     },
     "Angola": {
@@ -1966,7 +1966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 106
+            "subcategoryIndex": 105
         }
     },
     "Misamisoccidental": {
@@ -1976,7 +1976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 107
+            "subcategoryIndex": 106
         }
     },
     "Anguilla": {
@@ -1986,7 +1986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 108
+            "subcategoryIndex": 107
         }
     },
     "Misamisoriental": {
@@ -1996,7 +1996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 109
+            "subcategoryIndex": 108
         }
     },
     "Anhui": {
@@ -2006,7 +2006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 110
+            "subcategoryIndex": 109
         }
     },
     "Mississippi": {
@@ -2016,7 +2016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 111
+            "subcategoryIndex": 110
         }
     },
     "Ankara": {
@@ -2026,7 +2026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 112
+            "subcategoryIndex": 111
         }
     },
     "Mississippiareacode": {
@@ -2036,7 +2036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 113
+            "subcategoryIndex": 112
         }
     },
     "Antalya": {
@@ -2046,7 +2046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 114
+            "subcategoryIndex": 113
         }
     },
     "Mississippicongressional": {
@@ -2056,7 +2056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 115
+            "subcategoryIndex": 114
         }
     },
     "Antigua": {
@@ -2066,7 +2066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 116
+            "subcategoryIndex": 115
         }
     },
     "Missouri": {
@@ -2076,7 +2076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 117
+            "subcategoryIndex": 116
         }
     },
     "Antique": {
@@ -2086,7 +2086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 118
+            "subcategoryIndex": 117
         }
     },
     "Missouriareacode": {
@@ -2096,7 +2096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 119
+            "subcategoryIndex": 118
         }
     },
     "Antwerp": {
@@ -2106,7 +2106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 120
+            "subcategoryIndex": 119
         }
     },
     "Missouricongressional": {
@@ -2116,7 +2116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 121
+            "subcategoryIndex": 120
         }
     },
     "Aomori": {
@@ -2126,7 +2126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 122
+            "subcategoryIndex": 121
         }
     },
     "Miyagi": {
@@ -2136,7 +2136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 123
+            "subcategoryIndex": 122
         }
     },
     "Apayao": {
@@ -2146,7 +2146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 124
+            "subcategoryIndex": 123
         }
     },
     "Miyazaki": {
@@ -2156,7 +2156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 125
+            "subcategoryIndex": 124
         }
     },
     "Appenzellausserrhoden": {
@@ -2166,7 +2166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 126
+            "subcategoryIndex": 125
         }
     },
     "Mizoram": {
@@ -2176,7 +2176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 127
+            "subcategoryIndex": 126
         }
     },
     "Appenzellinnerrhoden": {
@@ -2186,7 +2186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 128
+            "subcategoryIndex": 127
         }
     },
     "Moga": {
@@ -2196,7 +2196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 129
+            "subcategoryIndex": 128
         }
     },
     "Apulia": {
@@ -2206,7 +2206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 130
+            "subcategoryIndex": 129
         }
     },
     "Moldova": {
@@ -2216,7 +2216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 131
+            "subcategoryIndex": 130
         }
     },
     "Aragon": {
@@ -2226,7 +2226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 132
+            "subcategoryIndex": 131
         }
     },
     "Molise": {
@@ -2236,7 +2236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 133
+            "subcategoryIndex": 132
         }
     },
     "Aran": {
@@ -2246,7 +2246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 134
+            "subcategoryIndex": 133
         }
     },
     "Monaco": {
@@ -2256,7 +2256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 135
+            "subcategoryIndex": 134
         }
     },
     "Ardahan": {
@@ -2266,7 +2266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 136
+            "subcategoryIndex": 135
         }
     },
     "Mongolia": {
@@ -2276,7 +2276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 137
+            "subcategoryIndex": 136
         }
     },
     "Argentina": {
@@ -2286,7 +2286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 138
+            "subcategoryIndex": 137
         }
     },
     "Monofiya": {
@@ -2296,7 +2296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 139
+            "subcategoryIndex": 138
         }
     },
     "Arizona": {
@@ -2306,7 +2306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 140
+            "subcategoryIndex": 139
         }
     },
     "Montana": {
@@ -2316,7 +2316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 141
+            "subcategoryIndex": 140
         }
     },
     "Arizonaareacode": {
@@ -2326,7 +2326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 142
+            "subcategoryIndex": 141
         }
     },
     "Montanaareacode": {
@@ -2336,7 +2336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 143
+            "subcategoryIndex": 142
         }
     },
     "Arizonacongressional": {
@@ -2346,7 +2346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 144
+            "subcategoryIndex": 143
         }
     },
     "Montanacongressional": {
@@ -2356,7 +2356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 145
+            "subcategoryIndex": 144
         }
     },
     "Arkansas": {
@@ -2366,7 +2366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 146
+            "subcategoryIndex": 145
         }
     },
     "Montenegro": {
@@ -2376,7 +2376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 147
+            "subcategoryIndex": 146
         }
     },
     "Arkansasareacode": {
@@ -2386,7 +2386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 148
+            "subcategoryIndex": 147
         }
     },
     "Montserrat": {
@@ -2396,7 +2396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 149
+            "subcategoryIndex": 148
         }
     },
     "Arkansascongressional": {
@@ -2406,7 +2406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 150
+            "subcategoryIndex": 149
         }
     },
     "Moraviasilesia": {
@@ -2416,7 +2416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 151
+            "subcategoryIndex": 150
         }
     },
     "Arkhangai": {
@@ -2426,7 +2426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 152
+            "subcategoryIndex": 151
         }
     },
     "Moreogromsdal": {
@@ -2436,7 +2436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 153
+            "subcategoryIndex": 152
         }
     },
     "Armenia": {
@@ -2446,7 +2446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 154
+            "subcategoryIndex": 153
         }
     },
     "Morocco": {
@@ -2456,7 +2456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 155
+            "subcategoryIndex": 154
         }
     },
     "Arraqqah": {
@@ -2466,7 +2466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 156
+            "subcategoryIndex": 155
         }
     },
     "Mountaindma": {
@@ -2476,7 +2476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 157
+            "subcategoryIndex": 156
         }
     },
     "Artvin": {
@@ -2486,7 +2486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 158
+            "subcategoryIndex": 157
         }
     },
     "Mountainprovince": {
@@ -2496,7 +2496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 159
+            "subcategoryIndex": 158
         }
     },
     "Aruba": {
@@ -2506,7 +2506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 160
+            "subcategoryIndex": 159
         }
     },
     "Mountlebanon": {
@@ -2516,7 +2516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 161
+            "subcategoryIndex": 160
         }
     },
     "Arunachalpradesh": {
@@ -2526,7 +2526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 162
+            "subcategoryIndex": 161
         }
     },
     "Mozambique": {
@@ -2536,7 +2536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 163
+            "subcategoryIndex": 162
         }
     },
     "Asia": {
@@ -2546,7 +2546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 164
+            "subcategoryIndex": 163
         }
     },
     "Mugla": {
@@ -2556,7 +2556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 165
+            "subcategoryIndex": 164
         }
     },
     "Asia3": {
@@ -2566,7 +2566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 166
+            "subcategoryIndex": 165
         }
     },
     "Mus": {
@@ -2576,7 +2576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 167
+            "subcategoryIndex": 166
         }
     },
     "Asiageorgia": {
@@ -2586,7 +2586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 168
+            "subcategoryIndex": 167
         }
     },
     "Mymensingh": {
@@ -2596,7 +2596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 169
+            "subcategoryIndex": 168
         }
     },
     "Asiaregion": {
@@ -2606,7 +2606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 170
+            "subcategoryIndex": 169
         }
     },
     "Nabatieh": {
@@ -2616,7 +2616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 171
+            "subcategoryIndex": 170
         }
     },
     "Asir": {
@@ -2626,7 +2626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 172
+            "subcategoryIndex": 171
         }
     },
     "Nagaland": {
@@ -2636,7 +2636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 173
+            "subcategoryIndex": 172
         }
     },
     "Assam": {
@@ -2646,7 +2646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 174
+            "subcategoryIndex": 173
         }
     },
     "Nagano": {
@@ -2656,7 +2656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 175
+            "subcategoryIndex": 174
         }
     },
     "Assuwayda": {
@@ -2666,7 +2666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 176
+            "subcategoryIndex": 175
         }
     },
     "Nagasaki": {
@@ -2676,7 +2676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 177
+            "subcategoryIndex": 176
         }
     },
     "Astanacity": {
@@ -2686,7 +2686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 178
+            "subcategoryIndex": 177
         }
     },
     "Najran": {
@@ -2696,7 +2696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 179
+            "subcategoryIndex": 178
         }
     },
     "Asturias": {
@@ -2706,7 +2706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 180
+            "subcategoryIndex": 179
         }
     },
     "Nakhchivan": {
@@ -2716,7 +2716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 181
+            "subcategoryIndex": 180
         }
     },
     "Aswan": {
@@ -2726,7 +2726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 182
+            "subcategoryIndex": 181
         }
     },
     "Namangan": {
@@ -2736,7 +2736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 183
+            "subcategoryIndex": 182
         }
     },
     "Asyut": {
@@ -2746,7 +2746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 184
+            "subcategoryIndex": 183
         }
     },
     "Namibia": {
@@ -2756,7 +2756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 185
+            "subcategoryIndex": 184
         }
     },
     "Attapeu": {
@@ -2766,7 +2766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 186
+            "subcategoryIndex": 185
         }
     },
     "Namur": {
@@ -2776,7 +2776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 187
+            "subcategoryIndex": 186
         }
     },
     "Atyrau": {
@@ -2786,7 +2786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 188
+            "subcategoryIndex": 187
         }
     },
     "Nangarhar": {
@@ -2796,7 +2796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 189
+            "subcategoryIndex": 188
         }
     },
     "Auckland": {
@@ -2806,7 +2806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 190
+            "subcategoryIndex": 189
         }
     },
     "Nantoucounty": {
@@ -2816,7 +2816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 191
+            "subcategoryIndex": 190
         }
     },
     "Aurora": {
@@ -2826,7 +2826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 192
+            "subcategoryIndex": 191
         }
     },
     "Nara": {
@@ -2836,7 +2836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 193
+            "subcategoryIndex": 192
         }
     },
     "Austagder": {
@@ -2846,7 +2846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 194
+            "subcategoryIndex": 193
         }
     },
     "Narayani": {
@@ -2856,7 +2856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 195
+            "subcategoryIndex": 194
         }
     },
     "Australia": {
@@ -2866,7 +2866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 196
+            "subcategoryIndex": 195
         }
     },
     "Nationalcapitalregion": {
@@ -2876,7 +2876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 197
+            "subcategoryIndex": 196
         }
     },
     "Australia2": {
@@ -2886,7 +2886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 198
+            "subcategoryIndex": 197
         }
     },
     "Nauru": {
@@ -2896,7 +2896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 199
+            "subcategoryIndex": 198
         }
     },
     "Australiancapitalterritory": {
@@ -2906,7 +2906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 200
+            "subcategoryIndex": 199
         }
     },
     "Navarre": {
@@ -2916,7 +2916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 201
+            "subcategoryIndex": 200
         }
     },
     "Austria": {
@@ -2926,7 +2926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 202
+            "subcategoryIndex": 201
         }
     },
     "Navoiy": {
@@ -2936,7 +2936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 203
+            "subcategoryIndex": 202
         }
     },
     "Autonomousregion": {
@@ -2946,7 +2946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 204
+            "subcategoryIndex": 203
         }
     },
     "Nayarit": {
@@ -2956,7 +2956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 205
+            "subcategoryIndex": 204
         }
     },
     "Aveiro": {
@@ -2966,7 +2966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 206
+            "subcategoryIndex": 205
         }
     },
     "Nebraska": {
@@ -2976,7 +2976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 207
+            "subcategoryIndex": 206
         }
     },
     "Aydin": {
@@ -2986,7 +2986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 208
+            "subcategoryIndex": 207
         }
     },
     "Nebraskaareacode": {
@@ -2996,7 +2996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 209
+            "subcategoryIndex": 208
         }
     },
     "Azadkashmir": {
@@ -3006,7 +3006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 210
+            "subcategoryIndex": 209
         }
     },
     "Nebraskacongressional": {
@@ -3016,7 +3016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 211
+            "subcategoryIndex": 210
         }
     },
     "Azerbaijan": {
@@ -3026,7 +3026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 212
+            "subcategoryIndex": 211
         }
     },
     "Negrosislandregion": {
@@ -3036,7 +3036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 213
+            "subcategoryIndex": 212
         }
     },
     "Azerbaijanregion": {
@@ -3046,7 +3046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 214
+            "subcategoryIndex": 213
         }
     },
     "Negrosoccidental": {
@@ -3056,7 +3056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 215
+            "subcategoryIndex": 214
         }
     },
     "Badakhshan": {
@@ -3066,7 +3066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 216
+            "subcategoryIndex": 215
         }
     },
     "Negrosoriental": {
@@ -3076,7 +3076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 217
+            "subcategoryIndex": 216
         }
     },
     "Badenwurttemberg": {
@@ -3086,7 +3086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 218
+            "subcategoryIndex": 217
         }
     },
     "Neimongol": {
@@ -3096,7 +3096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 219
+            "subcategoryIndex": 218
         }
     },
     "Badghis": {
@@ -3106,7 +3106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 220
+            "subcategoryIndex": 219
         }
     },
     "Nelson": {
@@ -3116,7 +3116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 221
+            "subcategoryIndex": 220
         }
     },
     "Baghlan": {
@@ -3126,7 +3126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 222
+            "subcategoryIndex": 221
         }
     },
     "Nepal": {
@@ -3136,7 +3136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 223
+            "subcategoryIndex": 222
         }
     },
     "Bagmati": {
@@ -3146,7 +3146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 224
+            "subcategoryIndex": 223
         }
     },
     "Nepalprovinces": {
@@ -3156,7 +3156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 225
+            "subcategoryIndex": 224
         }
     },
     "Bahah": {
@@ -3166,7 +3166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 226
+            "subcategoryIndex": 225
         }
     },
     "Nepalprovincesfive": {
@@ -3176,7 +3176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 227
+            "subcategoryIndex": 226
         }
     },
     "Bahamas": {
@@ -3186,7 +3186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 228
+            "subcategoryIndex": 227
         }
     },
     "Nepalprovincesfour": {
@@ -3196,7 +3196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 229
+            "subcategoryIndex": 228
         }
     },
     "Bahera": {
@@ -3206,7 +3206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 230
+            "subcategoryIndex": 229
         }
     },
     "Nepalprovincesone": {
@@ -3216,7 +3216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 231
+            "subcategoryIndex": 230
         }
     },
     "Bahia": {
@@ -3226,7 +3226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 232
+            "subcategoryIndex": 231
         }
     },
     "Nepalprovincesseven": {
@@ -3236,7 +3236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 233
+            "subcategoryIndex": 232
         }
     },
     "Bahrain": {
@@ -3246,7 +3246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 234
+            "subcategoryIndex": 233
         }
     },
     "Nepalprovincessix": {
@@ -3256,7 +3256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 235
+            "subcategoryIndex": 234
         }
     },
     "Baikonurcity": {
@@ -3266,7 +3266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 236
+            "subcategoryIndex": 235
         }
     },
     "Nepalprovincesthree": {
@@ -3276,7 +3276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 237
+            "subcategoryIndex": 236
         }
     },
     "Bajacalifornia": {
@@ -3286,7 +3286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 238
+            "subcategoryIndex": 237
         }
     },
     "Nepalprovincestwo": {
@@ -3296,7 +3296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 239
+            "subcategoryIndex": 238
         }
     },
     "Bajacaliforniasur": {
@@ -3306,7 +3306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 240
+            "subcategoryIndex": 239
         }
     },
     "Nepalregion": {
@@ -3316,7 +3316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 241
+            "subcategoryIndex": 240
         }
     },
     "Balearicislands": {
@@ -3326,7 +3326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 242
+            "subcategoryIndex": 241
         }
     },
     "Nepalzones": {
@@ -3336,7 +3336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 243
+            "subcategoryIndex": 242
         }
     },
     "Balikesir": {
@@ -3346,7 +3346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 244
+            "subcategoryIndex": 243
         }
     },
     "Netherlands": {
@@ -3356,7 +3356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 245
+            "subcategoryIndex": 244
         }
     },
     "Balkh": {
@@ -3366,7 +3366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 246
+            "subcategoryIndex": 245
         }
     },
     "Neuchatel": {
@@ -3376,7 +3376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 247
+            "subcategoryIndex": 246
         }
     },
     "Balochistan": {
@@ -3386,7 +3386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 248
+            "subcategoryIndex": 247
         }
     },
     "Nevada": {
@@ -3396,7 +3396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 249
+            "subcategoryIndex": 248
         }
     },
     "Bamyan": {
@@ -3406,7 +3406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 250
+            "subcategoryIndex": 249
         }
     },
     "Nevadaareacode": {
@@ -3416,7 +3416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 251
+            "subcategoryIndex": 250
         }
     },
     "Bangladesh": {
@@ -3426,7 +3426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 252
+            "subcategoryIndex": 251
         }
     },
     "Nevadacongressional": {
@@ -3436,7 +3436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 253
+            "subcategoryIndex": 252
         }
     },
     "Baniswaif": {
@@ -3446,7 +3446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 254
+            "subcategoryIndex": 253
         }
     },
     "Nevsehir": {
@@ -3456,7 +3456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 255
+            "subcategoryIndex": 254
         }
     },
     "Banskabystrica": {
@@ -3466,7 +3466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 256
+            "subcategoryIndex": 255
         }
     },
     "Newbrunswick": {
@@ -3476,7 +3476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 257
+            "subcategoryIndex": 256
         }
     },
     "Barbados": {
@@ -3486,7 +3486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 258
+            "subcategoryIndex": 257
         }
     },
     "Newcaledonia": {
@@ -3496,7 +3496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 259
+            "subcategoryIndex": 258
         }
     },
     "Barisal": {
@@ -3506,7 +3506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 260
+            "subcategoryIndex": 259
         }
     },
     "Newenglanddma": {
@@ -3516,7 +3516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 261
+            "subcategoryIndex": 260
         }
     },
     "Barnala": {
@@ -3526,7 +3526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 262
+            "subcategoryIndex": 261
         }
     },
     "Newfoundlandandlabrador": {
@@ -3536,7 +3536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 263
+            "subcategoryIndex": 262
         }
     },
     "Bartin": {
@@ -3546,7 +3546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 264
+            "subcategoryIndex": 263
         }
     },
     "Newhampshire": {
@@ -3556,7 +3556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 265
+            "subcategoryIndex": 264
         }
     },
     "Basellandschaft": {
@@ -3566,7 +3566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 266
+            "subcategoryIndex": 265
         }
     },
     "Newhampshireareacode": {
@@ -3576,7 +3576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 267
+            "subcategoryIndex": 266
         }
     },
     "Basilan": {
@@ -3586,7 +3586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 268
+            "subcategoryIndex": 267
         }
     },
     "Newhampshirecongressional": {
@@ -3596,7 +3596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 269
+            "subcategoryIndex": 268
         }
     },
     "Basilicata": {
@@ -3606,7 +3606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 270
+            "subcategoryIndex": 269
         }
     },
     "Newjersey": {
@@ -3616,7 +3616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 271
+            "subcategoryIndex": 270
         }
     },
     "Basquecountry": {
@@ -3626,7 +3626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 272
+            "subcategoryIndex": 271
         }
     },
     "Newjerseyareacode": {
@@ -3636,7 +3636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 273
+            "subcategoryIndex": 272
         }
     },
     "Bataan": {
@@ -3646,7 +3646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 274
+            "subcategoryIndex": 273
         }
     },
     "Newjerseycongressional": {
@@ -3656,7 +3656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 275
+            "subcategoryIndex": 274
         }
     },
     "Batanes": {
@@ -3666,7 +3666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 276
+            "subcategoryIndex": 275
         }
     },
     "Newmexico": {
@@ -3676,7 +3676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 277
+            "subcategoryIndex": 276
         }
     },
     "Batangas": {
@@ -3686,7 +3686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 278
+            "subcategoryIndex": 277
         }
     },
     "Newmexicoareacode": {
@@ -3696,7 +3696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 279
+            "subcategoryIndex": 278
         }
     },
     "Bathinda": {
@@ -3706,7 +3706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 280
+            "subcategoryIndex": 279
         }
     },
     "Newmexicocongressional": {
@@ -3716,7 +3716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 281
+            "subcategoryIndex": 280
         }
     },
     "Batman": {
@@ -3726,7 +3726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 282
+            "subcategoryIndex": 281
         }
     },
     "Newsouthwales": {
@@ -3736,7 +3736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 283
+            "subcategoryIndex": 282
         }
     },
     "Baucau": {
@@ -3746,7 +3746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 284
+            "subcategoryIndex": 283
         }
     },
     "Newtaipeicity": {
@@ -3756,7 +3756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 285
+            "subcategoryIndex": 284
         }
     },
     "Bavaria": {
@@ -3766,7 +3766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 286
+            "subcategoryIndex": 285
         }
     },
     "Newyork": {
@@ -3776,7 +3776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 287
+            "subcategoryIndex": 286
         }
     },
     "Bayankhongor": {
@@ -3786,7 +3786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 288
+            "subcategoryIndex": 287
         }
     },
     "Newyorkareaareacode": {
@@ -3796,7 +3796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 289
+            "subcategoryIndex": 288
         }
     },
     "Bayanolgii": {
@@ -3806,7 +3806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 290
+            "subcategoryIndex": 289
         }
     },
     "Newyorkareacode": {
@@ -3816,7 +3816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 291
+            "subcategoryIndex": 290
         }
     },
     "Bayburt": {
@@ -3826,7 +3826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 292
+            "subcategoryIndex": 291
         }
     },
     "Newyorkcongressional": {
@@ -3836,7 +3836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 293
+            "subcategoryIndex": 292
         }
     },
     "Bayofplenty": {
@@ -3846,7 +3846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 294
+            "subcategoryIndex": 293
         }
     },
     "Newzealand": {
@@ -3856,7 +3856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 295
+            "subcategoryIndex": 294
         }
     },
     "Beijing": {
@@ -3866,7 +3866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 296
+            "subcategoryIndex": 295
         }
     },
     "Nicaragua": {
@@ -3876,7 +3876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 297
+            "subcategoryIndex": 296
         }
     },
     "Beirut": {
@@ -3886,7 +3886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 298
+            "subcategoryIndex": 297
         }
     },
     "Nidwalden": {
@@ -3896,7 +3896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 299
+            "subcategoryIndex": 298
         }
     },
     "Beja": {
@@ -3906,7 +3906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 300
+            "subcategoryIndex": 299
         }
     },
     "Niederosterreich": {
@@ -3916,7 +3916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 301
+            "subcategoryIndex": 300
         }
     },
     "Belarus": {
@@ -3926,7 +3926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 302
+            "subcategoryIndex": 301
         }
     },
     "Nigde": {
@@ -3936,7 +3936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 303
+            "subcategoryIndex": 302
         }
     },
     "Belgium": {
@@ -3946,7 +3946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 304
+            "subcategoryIndex": 303
         }
     },
     "Niger": {
@@ -3956,7 +3956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 305
+            "subcategoryIndex": 304
         }
     },
     "Belgiumluxembourg": {
@@ -3966,7 +3966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 306
+            "subcategoryIndex": 305
         }
     },
     "Nigeria": {
@@ -3976,7 +3976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 307
+            "subcategoryIndex": 306
         }
     },
     "Belize": {
@@ -3986,7 +3986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 308
+            "subcategoryIndex": 307
         }
     },
     "Niigata": {
@@ -3996,7 +3996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 309
+            "subcategoryIndex": 308
         }
     },
     "Benguet": {
@@ -4006,7 +4006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 310
+            "subcategoryIndex": 309
         }
     },
     "Nimruz": {
@@ -4016,7 +4016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 311
+            "subcategoryIndex": 310
         }
     },
     "Beni": {
@@ -4026,7 +4026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 312
+            "subcategoryIndex": 311
         }
     },
     "Ningxiahui": {
@@ -4036,7 +4036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 313
+            "subcategoryIndex": 312
         }
     },
     "Benin": {
@@ -4046,7 +4046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 314
+            "subcategoryIndex": 313
         }
     },
     "Nitra": {
@@ -4056,7 +4056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 315
+            "subcategoryIndex": 314
         }
     },
     "Beqaa": {
@@ -4066,7 +4066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 316
+            "subcategoryIndex": 315
         }
     },
     "Nordest": {
@@ -4076,7 +4076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 317
+            "subcategoryIndex": 316
         }
     },
     "Berat": {
@@ -4086,7 +4086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 318
+            "subcategoryIndex": 317
         }
     },
     "Nordjylland": {
@@ -4096,7 +4096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 319
+            "subcategoryIndex": 318
         }
     },
     "Berlin": {
@@ -4106,7 +4106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 320
+            "subcategoryIndex": 319
         }
     },
     "Nordland": {
@@ -4116,7 +4116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 321
+            "subcategoryIndex": 320
         }
     },
     "Bern": {
@@ -4126,7 +4126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 322
+            "subcategoryIndex": 321
         }
     },
     "Nordtrondelag": {
@@ -4136,7 +4136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 323
+            "subcategoryIndex": 322
         }
     },
     "Bheri": {
@@ -4146,7 +4146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 324
+            "subcategoryIndex": 323
         }
     },
     "Nordvest": {
@@ -4156,7 +4156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 325
+            "subcategoryIndex": 324
         }
     },
     "Bhutan": {
@@ -4166,7 +4166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 326
+            "subcategoryIndex": 325
         }
     },
     "Norrbotten": {
@@ -4176,7 +4176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 327
+            "subcategoryIndex": 326
         }
     },
     "Bicolregion": {
@@ -4186,7 +4186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 328
+            "subcategoryIndex": 327
         }
     },
     "Northamerica": {
@@ -4196,7 +4196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 329
+            "subcategoryIndex": 328
         }
     },
     "Bihar": {
@@ -4206,7 +4206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 330
+            "subcategoryIndex": 329
         }
     },
     "Northamericawcaribbean": {
@@ -4216,7 +4216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 331
+            "subcategoryIndex": 330
         }
     },
     "Bilecik": {
@@ -4226,7 +4226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 332
+            "subcategoryIndex": 331
         }
     },
     "Northamericawocentral": {
@@ -4236,7 +4236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 333
+            "subcategoryIndex": 332
         }
     },
     "Biliran": {
@@ -4246,7 +4246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 334
+            "subcategoryIndex": 333
         }
     },
     "Northcarolina": {
@@ -4256,7 +4256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 335
+            "subcategoryIndex": 334
         }
     },
     "Bingol": {
@@ -4266,7 +4266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 336
+            "subcategoryIndex": 335
         }
     },
     "Northcarolinaareacode": {
@@ -4276,7 +4276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 337
+            "subcategoryIndex": 336
         }
     },
     "Bitlis": {
@@ -4286,7 +4286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 338
+            "subcategoryIndex": 337
         }
     },
     "Northcarolinacongressional": {
@@ -4296,7 +4296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 339
+            "subcategoryIndex": 338
         }
     },
     "Blagoevgrad": {
@@ -4306,7 +4306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 340
+            "subcategoryIndex": 339
         }
     },
     "Northchungcheong": {
@@ -4316,7 +4316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 341
+            "subcategoryIndex": 340
         }
     },
     "Blekinge": {
@@ -4326,7 +4326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 342
+            "subcategoryIndex": 341
         }
     },
     "Northdakota": {
@@ -4336,7 +4336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 343
+            "subcategoryIndex": 342
         }
     },
     "Bobonaro": {
@@ -4346,7 +4346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 344
+            "subcategoryIndex": 343
         }
     },
     "Northdakotaareacode": {
@@ -4356,7 +4356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 345
+            "subcategoryIndex": 344
         }
     },
     "Bohol": {
@@ -4366,7 +4366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 346
+            "subcategoryIndex": 345
         }
     },
     "Northdakotacongressional": {
@@ -4376,7 +4376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 347
+            "subcategoryIndex": 346
         }
     },
     "Bokeo": {
@@ -4386,7 +4386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 348
+            "subcategoryIndex": 347
         }
     },
     "Northdistricthongkong": {
@@ -4396,7 +4396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 349
+            "subcategoryIndex": 348
         }
     },
     "Bolikhamsai": {
@@ -4406,7 +4406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 350
+            "subcategoryIndex": 349
         }
     },
     "Northeast": {
@@ -4416,7 +4416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 351
+            "subcategoryIndex": 350
         }
     },
     "Bolivia": {
@@ -4426,7 +4426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 352
+            "subcategoryIndex": 351
         }
     },
     "Northernafrica": {
@@ -4436,7 +4436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 353
+            "subcategoryIndex": 352
         }
     },
     "Bolu": {
@@ -4446,7 +4446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 354
+            "subcategoryIndex": 353
         }
     },
     "Northernasia": {
@@ -4456,7 +4456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 355
+            "subcategoryIndex": 354
         }
     },
     "Bonaire": {
@@ -4466,7 +4466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 356
+            "subcategoryIndex": 355
         }
     },
     "Northernborders": {
@@ -4476,7 +4476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 357
+            "subcategoryIndex": 356
         }
     },
     "Bosniaherzegovina": {
@@ -4486,7 +4486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 358
+            "subcategoryIndex": 357
         }
     },
     "Northerncaliforniabayareacode": {
@@ -4496,7 +4496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 359
+            "subcategoryIndex": 358
         }
     },
     "Bostonareacode": {
@@ -4506,7 +4506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 360
+            "subcategoryIndex": 359
         }
     },
     "Northerngreatplain": {
@@ -4516,7 +4516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 361
+            "subcategoryIndex": 360
         }
     },
     "Botswana": {
@@ -4526,7 +4526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 362
+            "subcategoryIndex": 361
         }
     },
     "Northernhungary": {
@@ -4536,7 +4536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 363
+            "subcategoryIndex": 362
         }
     },
     "Braga": {
@@ -4546,7 +4546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 364
+            "subcategoryIndex": 363
         }
     },
     "Northernireland": {
@@ -4556,7 +4556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 365
+            "subcategoryIndex": 364
         }
     },
     "Braganca": {
@@ -4566,7 +4566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 366
+            "subcategoryIndex": 365
         }
     },
     "Northernmindanao": {
@@ -4576,7 +4576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 367
+            "subcategoryIndex": 366
         }
     },
     "Brandenburg": {
@@ -4586,7 +4586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 368
+            "subcategoryIndex": 367
         }
     },
     "Northernnorway": {
@@ -4596,7 +4596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 369
+            "subcategoryIndex": 368
         }
     },
     "Bratislava": {
@@ -4606,7 +4606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 370
+            "subcategoryIndex": 369
         }
     },
     "Northernsamar": {
@@ -4616,7 +4616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 371
+            "subcategoryIndex": 370
         }
     },
     "Brazil": {
@@ -4626,7 +4626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 372
+            "subcategoryIndex": 371
         }
     },
     "Northernterritory": {
@@ -4636,7 +4636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 373
+            "subcategoryIndex": 372
         }
     },
     "Brazilregion": {
@@ -4646,7 +4646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 374
+            "subcategoryIndex": 373
         }
     },
     "Northeuropeanregion": {
@@ -4656,7 +4656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 375
+            "subcategoryIndex": 374
         }
     },
     "Britishcolumbia": {
@@ -4666,7 +4666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 376
+            "subcategoryIndex": 375
         }
     },
     "Northgyeongsang": {
@@ -4676,7 +4676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 377
+            "subcategoryIndex": 376
         }
     },
     "Britishvirginisland": {
@@ -4686,7 +4686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 378
+            "subcategoryIndex": 377
         }
     },
     "Northhamgyong": {
@@ -4696,7 +4696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 379
+            "subcategoryIndex": 378
         }
     },
     "Brunei": {
@@ -4706,7 +4706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 380
+            "subcategoryIndex": 379
         }
     },
     "Northhwangae": {
@@ -4716,7 +4716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 381
+            "subcategoryIndex": 380
         }
     },
     "Brussels": {
@@ -4726,7 +4726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 382
+            "subcategoryIndex": 381
         }
     },
     "Northjeolla": {
@@ -4736,7 +4736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 383
+            "subcategoryIndex": 382
         }
     },
     "Bucurestiilfov": {
@@ -4746,7 +4746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 384
+            "subcategoryIndex": 383
         }
     },
     "Northkazakhstan": {
@@ -4756,7 +4756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 385
+            "subcategoryIndex": 384
         }
     },
     "Bukhara": {
@@ -4766,7 +4766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 386
+            "subcategoryIndex": 385
         }
     },
     "Northkorea": {
@@ -4776,7 +4776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 387
+            "subcategoryIndex": 386
         }
     },
     "Bukidnon": {
@@ -4786,7 +4786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 388
+            "subcategoryIndex": 387
         }
     },
     "Northland": {
@@ -4796,7 +4796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 389
+            "subcategoryIndex": 388
         }
     },
     "Bulacan": {
@@ -4806,7 +4806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 390
+            "subcategoryIndex": 389
         }
     },
     "Northlebanon": {
@@ -4816,7 +4816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 391
+            "subcategoryIndex": 390
         }
     },
     "Bulgan": {
@@ -4826,7 +4826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 392
+            "subcategoryIndex": 391
         }
     },
     "Northpyongan": {
@@ -4836,7 +4836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 393
+            "subcategoryIndex": 392
         }
     },
     "Bulgaria": {
@@ -4846,7 +4846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 394
+            "subcategoryIndex": 393
         }
     },
     "Northrhinewestphalia": {
@@ -4856,7 +4856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 395
+            "subcategoryIndex": 394
         }
     },
     "Bulgariamontana": {
@@ -4866,7 +4866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 396
+            "subcategoryIndex": 395
         }
     },
     "Northsinai": {
@@ -4876,7 +4876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 397
+            "subcategoryIndex": 396
         }
     },
     "Burdur": {
@@ -4886,7 +4886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 398
+            "subcategoryIndex": 397
         }
     },
     "Northwest": {
@@ -4896,7 +4896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 399
+            "subcategoryIndex": 398
         }
     },
     "Burgas": {
@@ -4906,7 +4906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 400
+            "subcategoryIndex": 399
         }
     },
     "Northwestterritories": {
@@ -4916,7 +4916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 401
+            "subcategoryIndex": 400
         }
     },
     "Burgenland": {
@@ -4926,7 +4926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 402
+            "subcategoryIndex": 401
         }
     },
     "Norway": {
@@ -4936,7 +4936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 403
+            "subcategoryIndex": 402
         }
     },
     "Burkinafaso": {
@@ -4946,7 +4946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 404
+            "subcategoryIndex": 403
         }
     },
     "Norwayregion": {
@@ -4956,7 +4956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 405
+            "subcategoryIndex": 404
         }
     },
     "Burma": {
@@ -4966,7 +4966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 406
+            "subcategoryIndex": 405
         }
     },
     "Novascotia": {
@@ -4976,7 +4976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 407
+            "subcategoryIndex": 406
         }
     },
     "Bursa": {
@@ -4986,7 +4986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 408
+            "subcategoryIndex": 407
         }
     },
     "Nuevaecija": {
@@ -4996,7 +4996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 409
+            "subcategoryIndex": 408
         }
     },
     "Burundi": {
@@ -5006,7 +5006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 410
+            "subcategoryIndex": 409
         }
     },
     "Nuevavizcaya": {
@@ -5016,7 +5016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 411
+            "subcategoryIndex": 410
         }
     },
     "Busan": {
@@ -5026,7 +5026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 412
+            "subcategoryIndex": 411
         }
     },
     "Nunavut": {
@@ -5036,7 +5036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 413
+            "subcategoryIndex": 412
         }
     },
     "Buskerud": {
@@ -5046,7 +5046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 414
+            "subcategoryIndex": 413
         }
     },
     "Nuristan": {
@@ -5056,7 +5056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 415
+            "subcategoryIndex": 414
         }
     },
     "Cagayan": {
@@ -5066,7 +5066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 416
+            "subcategoryIndex": 415
         }
     },
     "Oberosterreich": {
@@ -5076,7 +5076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 417
+            "subcategoryIndex": 416
         }
     },
     "Cagayanvalley": {
@@ -5086,7 +5086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 418
+            "subcategoryIndex": 417
         }
     },
     "Obwalden": {
@@ -5096,7 +5096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 419
+            "subcategoryIndex": 418
         }
     },
     "Cairo": {
@@ -5106,7 +5106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 420
+            "subcategoryIndex": 419
         }
     },
     "Occidentalmindoro": {
@@ -5116,7 +5116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 421
+            "subcategoryIndex": 420
         }
     },
     "Calabarzon": {
@@ -5126,7 +5126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 422
+            "subcategoryIndex": 421
         }
     },
     "Oceania": {
@@ -5136,7 +5136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 423
+            "subcategoryIndex": 422
         }
     },
     "Calabria": {
@@ -5146,7 +5146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 424
+            "subcategoryIndex": 423
         }
     },
     "Odisha": {
@@ -5156,7 +5156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 425
+            "subcategoryIndex": 424
         }
     },
     "California": {
@@ -5166,7 +5166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 426
+            "subcategoryIndex": 425
         }
     },
     "Oecusse": {
@@ -5176,7 +5176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 427
+            "subcategoryIndex": 426
         }
     },
     "Californiaareacode": {
@@ -5186,7 +5186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 428
+            "subcategoryIndex": 427
         }
     },
     "Ohio": {
@@ -5196,7 +5196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 429
+            "subcategoryIndex": 428
         }
     },
     "Californiacongressional": {
@@ -5206,7 +5206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 430
+            "subcategoryIndex": 429
         }
     },
     "Ohioareacode": {
@@ -5216,7 +5216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 431
+            "subcategoryIndex": 430
         }
     },
     "Camarinesnorte": {
@@ -5226,7 +5226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 432
+            "subcategoryIndex": 431
         }
     },
     "Ohiocongressional": {
@@ -5236,7 +5236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 433
+            "subcategoryIndex": 432
         }
     },
     "Camarinessur": {
@@ -5246,7 +5246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 434
+            "subcategoryIndex": 433
         }
     },
     "Oita": {
@@ -5256,7 +5256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 435
+            "subcategoryIndex": 434
         }
     },
     "Cambodia": {
@@ -5266,7 +5266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 436
+            "subcategoryIndex": 435
         }
     },
     "Okayama": {
@@ -5276,7 +5276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 437
+            "subcategoryIndex": 436
         }
     },
     "Cameroon": {
@@ -5286,7 +5286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 438
+            "subcategoryIndex": 437
         }
     },
     "Okinawa": {
@@ -5296,7 +5296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 439
+            "subcategoryIndex": 438
         }
     },
     "Camiguin": {
@@ -5306,7 +5306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 440
+            "subcategoryIndex": 439
         }
     },
     "Oklahoma": {
@@ -5316,7 +5316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 441
+            "subcategoryIndex": 440
         }
     },
     "Campania": {
@@ -5326,7 +5326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 442
+            "subcategoryIndex": 441
         }
     },
     "Oklahomaareacode": {
@@ -5336,7 +5336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 443
+            "subcategoryIndex": 442
         }
     },
     "Campeche": {
@@ -5346,7 +5346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 444
+            "subcategoryIndex": 443
         }
     },
     "Oklahomacongressional": {
@@ -5356,7 +5356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 445
+            "subcategoryIndex": 444
         }
     },
     "Canada": {
@@ -5366,7 +5366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 446
+            "subcategoryIndex": 445
         }
     },
     "Olomoucregion": {
@@ -5376,7 +5376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 447
+            "subcategoryIndex": 446
         }
     },
     "Canakkale": {
@@ -5386,7 +5386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 448
+            "subcategoryIndex": 447
         }
     },
     "Oman": {
@@ -5396,7 +5396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 449
+            "subcategoryIndex": 448
         }
     },
     "Canaryislands": {
@@ -5406,7 +5406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 450
+            "subcategoryIndex": 449
         }
     },
     "Omnogovi": {
@@ -5416,7 +5416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 451
+            "subcategoryIndex": 450
         }
     },
     "Cankiri": {
@@ -5426,7 +5426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 452
+            "subcategoryIndex": 451
         }
     },
     "Ontario": {
@@ -5436,7 +5436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 453
+            "subcategoryIndex": 452
         }
     },
     "Cantabria": {
@@ -5446,7 +5446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 454
+            "subcategoryIndex": 453
         }
     },
     "Opolskie": {
@@ -5456,7 +5456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 455
+            "subcategoryIndex": 454
         }
     },
     "Canterbury": {
@@ -5466,7 +5466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 456
+            "subcategoryIndex": 455
         }
     },
     "Oppland": {
@@ -5476,7 +5476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 457
+            "subcategoryIndex": 456
         }
     },
     "Capeverde": {
@@ -5486,7 +5486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 458
+            "subcategoryIndex": 457
         }
     },
     "Ordu": {
@@ -5496,7 +5496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 459
+            "subcategoryIndex": 458
         }
     },
     "Capiz": {
@@ -5506,7 +5506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 460
+            "subcategoryIndex": 459
         }
     },
     "Orebro": {
@@ -5516,7 +5516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 461
+            "subcategoryIndex": 460
         }
     },
     "Caraga": {
@@ -5526,7 +5526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 462
+            "subcategoryIndex": 461
         }
     },
     "Oregon": {
@@ -5536,7 +5536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 463
+            "subcategoryIndex": 462
         }
     },
     "Caribbeansregion": {
@@ -5546,7 +5546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 464
+            "subcategoryIndex": 463
         }
     },
     "Oregonareacode": {
@@ -5556,7 +5556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 465
+            "subcategoryIndex": 464
         }
     },
     "Castelobranco": {
@@ -5566,7 +5566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 466
+            "subcategoryIndex": 465
         }
     },
     "Oregoncongressional": {
@@ -5576,7 +5576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 467
+            "subcategoryIndex": 466
         }
     },
     "Castileandleon": {
@@ -5586,7 +5586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 468
+            "subcategoryIndex": 467
         }
     },
     "Orientalmindoro": {
@@ -5596,7 +5596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 469
+            "subcategoryIndex": 468
         }
     },
     "Castillalamancha": {
@@ -5606,7 +5606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 470
+            "subcategoryIndex": 469
         }
     },
     "Orkhon": {
@@ -5616,7 +5616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 471
+            "subcategoryIndex": 470
         }
     },
     "Catalonia": {
@@ -5626,7 +5626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 472
+            "subcategoryIndex": 471
         }
     },
     "Oruro": {
@@ -5636,7 +5636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 473
+            "subcategoryIndex": 472
         }
     },
     "Catanduanes": {
@@ -5646,7 +5646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 474
+            "subcategoryIndex": 473
         }
     },
     "Osaka": {
@@ -5656,7 +5656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 475
+            "subcategoryIndex": 474
         }
     },
     "Cavite": {
@@ -5666,7 +5666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 476
+            "subcategoryIndex": 475
         }
     },
     "Oslo": {
@@ -5676,7 +5676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 477
+            "subcategoryIndex": 476
         }
     },
     "Caymanislands": {
@@ -5686,7 +5686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 478
+            "subcategoryIndex": 477
         }
     },
     "Osmaniye": {
@@ -5696,7 +5696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 479
+            "subcategoryIndex": 478
         }
     },
     "Ceara": {
@@ -5706,7 +5706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 480
+            "subcategoryIndex": 479
         }
     },
     "Ostergotland": {
@@ -5716,7 +5716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 481
+            "subcategoryIndex": 480
         }
     },
     "Cebu": {
@@ -5726,7 +5726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 482
+            "subcategoryIndex": 481
         }
     },
     "Ostfold": {
@@ -5736,7 +5736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 483
+            "subcategoryIndex": 482
         }
     },
     "Centralafrica": {
@@ -5746,7 +5746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 484
+            "subcategoryIndex": 483
         }
     },
     "Otago": {
@@ -5756,7 +5756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 485
+            "subcategoryIndex": 484
         }
     },
     "Centralafricanrepublic": {
@@ -5766,7 +5766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 486
+            "subcategoryIndex": 485
         }
     },
     "Oudomxay": {
@@ -5776,7 +5776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 487
+            "subcategoryIndex": 486
         }
     },
     "Centralamerica": {
@@ -5786,7 +5786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 488
+            "subcategoryIndex": 487
         }
     },
     "Ovorkhangai": {
@@ -5796,7 +5796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 489
+            "subcategoryIndex": 488
         }
     },
     "Centralamerica2": {
@@ -5806,7 +5806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 490
+            "subcategoryIndex": 489
         }
     },
     "Pacificdma": {
@@ -5816,7 +5816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 491
+            "subcategoryIndex": 490
         }
     },
     "Centralamericawithcaribbean": {
@@ -5826,7 +5826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 492
+            "subcategoryIndex": 491
         }
     },
     "Pakistan": {
@@ -5836,7 +5836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 493
+            "subcategoryIndex": 492
         }
     },
     "Centralandwestern": {
@@ -5846,7 +5846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 494
+            "subcategoryIndex": 493
         }
     },
     "Paktia": {
@@ -5856,7 +5856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 495
+            "subcategoryIndex": 494
         }
     },
     "Centralasia": {
@@ -5866,7 +5866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 496
+            "subcategoryIndex": 495
         }
     },
     "Paktika": {
@@ -5876,7 +5876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 497
+            "subcategoryIndex": 496
         }
     },
     "Centralbohemianregion": {
@@ -5886,7 +5886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 498
+            "subcategoryIndex": 497
         }
     },
     "Palau": {
@@ -5896,7 +5896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 499
+            "subcategoryIndex": 498
         }
     },
     "Centraldevelopmentregion": {
@@ -5906,7 +5906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 500
+            "subcategoryIndex": 499
         }
     },
     "Palawan": {
@@ -5916,7 +5916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 501
+            "subcategoryIndex": 500
         }
     },
     "Centraleuropeanregion": {
@@ -5926,7 +5926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 502
+            "subcategoryIndex": 501
         }
     },
     "Pampanga": {
@@ -5936,7 +5936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 503
+            "subcategoryIndex": 502
         }
     },
     "Centralhungary": {
@@ -5946,7 +5946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 504
+            "subcategoryIndex": 503
         }
     },
     "Panama": {
@@ -5956,7 +5956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 505
+            "subcategoryIndex": 504
         }
     },
     "Centralluzon": {
@@ -5966,7 +5966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 506
+            "subcategoryIndex": 505
         }
     },
     "Pando": {
@@ -5976,7 +5976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 507
+            "subcategoryIndex": 506
         }
     },
     "Centralsingapore": {
@@ -5986,7 +5986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 508
+            "subcategoryIndex": 507
         }
     },
     "Pangasinan": {
@@ -5996,7 +5996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 509
+            "subcategoryIndex": 508
         }
     },
     "Centraltransdanubia": {
@@ -6006,7 +6006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 510
+            "subcategoryIndex": 509
         }
     },
     "Panjshir": {
@@ -6016,7 +6016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 511
+            "subcategoryIndex": 510
         }
     },
     "Centralvisayas": {
@@ -6026,7 +6026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 512
+            "subcategoryIndex": 511
         }
     },
     "Papuanewguinea": {
@@ -6036,7 +6036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 513
+            "subcategoryIndex": 512
         }
     },
     "Centru": {
@@ -6046,7 +6046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 514
+            "subcategoryIndex": 513
         }
     },
     "Para": {
@@ -6056,7 +6056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 515
+            "subcategoryIndex": 514
         }
     },
     "Ceuta": {
@@ -6066,7 +6066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 516
+            "subcategoryIndex": 515
         }
     },
     "Paraguay": {
@@ -6076,7 +6076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 517
+            "subcategoryIndex": 516
         }
     },
     "Chad": {
@@ -6086,7 +6086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 518
+            "subcategoryIndex": 517
         }
     },
     "Paraiba": {
@@ -6096,7 +6096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 519
+            "subcategoryIndex": 518
         }
     },
     "Chagang": {
@@ -6106,7 +6106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 520
+            "subcategoryIndex": 519
         }
     },
     "Parana": {
@@ -6116,7 +6116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 521
+            "subcategoryIndex": 520
         }
     },
     "Champasak": {
@@ -6126,7 +6126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 522
+            "subcategoryIndex": 521
         }
     },
     "Pardubiceregion": {
@@ -6136,7 +6136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 523
+            "subcategoryIndex": 522
         }
     },
     "Chandigarh": {
@@ -6146,7 +6146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 524
+            "subcategoryIndex": 523
         }
     },
     "Paris": {
@@ -6156,7 +6156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 525
+            "subcategoryIndex": 524
         }
     },
     "Changhuacounty": {
@@ -6166,7 +6166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 526
+            "subcategoryIndex": 525
         }
     },
     "Parnumaa": {
@@ -6176,7 +6176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 527
+            "subcategoryIndex": 526
         }
     },
     "Chattisgarh": {
@@ -6186,7 +6186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 528
+            "subcategoryIndex": 527
         }
     },
     "Parwan": {
@@ -6196,7 +6196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 529
+            "subcategoryIndex": 528
         }
     },
     "Chhattisgarh": {
@@ -6206,7 +6206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 530
+            "subcategoryIndex": 529
         }
     },
     "Pathankot": {
@@ -6216,7 +6216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 531
+            "subcategoryIndex": 530
         }
     },
     "Chiayicity": {
@@ -6226,7 +6226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 532
+            "subcategoryIndex": 531
         }
     },
     "Patiala": {
@@ -6236,7 +6236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 533
+            "subcategoryIndex": 532
         }
     },
     "Chiayicounty": {
@@ -6246,7 +6246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 534
+            "subcategoryIndex": 533
         }
     },
     "Pavlodar": {
@@ -6256,7 +6256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 535
+            "subcategoryIndex": 534
         }
     },
     "Chiba": {
@@ -6266,7 +6266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 536
+            "subcategoryIndex": 535
         }
     },
     "Pazardzhik": {
@@ -6276,7 +6276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 537
+            "subcategoryIndex": 536
         }
     },
     "Chicagoareacode": {
@@ -6286,7 +6286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 538
+            "subcategoryIndex": 537
         }
     },
     "Penghucounty": {
@@ -6296,7 +6296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 539
+            "subcategoryIndex": 538
         }
     },
     "Chile": {
@@ -6306,7 +6306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 540
+            "subcategoryIndex": 539
         }
     },
     "Pennsylvania": {
@@ -6316,7 +6316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 541
+            "subcategoryIndex": 540
         }
     },
     "China": {
@@ -6326,7 +6326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 542
+            "subcategoryIndex": 541
         }
     },
     "Pennsylvaniaareacode": {
@@ -6336,7 +6336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 543
+            "subcategoryIndex": 542
         }
     },
     "China2": {
@@ -6346,7 +6346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 544
+            "subcategoryIndex": 543
         }
     },
     "Pennsylvaniacongressional": {
@@ -6356,7 +6356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 545
+            "subcategoryIndex": 544
         }
     },
     "China3": {
@@ -6366,7 +6366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 546
+            "subcategoryIndex": 545
         }
     },
     "Pernambuco": {
@@ -6376,7 +6376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 547
+            "subcategoryIndex": 546
         }
     },
     "Chittagong": {
@@ -6386,7 +6386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 548
+            "subcategoryIndex": 547
         }
     },
     "Pernik": {
@@ -6396,7 +6396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 549
+            "subcategoryIndex": 548
         }
     },
     "Chongqing": {
@@ -6406,7 +6406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 550
+            "subcategoryIndex": 549
         }
     },
     "Peru": {
@@ -6416,7 +6416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 551
+            "subcategoryIndex": 550
         }
     },
     "Chungcheongbukdo": {
@@ -6426,7 +6426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 552
+            "subcategoryIndex": 551
         }
     },
     "Philippines": {
@@ -6436,7 +6436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 553
+            "subcategoryIndex": 552
         }
     },
     "Chungcheongnamdo": {
@@ -6446,7 +6446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 554
+            "subcategoryIndex": 553
         }
     },
     "Philippinesregion": {
@@ -6456,7 +6456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 555
+            "subcategoryIndex": 554
         }
     },
     "Chuquisaca": {
@@ -6466,7 +6466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 556
+            "subcategoryIndex": 555
         }
     },
     "Phoenixareacode": {
@@ -6476,7 +6476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 557
+            "subcategoryIndex": 556
         }
     },
     "Cochabamba": {
@@ -6486,7 +6486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 558
+            "subcategoryIndex": 557
         }
     },
     "Phongsali": {
@@ -6496,7 +6496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 559
+            "subcategoryIndex": 558
         }
     },
     "Coimbra": {
@@ -6506,7 +6506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 560
+            "subcategoryIndex": 559
         }
     },
     "Piaui": {
@@ -6516,7 +6516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 561
+            "subcategoryIndex": 560
         }
     },
     "Colima": {
@@ -6526,7 +6526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 562
+            "subcategoryIndex": 561
         }
     },
     "Piedmont": {
@@ -6536,7 +6536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 563
+            "subcategoryIndex": 562
         }
     },
     "Colombia": {
@@ -6546,7 +6546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 564
+            "subcategoryIndex": 563
         }
     },
     "Pingtungcounty": {
@@ -6556,7 +6556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 565
+            "subcategoryIndex": 564
         }
     },
     "Colorado": {
@@ -6566,7 +6566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 566
+            "subcategoryIndex": 565
         }
     },
     "Pleven": {
@@ -6576,7 +6576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 567
+            "subcategoryIndex": 566
         }
     },
     "Coloradoareacode": {
@@ -6586,7 +6586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 568
+            "subcategoryIndex": 567
         }
     },
     "Plovdiv": {
@@ -6596,7 +6596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 569
+            "subcategoryIndex": 568
         }
     },
     "Coloradocongressional": {
@@ -6606,7 +6606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 570
+            "subcategoryIndex": 569
         }
     },
     "Plzenregion": {
@@ -6616,7 +6616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 571
+            "subcategoryIndex": 570
         }
     },
     "Communityofmadrid": {
@@ -6626,7 +6626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 572
+            "subcategoryIndex": 571
         }
     },
     "Podkarpackie": {
@@ -6636,7 +6636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 573
+            "subcategoryIndex": 572
         }
     },
     "Comoros": {
@@ -6646,7 +6646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 574
+            "subcategoryIndex": 573
         }
     },
     "Podlaskie": {
@@ -6656,7 +6656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 575
+            "subcategoryIndex": 574
         }
     },
     "Compostelavalley": {
@@ -6666,7 +6666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 576
+            "subcategoryIndex": 575
         }
     },
     "Poland": {
@@ -6676,7 +6676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 577
+            "subcategoryIndex": 576
         }
     },
     "Congo": {
@@ -6686,7 +6686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 578
+            "subcategoryIndex": 577
         }
     },
     "Polandcounties": {
@@ -6696,7 +6696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 579
+            "subcategoryIndex": 578
         }
     },
     "Connecticut": {
@@ -6706,7 +6706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 580
+            "subcategoryIndex": 579
         }
     },
     "Polvamaa": {
@@ -6716,7 +6716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 581
+            "subcategoryIndex": 580
         }
     },
     "Connecticutareacode": {
@@ -6726,7 +6726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 582
+            "subcategoryIndex": 581
         }
     },
     "Pomorskie": {
@@ -6736,7 +6736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 583
+            "subcategoryIndex": 582
         }
     },
     "Connecticutcongressional": {
@@ -6746,7 +6746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 584
+            "subcategoryIndex": 583
         }
     },
     "Portalegre": {
@@ -6756,7 +6756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 585
+            "subcategoryIndex": 584
         }
     },
     "Cordilleraadministrativeregion": {
@@ -6766,7 +6766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 586
+            "subcategoryIndex": 585
         }
     },
     "Porto": {
@@ -6776,7 +6776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 587
+            "subcategoryIndex": 586
         }
     },
     "Corum": {
@@ -6786,7 +6786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 588
+            "subcategoryIndex": 587
         }
     },
     "Portsaid": {
@@ -6796,7 +6796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 589
+            "subcategoryIndex": 588
         }
     },
     "Costarica": {
@@ -6806,7 +6806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 590
+            "subcategoryIndex": 589
         }
     },
     "Portugal": {
@@ -6816,7 +6816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 591
+            "subcategoryIndex": 590
         }
     },
     "Cotabato": {
@@ -6826,7 +6826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 592
+            "subcategoryIndex": 591
         }
     },
     "Potosi": {
@@ -6836,7 +6836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 593
+            "subcategoryIndex": 592
         }
     },
     "Cotedivoire": {
@@ -6846,7 +6846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 594
+            "subcategoryIndex": 593
         }
     },
     "Prague": {
@@ -6856,7 +6856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 595
+            "subcategoryIndex": 594
         }
     },
     "Covalima": {
@@ -6866,7 +6866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 596
+            "subcategoryIndex": 595
         }
     },
     "Presov": {
@@ -6876,7 +6876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 597
+            "subcategoryIndex": 596
         }
     },
     "Croatia": {
@@ -6886,7 +6886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 598
+            "subcategoryIndex": 597
         }
     },
     "Princeedwardisland": {
@@ -6896,7 +6896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 599
+            "subcategoryIndex": 598
         }
     },
     "Cuba": {
@@ -6906,7 +6906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 600
+            "subcategoryIndex": 599
         }
     },
     "Puducherry": {
@@ -6916,7 +6916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 601
+            "subcategoryIndex": 600
         }
     },
     "Curacao": {
@@ -6926,7 +6926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 602
+            "subcategoryIndex": 601
         }
     },
     "Puertorico": {
@@ -6936,7 +6936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 603
+            "subcategoryIndex": 602
         }
     },
     "Cyprus": {
@@ -6946,7 +6946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 604
+            "subcategoryIndex": 603
         }
     },
     "Puertoricocongressional": {
@@ -6956,7 +6956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 605
+            "subcategoryIndex": 604
         }
     },
     "Cyprus2": {
@@ -6966,7 +6966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 606
+            "subcategoryIndex": 605
         }
     },
     "Punjab": {
@@ -6976,7 +6976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 607
+            "subcategoryIndex": 606
         }
     },
     "Czechrepublic": {
@@ -6986,7 +6986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 608
+            "subcategoryIndex": 607
         }
     },
     "Punjabpakistan": {
@@ -6996,7 +6996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 609
+            "subcategoryIndex": 608
         }
     },
     "Czechrepublicdistricts": {
@@ -7006,7 +7006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 610
+            "subcategoryIndex": 609
         }
     },
     "Pyongyang": {
@@ -7016,7 +7016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 611
+            "subcategoryIndex": 610
         }
     },
     "Dadraandnagarhaveli": {
@@ -7026,7 +7026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 612
+            "subcategoryIndex": 611
         }
     },
     "Qalyoubiya": {
@@ -7036,7 +7036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 613
+            "subcategoryIndex": 612
         }
     },
     "Daegu": {
@@ -7046,7 +7046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 614
+            "subcategoryIndex": 613
         }
     },
     "Qashqadaryo": {
@@ -7056,7 +7056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 615
+            "subcategoryIndex": 614
         }
     },
     "Daejeon": {
@@ -7066,7 +7066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 616
+            "subcategoryIndex": 615
         }
     },
     "Qassim": {
@@ -7076,7 +7076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 617
+            "subcategoryIndex": 616
         }
     },
     "Dagligshirvan": {
@@ -7086,7 +7086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 618
+            "subcategoryIndex": 617
         }
     },
     "Qatar": {
@@ -7096,7 +7096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 619
+            "subcategoryIndex": 618
         }
     },
     "Dalarna": {
@@ -7106,7 +7106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 620
+            "subcategoryIndex": 619
         }
     },
     "Qina": {
@@ -7116,7 +7116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 621
+            "subcategoryIndex": 620
         }
     },
     "Dallasfortworthareacode": {
@@ -7126,7 +7126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 622
+            "subcategoryIndex": 621
         }
     },
     "Qinghai": {
@@ -7136,7 +7136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 623
+            "subcategoryIndex": 622
         }
     },
     "Damananddiu": {
@@ -7146,7 +7146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 624
+            "subcategoryIndex": 623
         }
     },
     "Quebec": {
@@ -7156,7 +7156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 625
+            "subcategoryIndex": 624
         }
     },
     "Damascus": {
@@ -7166,7 +7166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 626
+            "subcategoryIndex": 625
         }
     },
     "Queensland": {
@@ -7176,7 +7176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 627
+            "subcategoryIndex": 626
         }
     },
     "Daqahliya": {
@@ -7186,7 +7186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 628
+            "subcategoryIndex": 627
         }
     },
     "Queretarodearteaga": {
@@ -7196,7 +7196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 629
+            "subcategoryIndex": 628
         }
     },
     "Daraa": {
@@ -7206,7 +7206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 630
+            "subcategoryIndex": 629
         }
     },
     "Quezon": {
@@ -7216,7 +7216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 631
+            "subcategoryIndex": 630
         }
     },
     "Darkhanuul": {
@@ -7226,7 +7226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 632
+            "subcategoryIndex": 631
         }
     },
     "Quintanaroo": {
@@ -7236,7 +7236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 633
+            "subcategoryIndex": 632
         }
     },
     "Davaodelnorte": {
@@ -7246,7 +7246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 634
+            "subcategoryIndex": 633
         }
     },
     "Quirino": {
@@ -7256,7 +7256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 635
+            "subcategoryIndex": 634
         }
     },
     "Davaodelsur": {
@@ -7266,7 +7266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 636
+            "subcategoryIndex": 635
         }
     },
     "Quneitra": {
@@ -7276,7 +7276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 637
+            "subcategoryIndex": 636
         }
     },
     "Davaooccidental": {
@@ -7286,7 +7286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 638
+            "subcategoryIndex": 637
         }
     },
     "Rajasthan": {
@@ -7296,7 +7296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 639
+            "subcategoryIndex": 638
         }
     },
     "Davaooriental": {
@@ -7306,7 +7306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 640
+            "subcategoryIndex": 639
         }
     },
     "Rajshahi": {
@@ -7316,7 +7316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 641
+            "subcategoryIndex": 640
         }
     },
     "Davaoregion": {
@@ -7326,7 +7326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 642
+            "subcategoryIndex": 641
         }
     },
     "Rangpur": {
@@ -7336,7 +7336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 643
+            "subcategoryIndex": 642
         }
     },
     "Daykundi": {
@@ -7346,7 +7346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 644
+            "subcategoryIndex": 643
         }
     },
     "Raplamaa": {
@@ -7356,7 +7356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 645
+            "subcategoryIndex": 644
         }
     },
     "Deirezzor": {
@@ -7366,7 +7366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 646
+            "subcategoryIndex": 645
         }
     },
     "Rapti": {
@@ -7376,7 +7376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 647
+            "subcategoryIndex": 646
         }
     },
     "Delaware": {
@@ -7386,7 +7386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 648
+            "subcategoryIndex": 647
         }
     },
     "Rason": {
@@ -7396,7 +7396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 649
+            "subcategoryIndex": 648
         }
     },
     "Delawareareacode": {
@@ -7406,7 +7406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 650
+            "subcategoryIndex": 649
         }
     },
     "Razgrad": {
@@ -7416,7 +7416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 651
+            "subcategoryIndex": 650
         }
     },
     "Delawarecongressional": {
@@ -7426,7 +7426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 652
+            "subcategoryIndex": 651
         }
     },
     "Redsea": {
@@ -7436,7 +7436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 653
+            "subcategoryIndex": 652
         }
     },
     "Delhi": {
@@ -7446,7 +7446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 654
+            "subcategoryIndex": 653
         }
     },
     "Regionofmurcia": {
@@ -7456,7 +7456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 655
+            "subcategoryIndex": 654
         }
     },
     "Democraticrepublicofcongo": {
@@ -7466,7 +7466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 656
+            "subcategoryIndex": 655
         }
     },
     "Rhinelandpalatinate": {
@@ -7476,7 +7476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 657
+            "subcategoryIndex": 656
         }
     },
     "Denizli": {
@@ -7486,7 +7486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 658
+            "subcategoryIndex": 657
         }
     },
     "Rhodeisland": {
@@ -7496,7 +7496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 659
+            "subcategoryIndex": 658
         }
     },
     "Denmark": {
@@ -7506,7 +7506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 660
+            "subcategoryIndex": 659
         }
     },
     "Rhodeislandareacode": {
@@ -7516,7 +7516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 661
+            "subcategoryIndex": 660
         }
     },
     "Denmarkregion": {
@@ -7526,7 +7526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 662
+            "subcategoryIndex": 661
         }
     },
     "Rhodeislandcongressional": {
@@ -7536,7 +7536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 663
+            "subcategoryIndex": 662
         }
     },
     "Detroitareacode": {
@@ -7546,7 +7546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 664
+            "subcategoryIndex": 663
         }
     },
     "Rifdimashq": {
@@ -7556,7 +7556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 665
+            "subcategoryIndex": 664
         }
     },
     "Dhaka": {
@@ -7566,7 +7566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 666
+            "subcategoryIndex": 665
         }
     },
     "Riodejaneiro": {
@@ -7576,7 +7576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 667
+            "subcategoryIndex": 666
         }
     },
     "Dhaulagiri": {
@@ -7586,7 +7586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 668
+            "subcategoryIndex": 667
         }
     },
     "Riograndedonorte": {
@@ -7596,7 +7596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 669
+            "subcategoryIndex": 668
         }
     },
     "Diber": {
@@ -7606,7 +7606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 670
+            "subcategoryIndex": 669
         }
     },
     "Riograndedosul": {
@@ -7616,7 +7616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 671
+            "subcategoryIndex": 670
         }
     },
     "Dili": {
@@ -7626,7 +7626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 672
+            "subcategoryIndex": 671
         }
     },
     "Riyadh": {
@@ -7636,7 +7636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 673
+            "subcategoryIndex": 672
         }
     },
     "Dinagatislands": {
@@ -7646,7 +7646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 674
+            "subcategoryIndex": 673
         }
     },
     "Rizal": {
@@ -7656,7 +7656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 675
+            "subcategoryIndex": 674
         }
     },
     "Districtofcolumbia": {
@@ -7666,7 +7666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 676
+            "subcategoryIndex": 675
         }
     },
     "Rize": {
@@ -7676,7 +7676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 677
+            "subcategoryIndex": 676
         }
     },
     "Districtofcolumbiaareacode": {
@@ -7686,7 +7686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 678
+            "subcategoryIndex": 677
         }
     },
     "Rogaland": {
@@ -7696,7 +7696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 679
+            "subcategoryIndex": 678
         }
     },
     "Districtofcolumbiacongressional": {
@@ -7706,7 +7706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 680
+            "subcategoryIndex": 679
         }
     },
     "Romania": {
@@ -7716,7 +7716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 681
+            "subcategoryIndex": 680
         }
     },
     "Distritofederal": {
@@ -7726,7 +7726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 682
+            "subcategoryIndex": 681
         }
     },
     "Romaniaregion": {
@@ -7736,7 +7736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 683
+            "subcategoryIndex": 682
         }
     },
     "Diyarbakir": {
@@ -7746,7 +7746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 684
+            "subcategoryIndex": 683
         }
     },
     "Romblon": {
@@ -7756,7 +7756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 685
+            "subcategoryIndex": 684
         }
     },
     "Djibouti": {
@@ -7766,7 +7766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 686
+            "subcategoryIndex": 685
         }
     },
     "Rondonia": {
@@ -7776,7 +7776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 687
+            "subcategoryIndex": 686
         }
     },
     "Dobrich": {
@@ -7786,7 +7786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 688
+            "subcategoryIndex": 687
         }
     },
     "Roraima": {
@@ -7796,7 +7796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 689
+            "subcategoryIndex": 688
         }
     },
     "Dolnoslaskie": {
@@ -7806,7 +7806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 690
+            "subcategoryIndex": 689
         }
     },
     "Rupnagar": {
@@ -7816,7 +7816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 691
+            "subcategoryIndex": 690
         }
     },
     "Dominica": {
@@ -7826,7 +7826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 692
+            "subcategoryIndex": 691
         }
     },
     "Ruse": {
@@ -7836,7 +7836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 693
+            "subcategoryIndex": 692
         }
     },
     "Dominicanrepublic": {
@@ -7846,7 +7846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 694
+            "subcategoryIndex": 693
         }
     },
     "Russia": {
@@ -7856,7 +7856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 695
+            "subcategoryIndex": 694
         }
     },
     "Domyat": {
@@ -7866,7 +7866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 696
+            "subcategoryIndex": 695
         }
     },
     "Rwanda": {
@@ -7876,7 +7876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 697
+            "subcategoryIndex": 696
         }
     },
     "Dornod": {
@@ -7886,7 +7886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 698
+            "subcategoryIndex": 697
         }
     },
     "Ryanggang": {
@@ -7896,7 +7896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 699
+            "subcategoryIndex": 698
         }
     },
     "Dornogovi": {
@@ -7906,7 +7906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 700
+            "subcategoryIndex": 699
         }
     },
     "Saaremaa": {
@@ -7916,7 +7916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 701
+            "subcategoryIndex": 700
         }
     },
     "Dundgovi": {
@@ -7926,7 +7926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 702
+            "subcategoryIndex": 701
         }
     },
     "Saarland": {
@@ -7936,7 +7936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 703
+            "subcategoryIndex": 702
         }
     },
     "Durres": {
@@ -7946,7 +7946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 704
+            "subcategoryIndex": 703
         }
     },
     "Sachsenanhalt": {
@@ -7956,7 +7956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 705
+            "subcategoryIndex": 704
         }
     },
     "Duzce": {
@@ -7966,7 +7966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 706
+            "subcategoryIndex": 705
         }
     },
     "Saga": {
@@ -7976,7 +7976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 707
+            "subcategoryIndex": 706
         }
     },
     "Eastern": {
@@ -7986,7 +7986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 708
+            "subcategoryIndex": 707
         }
     },
     "Sagarmatha": {
@@ -7996,7 +7996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 709
+            "subcategoryIndex": 708
         }
     },
     "Easternafrica": {
@@ -8006,7 +8006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 710
+            "subcategoryIndex": 709
         }
     },
     "Saikung": {
@@ -8016,7 +8016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 711
+            "subcategoryIndex": 710
         }
     },
     "Easternasia": {
@@ -8026,7 +8026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 712
+            "subcategoryIndex": 711
         }
     },
     "Saintbarthelemy": {
@@ -8036,7 +8036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 713
+            "subcategoryIndex": 712
         }
     },
     "Easterndevelopmentregion": {
@@ -8046,7 +8046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 714
+            "subcategoryIndex": 713
         }
     },
     "Sainteustatius": {
@@ -8056,7 +8056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 715
+            "subcategoryIndex": 714
         }
     },
     "Easternnorway": {
@@ -8066,7 +8066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 716
+            "subcategoryIndex": 715
         }
     },
     "Saintgallen": {
@@ -8076,7 +8076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 717
+            "subcategoryIndex": 716
         }
     },
     "Easternprovince": {
@@ -8086,7 +8086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 718
+            "subcategoryIndex": 717
         }
     },
     "Saintkittsandnevis": {
@@ -8096,7 +8096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 719
+            "subcategoryIndex": 718
         }
     },
     "Easternsamar": {
@@ -8106,7 +8106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 720
+            "subcategoryIndex": 719
         }
     },
     "Saintlucia": {
@@ -8116,7 +8116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 721
+            "subcategoryIndex": 720
         }
     },
     "Easternvisayas": {
@@ -8126,7 +8126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 722
+            "subcategoryIndex": 721
         }
     },
     "Saintmartin": {
@@ -8136,7 +8136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 723
+            "subcategoryIndex": 722
         }
     },
     "Easteuropeanregion": {
@@ -8146,7 +8146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 724
+            "subcategoryIndex": 723
         }
     },
     "Saintvincentandthegrenadines": {
@@ -8156,7 +8156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 725
+            "subcategoryIndex": 724
         }
     },
     "Eastflanders": {
@@ -8166,7 +8166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 726
+            "subcategoryIndex": 725
         }
     },
     "Saitama": {
@@ -8176,7 +8176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 727
+            "subcategoryIndex": 726
         }
     },
     "Eastkazakhstan": {
@@ -8186,7 +8186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 728
+            "subcategoryIndex": 727
         }
     },
     "Sakarya": {
@@ -8196,7 +8196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 729
+            "subcategoryIndex": 728
         }
     },
     "Eastnorthcentraldma": {
@@ -8206,7 +8206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 730
+            "subcategoryIndex": 729
         }
     },
     "Salavan": {
@@ -8216,7 +8216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 731
+            "subcategoryIndex": 730
         }
     },
     "Eastsouthcentraldma": {
@@ -8226,7 +8226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 732
+            "subcategoryIndex": 731
         }
     },
     "Salzburg": {
@@ -8236,7 +8236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 733
+            "subcategoryIndex": 732
         }
     },
     "Easttimor": {
@@ -8246,7 +8246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 734
+            "subcategoryIndex": 733
         }
     },
     "Samangan": {
@@ -8256,7 +8256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 735
+            "subcategoryIndex": 734
         }
     },
     "Ecuador": {
@@ -8266,7 +8266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 736
+            "subcategoryIndex": 735
         }
     },
     "Samar": {
@@ -8276,7 +8276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 737
+            "subcategoryIndex": 736
         }
     },
     "Edirne": {
@@ -8286,7 +8286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 738
+            "subcategoryIndex": 737
         }
     },
     "Samarqand": {
@@ -8296,7 +8296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 739
+            "subcategoryIndex": 738
         }
     },
     "Egypt": {
@@ -8306,7 +8306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 740
+            "subcategoryIndex": 739
         }
     },
     "Samoa": {
@@ -8316,7 +8316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 741
+            "subcategoryIndex": 740
         }
     },
     "Ehime": {
@@ -8326,7 +8326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 742
+            "subcategoryIndex": 741
         }
     },
     "Samsun": {
@@ -8336,7 +8336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 743
+            "subcategoryIndex": 742
         }
     },
     "Elazig": {
@@ -8346,7 +8346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 744
+            "subcategoryIndex": 743
         }
     },
     "Sangrur": {
@@ -8356,7 +8356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 745
+            "subcategoryIndex": 744
         }
     },
     "Elbasan": {
@@ -8366,7 +8366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 746
+            "subcategoryIndex": 745
         }
     },
     "Sanliurfa": {
@@ -8376,7 +8376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 747
+            "subcategoryIndex": 746
         }
     },
     "Elsalvador": {
@@ -8386,7 +8386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 748
+            "subcategoryIndex": 747
         }
     },
     "Sanmarino": {
@@ -8396,7 +8396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 749
+            "subcategoryIndex": 748
         }
     },
     "Emiliaromagna": {
@@ -8406,7 +8406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 750
+            "subcategoryIndex": 749
         }
     },
     "Santacatarina": {
@@ -8416,7 +8416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 751
+            "subcategoryIndex": 750
         }
     },
     "England": {
@@ -8426,7 +8426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 752
+            "subcategoryIndex": 751
         }
     },
     "Santacruz": {
@@ -8436,7 +8436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 753
+            "subcategoryIndex": 752
         }
     },
     "Englandregion": {
@@ -8446,7 +8446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 754
+            "subcategoryIndex": 753
         }
     },
     "Santarem": {
@@ -8456,7 +8456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 755
+            "subcategoryIndex": 754
         }
     },
     "Equatorialguinea": {
@@ -8466,7 +8466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 756
+            "subcategoryIndex": 755
         }
     },
     "Saopaulo": {
@@ -8476,7 +8476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 757
+            "subcategoryIndex": 756
         }
     },
     "Eritrea": {
@@ -8486,7 +8486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 758
+            "subcategoryIndex": 757
         }
     },
     "Saotomeandprincipe": {
@@ -8496,7 +8496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 759
+            "subcategoryIndex": 758
         }
     },
     "Ermera": {
@@ -8506,7 +8506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 760
+            "subcategoryIndex": 759
         }
     },
     "Sarangani": {
@@ -8516,7 +8516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 761
+            "subcategoryIndex": 760
         }
     },
     "Erzincan": {
@@ -8526,7 +8526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 762
+            "subcategoryIndex": 761
         }
     },
     "Sardinia": {
@@ -8536,7 +8536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 763
+            "subcategoryIndex": 762
         }
     },
     "Erzurum": {
@@ -8546,7 +8546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 764
+            "subcategoryIndex": 763
         }
     },
     "Sarepol": {
@@ -8556,7 +8556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 765
+            "subcategoryIndex": 764
         }
     },
     "Esfahan": {
@@ -8566,7 +8566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 766
+            "subcategoryIndex": 765
         }
     },
     "Saskatchewan": {
@@ -8576,7 +8576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 767
+            "subcategoryIndex": 766
         }
     },
     "Eskisehir": {
@@ -8586,7 +8586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 768
+            "subcategoryIndex": 767
         }
     },
     "Saudiarabia": {
@@ -8596,7 +8596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 769
+            "subcategoryIndex": 768
         }
     },
     "Espiritosanto": {
@@ -8606,7 +8606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 770
+            "subcategoryIndex": 769
         }
     },
     "Savannakhet": {
@@ -8616,7 +8616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 771
+            "subcategoryIndex": 770
         }
     },
     "Estonia": {
@@ -8626,7 +8626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 772
+            "subcategoryIndex": 771
         }
     },
     "Saxony": {
@@ -8636,7 +8636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 773
+            "subcategoryIndex": 772
         }
     },
     "Ethiopia": {
@@ -8646,7 +8646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 774
+            "subcategoryIndex": 773
         }
     },
     "Sayabouly": {
@@ -8656,7 +8656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 775
+            "subcategoryIndex": 774
         }
     },
     "Europe": {
@@ -8666,7 +8666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 776
+            "subcategoryIndex": 775
         }
     },
     "Schaffhausen": {
@@ -8676,7 +8676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 777
+            "subcategoryIndex": 776
         }
     },
     "Europe2": {
@@ -8686,7 +8686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 778
+            "subcategoryIndex": 777
         }
     },
     "Schleswigholstein": {
@@ -8696,7 +8696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 779
+            "subcategoryIndex": 778
         }
     },
     "Europeregion": {
@@ -8706,7 +8706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 780
+            "subcategoryIndex": 779
         }
     },
     "Schwyz": {
@@ -8716,7 +8716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 781
+            "subcategoryIndex": 780
         }
     },
     "Europewithcountries": {
@@ -8726,7 +8726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 782
+            "subcategoryIndex": 781
         }
     },
     "Scotland": {
@@ -8736,7 +8736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 783
+            "subcategoryIndex": 782
         }
     },
     "Europewithcountries2": {
@@ -8746,7 +8746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 784
+            "subcategoryIndex": 783
         }
     },
     "Scotlandregion": {
@@ -8756,7 +8756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 785
+            "subcategoryIndex": 784
         }
     },
     "Evora": {
@@ -8766,7 +8766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 786
+            "subcategoryIndex": 785
         }
     },
     "Seattleareacode": {
@@ -8776,7 +8776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 787
+            "subcategoryIndex": 786
         }
     },
     "Extremadura": {
@@ -8786,7 +8786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 788
+            "subcategoryIndex": 787
         }
     },
     "Sejong": {
@@ -8796,7 +8796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 789
+            "subcategoryIndex": 788
         }
     },
     "Falklandisland": {
@@ -8806,7 +8806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 790
+            "subcategoryIndex": 789
         }
     },
     "Sekong": {
@@ -8816,7 +8816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 791
+            "subcategoryIndex": 790
         }
     },
     "Farah": {
@@ -8826,7 +8826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 792
+            "subcategoryIndex": 791
         }
     },
     "Selenge": {
@@ -8836,7 +8836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 793
+            "subcategoryIndex": 792
         }
     },
     "Faridkot": {
@@ -8846,7 +8846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 794
+            "subcategoryIndex": 793
         }
     },
     "Senegal": {
@@ -8856,7 +8856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 795
+            "subcategoryIndex": 794
         }
     },
     "Faro": {
@@ -8866,7 +8866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 796
+            "subcategoryIndex": 795
         }
     },
     "Seoul": {
@@ -8876,7 +8876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 797
+            "subcategoryIndex": 796
         }
     },
     "Farwesterndevelopmentregion": {
@@ -8886,7 +8886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 798
+            "subcategoryIndex": 797
         }
     },
     "Serbia": {
@@ -8896,7 +8896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 799
+            "subcategoryIndex": 798
         }
     },
     "Faryab": {
@@ -8906,7 +8906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 800
+            "subcategoryIndex": 799
         }
     },
     "Serbiawokosovo": {
@@ -8916,7 +8916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 801
+            "subcategoryIndex": 800
         }
     },
     "Fata": {
@@ -8926,7 +8926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 802
+            "subcategoryIndex": 801
         }
     },
     "Sergipe": {
@@ -8936,7 +8936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 803
+            "subcategoryIndex": 802
         }
     },
     "Fatehgarhsahib": {
@@ -8946,7 +8946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 804
+            "subcategoryIndex": 803
         }
     },
     "Seti": {
@@ -8956,7 +8956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 805
+            "subcategoryIndex": 804
         }
     },
     "Fayoum": {
@@ -8966,7 +8966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 806
+            "subcategoryIndex": 805
         }
     },
     "Setubal": {
@@ -8976,7 +8976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 807
+            "subcategoryIndex": 806
         }
     },
     "Fazilka": {
@@ -8986,7 +8986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 808
+            "subcategoryIndex": 807
         }
     },
     "Seychelles": {
@@ -8996,7 +8996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 809
+            "subcategoryIndex": 808
         }
     },
     "Fergana": {
@@ -9006,7 +9006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 810
+            "subcategoryIndex": 809
         }
     },
     "Shaanxi": {
@@ -9016,7 +9016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 811
+            "subcategoryIndex": 810
         }
     },
     "Fier": {
@@ -9026,7 +9026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 812
+            "subcategoryIndex": 811
         }
     },
     "Shahidbhagatsinghnagar": {
@@ -9036,7 +9036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 813
+            "subcategoryIndex": 812
         }
     },
     "Fiji": {
@@ -9046,7 +9046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 814
+            "subcategoryIndex": 813
         }
     },
     "Shakizaqatala": {
@@ -9056,7 +9056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 815
+            "subcategoryIndex": 814
         }
     },
     "Finland": {
@@ -9066,7 +9066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 816
+            "subcategoryIndex": 815
         }
     },
     "Shamshuipo": {
@@ -9076,7 +9076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 817
+            "subcategoryIndex": 816
         }
     },
     "Finnmark": {
@@ -9086,7 +9086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 818
+            "subcategoryIndex": 817
         }
     },
     "Shandong": {
@@ -9096,7 +9096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 819
+            "subcategoryIndex": 818
         }
     },
     "Firozepur": {
@@ -9106,7 +9106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 820
+            "subcategoryIndex": 819
         }
     },
     "Shanghai": {
@@ -9116,7 +9116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 821
+            "subcategoryIndex": 820
         }
     },
     "Flemishbrabant": {
@@ -9126,7 +9126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 822
+            "subcategoryIndex": 821
         }
     },
     "Shanxi": {
@@ -9136,7 +9136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 823
+            "subcategoryIndex": 822
         }
     },
     "Florida": {
@@ -9146,7 +9146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 824
+            "subcategoryIndex": 823
         }
     },
     "Shatin": {
@@ -9156,7 +9156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 825
+            "subcategoryIndex": 824
         }
     },
     "Floridaareacode": {
@@ -9166,7 +9166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 826
+            "subcategoryIndex": 825
         }
     },
     "Shiga": {
@@ -9176,7 +9176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 827
+            "subcategoryIndex": 826
         }
     },
     "Floridacongressional": {
@@ -9186,7 +9186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 828
+            "subcategoryIndex": 827
         }
     },
     "Shimane": {
@@ -9196,7 +9196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 829
+            "subcategoryIndex": 828
         }
     },
     "France": {
@@ -9206,7 +9206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 830
+            "subcategoryIndex": 829
         }
     },
     "Shizuoka": {
@@ -9216,7 +9216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 831
+            "subcategoryIndex": 830
         }
     },
     "France2016": {
@@ -9226,7 +9226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 832
+            "subcategoryIndex": 831
         }
     },
     "Shkoder": {
@@ -9236,7 +9236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 833
+            "subcategoryIndex": 832
         }
     },
     "Francedepartment": {
@@ -9246,7 +9246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 834
+            "subcategoryIndex": 833
         }
     },
     "Shumen": {
@@ -9256,7 +9256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 835
+            "subcategoryIndex": 834
         }
     },
     "Frenchguiana": {
@@ -9266,7 +9266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 836
+            "subcategoryIndex": 835
         }
     },
     "Sichuan": {
@@ -9276,7 +9276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 837
+            "subcategoryIndex": 836
         }
     },
     "Fribourg": {
@@ -9286,7 +9286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 838
+            "subcategoryIndex": 837
         }
     },
     "Sicily": {
@@ -9296,7 +9296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 839
+            "subcategoryIndex": 838
         }
     },
     "Friuliveneziagiulia": {
@@ -9306,7 +9306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 840
+            "subcategoryIndex": 839
         }
     },
     "Sierraleone": {
@@ -9316,7 +9316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 841
+            "subcategoryIndex": 840
         }
     },
     "Fujian": {
@@ -9326,7 +9326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 842
+            "subcategoryIndex": 841
         }
     },
     "Siirt": {
@@ -9336,7 +9336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 843
+            "subcategoryIndex": 842
         }
     },
     "Fukui": {
@@ -9346,7 +9346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 844
+            "subcategoryIndex": 843
         }
     },
     "Sikkim": {
@@ -9356,7 +9356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 845
+            "subcategoryIndex": 844
         }
     },
     "Fukuoka": {
@@ -9366,7 +9366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 846
+            "subcategoryIndex": 845
         }
     },
     "Silistra": {
@@ -9376,7 +9376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 847
+            "subcategoryIndex": 846
         }
     },
     "Fukushima": {
@@ -9386,7 +9386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 848
+            "subcategoryIndex": 847
         }
     },
     "Sindh": {
@@ -9396,7 +9396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 849
+            "subcategoryIndex": 848
         }
     },
     "Gabon": {
@@ -9406,7 +9406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 850
+            "subcategoryIndex": 849
         }
     },
     "Singapore": {
@@ -9416,7 +9416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 851
+            "subcategoryIndex": 850
         }
     },
     "Gabrovo": {
@@ -9426,7 +9426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 852
+            "subcategoryIndex": 851
         }
     },
     "Sinop": {
@@ -9436,7 +9436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 853
+            "subcategoryIndex": 852
         }
     },
     "Galicia": {
@@ -9446,7 +9446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 854
+            "subcategoryIndex": 853
         }
     },
     "Sinuiju": {
@@ -9456,7 +9456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 855
+            "subcategoryIndex": 854
         }
     },
     "Gambia": {
@@ -9466,7 +9466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 856
+            "subcategoryIndex": 855
         }
     },
     "Siquijor": {
@@ -9476,7 +9476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 857
+            "subcategoryIndex": 856
         }
     },
     "Gandaki": {
@@ -9486,7 +9486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 858
+            "subcategoryIndex": 857
         }
     },
     "Sirdaryo": {
@@ -9496,7 +9496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 859
+            "subcategoryIndex": 858
         }
     },
     "Gangwon": {
@@ -9506,7 +9506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 860
+            "subcategoryIndex": 859
         }
     },
     "Sirnak": {
@@ -9516,7 +9516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 861
+            "subcategoryIndex": 860
         }
     },
     "Gangwondo": {
@@ -9526,7 +9526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 862
+            "subcategoryIndex": 861
         }
     },
     "Sivas": {
@@ -9536,7 +9536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 863
+            "subcategoryIndex": 862
         }
     },
     "Ganjagazakh": {
@@ -9546,7 +9546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 864
+            "subcategoryIndex": 863
         }
     },
     "Sixoctober": {
@@ -9556,7 +9556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 865
+            "subcategoryIndex": 864
         }
     },
     "Gansu": {
@@ -9566,7 +9566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 866
+            "subcategoryIndex": 865
         }
     },
     "Sjaelland": {
@@ -9576,7 +9576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 867
+            "subcategoryIndex": 866
         }
     },
     "Gavleborg": {
@@ -9586,7 +9586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 868
+            "subcategoryIndex": 867
         }
     },
     "Skane": {
@@ -9596,7 +9596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 869
+            "subcategoryIndex": 868
         }
     },
     "Gaziantep": {
@@ -9606,7 +9606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 870
+            "subcategoryIndex": 869
         }
     },
     "Slaskie": {
@@ -9616,7 +9616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 871
+            "subcategoryIndex": 870
         }
     },
     "Geneva": {
@@ -9626,7 +9626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 872
+            "subcategoryIndex": 871
         }
     },
     "Sliven": {
@@ -9636,7 +9636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 873
+            "subcategoryIndex": 872
         }
     },
     "Georgia": {
@@ -9646,7 +9646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 874
+            "subcategoryIndex": 873
         }
     },
     "Slovakia": {
@@ -9656,7 +9656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 875
+            "subcategoryIndex": 874
         }
     },
     "Georgiaareacode": {
@@ -9666,7 +9666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 876
+            "subcategoryIndex": 875
         }
     },
     "Slovenia": {
@@ -9676,7 +9676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 877
+            "subcategoryIndex": 876
         }
     },
     "Georgiacongressional": {
@@ -9686,7 +9686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 878
+            "subcategoryIndex": 877
         }
     },
     "Smolyan": {
@@ -9696,7 +9696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 879
+            "subcategoryIndex": 878
         }
     },
     "Germany": {
@@ -9706,7 +9706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 880
+            "subcategoryIndex": 879
         }
     },
     "Soccsksargen": {
@@ -9716,7 +9716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 881
+            "subcategoryIndex": 880
         }
     },
     "Ghana": {
@@ -9726,7 +9726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 882
+            "subcategoryIndex": 881
         }
     },
     "Sodermanland": {
@@ -9736,7 +9736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 883
+            "subcategoryIndex": 882
         }
     },
     "Gharbiya": {
@@ -9746,7 +9746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 884
+            "subcategoryIndex": 883
         }
     },
     "Sofia": {
@@ -9756,7 +9756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 885
+            "subcategoryIndex": 884
         }
     },
     "Ghazni": {
@@ -9766,7 +9766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 886
+            "subcategoryIndex": 885
         }
     },
     "Sognogfjordane": {
@@ -9776,7 +9776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 887
+            "subcategoryIndex": 886
         }
     },
     "Ghor": {
@@ -9786,7 +9786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 888
+            "subcategoryIndex": 887
         }
     },
     "Solomonisland": {
@@ -9796,7 +9796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 889
+            "subcategoryIndex": 888
         }
     },
     "Gifu": {
@@ -9806,7 +9806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 890
+            "subcategoryIndex": 889
         }
     },
     "Solothurn": {
@@ -9816,7 +9816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 891
+            "subcategoryIndex": 890
         }
     },
     "Gilgitbaltistan": {
@@ -9826,7 +9826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 892
+            "subcategoryIndex": 891
         }
     },
     "Somalia": {
@@ -9836,7 +9836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 893
+            "subcategoryIndex": 892
         }
     },
     "Giresun": {
@@ -9846,7 +9846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 894
+            "subcategoryIndex": 893
         }
     },
     "Sonora": {
@@ -9856,7 +9856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 895
+            "subcategoryIndex": 894
         }
     },
     "Gisborne": {
@@ -9866,7 +9866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 896
+            "subcategoryIndex": 895
         }
     },
     "Sorsogon": {
@@ -9876,7 +9876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 897
+            "subcategoryIndex": 896
         }
     },
     "Giza": {
@@ -9886,7 +9886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 898
+            "subcategoryIndex": 897
         }
     },
     "Sortrondelag": {
@@ -9896,7 +9896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 899
+            "subcategoryIndex": 898
         }
     },
     "Gjirokaster": {
@@ -9906,7 +9906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 900
+            "subcategoryIndex": 899
         }
     },
     "Southafrica": {
@@ -9916,7 +9916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 901
+            "subcategoryIndex": 900
         }
     },
     "Goa": {
@@ -9926,7 +9926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 902
+            "subcategoryIndex": 901
         }
     },
     "Southamerica": {
@@ -9936,7 +9936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 903
+            "subcategoryIndex": 902
         }
     },
     "Goias": {
@@ -9946,7 +9946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 904
+            "subcategoryIndex": 903
         }
     },
     "Southatlanticdma": {
@@ -9956,7 +9956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 905
+            "subcategoryIndex": 904
         }
     },
     "Govialtai": {
@@ -9966,7 +9966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 906
+            "subcategoryIndex": 905
         }
     },
     "Southaustralia": {
@@ -9976,7 +9976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 907
+            "subcategoryIndex": 906
         }
     },
     "Govisumber": {
@@ -9986,7 +9986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 908
+            "subcategoryIndex": 907
         }
     },
     "Southbohemia": {
@@ -9996,7 +9996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 909
+            "subcategoryIndex": 908
         }
     },
     "Gradsofia": {
@@ -10006,7 +10006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 910
+            "subcategoryIndex": 909
         }
     },
     "Southcarolina": {
@@ -10016,7 +10016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 911
+            "subcategoryIndex": 910
         }
     },
     "Graubunden": {
@@ -10026,7 +10026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 912
+            "subcategoryIndex": 911
         }
     },
     "Southcarolinaareacode": {
@@ -10036,7 +10036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 913
+            "subcategoryIndex": 912
         }
     },
     "Greece": {
@@ -10046,7 +10046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 914
+            "subcategoryIndex": 913
         }
     },
     "Southcarolinacongressional": {
@@ -10056,7 +10056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 915
+            "subcategoryIndex": 914
         }
     },
     "Greenland": {
@@ -10066,7 +10066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 916
+            "subcategoryIndex": 915
         }
     },
     "Southchungcheong": {
@@ -10076,7 +10076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 917
+            "subcategoryIndex": 916
         }
     },
     "Grenada": {
@@ -10086,7 +10086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 918
+            "subcategoryIndex": 917
         }
     },
     "Southcotabato": {
@@ -10096,7 +10096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 919
+            "subcategoryIndex": 918
         }
     },
     "Guadaloupe": {
@@ -10106,7 +10106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 920
+            "subcategoryIndex": 919
         }
     },
     "Southdakota": {
@@ -10116,7 +10116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 921
+            "subcategoryIndex": 920
         }
     },
     "Guamcongressional": {
@@ -10126,7 +10126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 922
+            "subcategoryIndex": 921
         }
     },
     "Southdakotaareacode": {
@@ -10136,7 +10136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 923
+            "subcategoryIndex": 922
         }
     },
     "Guanajuato": {
@@ -10146,7 +10146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 924
+            "subcategoryIndex": 923
         }
     },
     "Southdakotacongressional": {
@@ -10156,7 +10156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 925
+            "subcategoryIndex": 924
         }
     },
     "Guangdong": {
@@ -10166,7 +10166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 926
+            "subcategoryIndex": 925
         }
     },
     "Southeast": {
@@ -10176,7 +10176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 927
+            "subcategoryIndex": 926
         }
     },
     "Guangxi": {
@@ -10186,7 +10186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 928
+            "subcategoryIndex": 927
         }
     },
     "Southeastasia": {
@@ -10196,7 +10196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 929
+            "subcategoryIndex": 928
         }
     },
     "Guarda": {
@@ -10206,7 +10206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 930
+            "subcategoryIndex": 929
         }
     },
     "Southern": {
@@ -10216,7 +10216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 931
+            "subcategoryIndex": 930
         }
     },
     "Guatemala": {
@@ -10226,7 +10226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 932
+            "subcategoryIndex": 931
         }
     },
     "Southernafrica": {
@@ -10236,7 +10236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 933
+            "subcategoryIndex": 932
         }
     },
     "Gubakhachmaz": {
@@ -10246,7 +10246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 934
+            "subcategoryIndex": 933
         }
     },
     "Southernasia": {
@@ -10256,7 +10256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 935
+            "subcategoryIndex": 934
         }
     },
     "Guimaras": {
@@ -10266,7 +10266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 936
+            "subcategoryIndex": 935
         }
     },
     "Southerncalifornialaareacode": {
@@ -10276,7 +10276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 937
+            "subcategoryIndex": 936
         }
     },
     "Guinea": {
@@ -10286,7 +10286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 938
+            "subcategoryIndex": 937
         }
     },
     "Southerngreatplain": {
@@ -10296,7 +10296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 939
+            "subcategoryIndex": 938
         }
     },
     "Guineabissau": {
@@ -10306,7 +10306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 940
+            "subcategoryIndex": 939
         }
     },
     "Southernleyte": {
@@ -10316,7 +10316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 941
+            "subcategoryIndex": 940
         }
     },
     "Guizhou": {
@@ -10326,7 +10326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 942
+            "subcategoryIndex": 941
         }
     },
     "Southernnorway": {
@@ -10336,7 +10336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 943
+            "subcategoryIndex": 942
         }
     },
     "Gujarat": {
@@ -10346,7 +10346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 944
+            "subcategoryIndex": 943
         }
     },
     "Southerntransdanubia": {
@@ -10356,7 +10356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 945
+            "subcategoryIndex": 944
         }
     },
     "Gumushane": {
@@ -10366,7 +10366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 946
+            "subcategoryIndex": 945
         }
     },
     "Southeuropeanregion": {
@@ -10376,7 +10376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 947
+            "subcategoryIndex": 946
         }
     },
     "Gunma": {
@@ -10386,7 +10386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 948
+            "subcategoryIndex": 947
         }
     },
     "Southgyeongsang": {
@@ -10396,7 +10396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 949
+            "subcategoryIndex": 948
         }
     },
     "Gurdaspur": {
@@ -10406,7 +10406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 950
+            "subcategoryIndex": 949
         }
     },
     "Southhamgyong": {
@@ -10416,7 +10416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 951
+            "subcategoryIndex": 950
         }
     },
     "Guyana": {
@@ -10426,7 +10426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 952
+            "subcategoryIndex": 951
         }
     },
     "Southhwangae": {
@@ -10436,7 +10436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 953
+            "subcategoryIndex": 952
         }
     },
     "Gwangju": {
@@ -10446,7 +10446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 954
+            "subcategoryIndex": 953
         }
     },
     "Southjeolla": {
@@ -10456,7 +10456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 955
+            "subcategoryIndex": 954
         }
     },
     "Gyeonggi": {
@@ -10466,7 +10466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 956
+            "subcategoryIndex": 955
         }
     },
     "Southkazakhstan": {
@@ -10476,7 +10476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 957
+            "subcategoryIndex": 956
         }
     },
     "Gyeonggido": {
@@ -10486,7 +10486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 958
+            "subcategoryIndex": 957
         }
     },
     "Southkorea": {
@@ -10496,7 +10496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 959
+            "subcategoryIndex": 958
         }
     },
     "Gyeongsangbukdo": {
@@ -10506,7 +10506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 960
+            "subcategoryIndex": 959
         }
     },
     "Southland": {
@@ -10516,7 +10516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 961
+            "subcategoryIndex": 960
         }
     },
     "Gyeongsangnamdo": {
@@ -10526,7 +10526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 962
+            "subcategoryIndex": 961
         }
     },
     "Southlebanon": {
@@ -10536,7 +10536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 963
+            "subcategoryIndex": 962
         }
     },
     "Hail": {
@@ -10546,7 +10546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 964
+            "subcategoryIndex": 963
         }
     },
     "Southmoravia": {
@@ -10556,7 +10556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 965
+            "subcategoryIndex": 964
         }
     },
     "Hainan": {
@@ -10566,7 +10566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 966
+            "subcategoryIndex": 965
         }
     },
     "Southpyongan": {
@@ -10576,7 +10576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 967
+            "subcategoryIndex": 966
         }
     },
     "Hainaut": {
@@ -10586,7 +10586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 968
+            "subcategoryIndex": 967
         }
     },
     "Southsinai": {
@@ -10596,7 +10596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 969
+            "subcategoryIndex": 968
         }
     },
     "Haiti": {
@@ -10606,7 +10606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 970
+            "subcategoryIndex": 969
         }
     },
     "Southsudan": {
@@ -10616,7 +10616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 971
+            "subcategoryIndex": 970
         }
     },
     "Hakkari": {
@@ -10626,7 +10626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 972
+            "subcategoryIndex": 971
         }
     },
     "Southwest": {
@@ -10636,7 +10636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 973
+            "subcategoryIndex": 972
         }
     },
     "Halland": {
@@ -10646,7 +10646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 974
+            "subcategoryIndex": 973
         }
     },
     "Southwesterntagalogregion": {
@@ -10656,7 +10656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 975
+            "subcategoryIndex": 974
         }
     },
     "Hama": {
@@ -10666,7 +10666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 976
+            "subcategoryIndex": 975
         }
     },
     "Spain": {
@@ -10676,7 +10676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 977
+            "subcategoryIndex": 976
         }
     },
     "Harjumaa": {
@@ -10686,7 +10686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 978
+            "subcategoryIndex": 977
         }
     },
     "Spainprovinces": {
@@ -10696,7 +10696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 979
+            "subcategoryIndex": 978
         }
     },
     "Haryana": {
@@ -10706,7 +10706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 980
+            "subcategoryIndex": 979
         }
     },
     "Srilanka": {
@@ -10716,7 +10716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 981
+            "subcategoryIndex": 980
         }
     },
     "Hasaka": {
@@ -10726,7 +10726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 982
+            "subcategoryIndex": 981
         }
     },
     "Srimuktsarsahib": {
@@ -10736,7 +10736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 983
+            "subcategoryIndex": 982
         }
     },
     "Haskovo": {
@@ -10746,7 +10746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 984
+            "subcategoryIndex": 983
         }
     },
     "Starazagora": {
@@ -10756,7 +10756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 985
+            "subcategoryIndex": 984
         }
     },
     "Hatay": {
@@ -10766,7 +10766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 986
+            "subcategoryIndex": 985
         }
     },
     "Steiermark": {
@@ -10776,7 +10776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 987
+            "subcategoryIndex": 986
         }
     },
     "Hawaii": {
@@ -10786,7 +10786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 988
+            "subcategoryIndex": 987
         }
     },
     "Stockholm": {
@@ -10796,7 +10796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 989
+            "subcategoryIndex": 988
         }
     },
     "Hawaiiareacode": {
@@ -10806,7 +10806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 990
+            "subcategoryIndex": 989
         }
     },
     "Sudan": {
@@ -10816,7 +10816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 991
+            "subcategoryIndex": 990
         }
     },
     "Hawaiicongressional": {
@@ -10826,7 +10826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 992
+            "subcategoryIndex": 991
         }
     },
     "Sudanwosouthsudan": {
@@ -10836,7 +10836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 993
+            "subcategoryIndex": 992
         }
     },
     "Hawkesbay": {
@@ -10846,7 +10846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 994
+            "subcategoryIndex": 993
         }
     },
     "Sudest": {
@@ -10856,7 +10856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 995
+            "subcategoryIndex": 994
         }
     },
     "Hebei": {
@@ -10866,7 +10866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 996
+            "subcategoryIndex": 995
         }
     },
     "Sudmuntenia": {
@@ -10876,7 +10876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 997
+            "subcategoryIndex": 996
         }
     },
     "Hedmark": {
@@ -10886,7 +10886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 998
+            "subcategoryIndex": 997
         }
     },
     "Sudvestoltenia": {
@@ -10896,7 +10896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 999
+            "subcategoryIndex": 998
         }
     },
     "Heilongjiang": {
@@ -10906,7 +10906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1000
+            "subcategoryIndex": 999
         }
     },
     "Suez": {
@@ -10916,7 +10916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1001
+            "subcategoryIndex": 1000
         }
     },
     "Helmand": {
@@ -10926,7 +10926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1002
+            "subcategoryIndex": 1001
         }
     },
     "Suhaj": {
@@ -10936,7 +10936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1003
+            "subcategoryIndex": 1002
         }
     },
     "Helwan": {
@@ -10946,7 +10946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1004
+            "subcategoryIndex": 1003
         }
     },
     "Sukhbaatar": {
@@ -10956,7 +10956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1005
+            "subcategoryIndex": 1004
         }
     },
     "Henan": {
@@ -10966,7 +10966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1006
+            "subcategoryIndex": 1005
         }
     },
     "Sultankudarat": {
@@ -10976,7 +10976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1007
+            "subcategoryIndex": 1006
         }
     },
     "Herat": {
@@ -10986,7 +10986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1008
+            "subcategoryIndex": 1007
         }
     },
     "Sulu": {
@@ -10996,7 +10996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1009
+            "subcategoryIndex": 1008
         }
     },
     "Hesse": {
@@ -11006,7 +11006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1010
+            "subcategoryIndex": 1009
         }
     },
     "Surigaodelnorte": {
@@ -11016,7 +11016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1011
+            "subcategoryIndex": 1010
         }
     },
     "Hiiumaa": {
@@ -11026,7 +11026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1012
+            "subcategoryIndex": 1011
         }
     },
     "Surigaodelsur": {
@@ -11036,7 +11036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1013
+            "subcategoryIndex": 1012
         }
     },
     "Himachalpradesh": {
@@ -11046,7 +11046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1014
+            "subcategoryIndex": 1013
         }
     },
     "Suriname": {
@@ -11056,7 +11056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1015
+            "subcategoryIndex": 1014
         }
     },
     "Hiroshima": {
@@ -11066,7 +11066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1016
+            "subcategoryIndex": 1015
         }
     },
     "Surxondaryo": {
@@ -11076,7 +11076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1017
+            "subcategoryIndex": 1016
         }
     },
     "Hokkaido": {
@@ -11086,7 +11086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1018
+            "subcategoryIndex": 1017
         }
     },
     "Swaziland": {
@@ -11096,7 +11096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1019
+            "subcategoryIndex": 1018
         }
     },
     "Homs": {
@@ -11106,7 +11106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1020
+            "subcategoryIndex": 1019
         }
     },
     "Sweden": {
@@ -11116,7 +11116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1021
+            "subcategoryIndex": 1020
         }
     },
     "Honduras": {
@@ -11126,7 +11126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1022
+            "subcategoryIndex": 1021
         }
     },
     "Swietokrzyskie": {
@@ -11136,7 +11136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1023
+            "subcategoryIndex": 1022
         }
     },
     "Hongkong": {
@@ -11146,7 +11146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1024
+            "subcategoryIndex": 1023
         }
     },
     "Switzerland": {
@@ -11156,7 +11156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1025
+            "subcategoryIndex": 1024
         }
     },
     "Hordaland": {
@@ -11166,7 +11166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1026
+            "subcategoryIndex": 1025
         }
     },
     "Syddanmark": {
@@ -11176,7 +11176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1027
+            "subcategoryIndex": 1026
         }
     },
     "Hoshiarpur": {
@@ -11186,7 +11186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1028
+            "subcategoryIndex": 1027
         }
     },
     "Sylhet": {
@@ -11196,7 +11196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1029
+            "subcategoryIndex": 1028
         }
     },
     "Hovedstaden": {
@@ -11206,7 +11206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1030
+            "subcategoryIndex": 1029
         }
     },
     "Syria": {
@@ -11216,7 +11216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1031
+            "subcategoryIndex": 1030
         }
     },
     "Hradeckralove": {
@@ -11226,7 +11226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1032
+            "subcategoryIndex": 1031
         }
     },
     "Tabriz": {
@@ -11236,7 +11236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1033
+            "subcategoryIndex": 1032
         }
     },
     "Hsinchucity": {
@@ -11246,7 +11246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1034
+            "subcategoryIndex": 1033
         }
     },
     "Tabuk": {
@@ -11256,7 +11256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1035
+            "subcategoryIndex": 1034
         }
     },
     "Hsinchucounty": {
@@ -11266,7 +11266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1036
+            "subcategoryIndex": 1035
         }
     },
     "Taichungcity": {
@@ -11276,7 +11276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1037
+            "subcategoryIndex": 1036
         }
     },
     "Hualiencounty": {
@@ -11286,7 +11286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1038
+            "subcategoryIndex": 1037
         }
     },
     "Tainancity": {
@@ -11296,7 +11296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1039
+            "subcategoryIndex": 1038
         }
     },
     "Huaphan": {
@@ -11306,7 +11306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1040
+            "subcategoryIndex": 1039
         }
     },
     "Taipeicity": {
@@ -11316,7 +11316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1041
+            "subcategoryIndex": 1040
         }
     },
     "Hubei": {
@@ -11326,7 +11326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1042
+            "subcategoryIndex": 1041
         }
     },
     "Taipo": {
@@ -11336,7 +11336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1043
+            "subcategoryIndex": 1042
         }
     },
     "Hunan": {
@@ -11346,7 +11346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1044
+            "subcategoryIndex": 1043
         }
     },
     "Taitungcounty": {
@@ -11356,7 +11356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1045
+            "subcategoryIndex": 1044
         }
     },
     "Hungary": {
@@ -11366,7 +11366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1046
+            "subcategoryIndex": 1045
         }
     },
     "Taiwan": {
@@ -11376,7 +11376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1047
+            "subcategoryIndex": 1046
         }
     },
     "Hungaryregions": {
@@ -11386,7 +11386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1048
+            "subcategoryIndex": 1047
         }
     },
     "Tajikistan": {
@@ -11396,7 +11396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1049
+            "subcategoryIndex": 1048
         }
     },
     "Hyogo": {
@@ -11406,7 +11406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1050
+            "subcategoryIndex": 1049
         }
     },
     "Takhar": {
@@ -11416,7 +11416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1051
+            "subcategoryIndex": 1050
         }
     },
     "Ibaraki": {
@@ -11426,7 +11426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1052
+            "subcategoryIndex": 1051
         }
     },
     "Tamaulipas": {
@@ -11436,7 +11436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1053
+            "subcategoryIndex": 1052
         }
     },
     "Iceland": {
@@ -11446,7 +11446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1054
+            "subcategoryIndex": 1053
         }
     },
     "Tamilnadu": {
@@ -11456,7 +11456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1055
+            "subcategoryIndex": 1054
         }
     },
     "Idaho": {
@@ -11466,7 +11466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1056
+            "subcategoryIndex": 1055
         }
     },
     "Tanzania": {
@@ -11476,7 +11476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1057
+            "subcategoryIndex": 1056
         }
     },
     "Idahoareacode": {
@@ -11486,7 +11486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1058
+            "subcategoryIndex": 1057
         }
     },
     "Taoyuancity": {
@@ -11496,7 +11496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1059
+            "subcategoryIndex": 1058
         }
     },
     "Idahocongressional": {
@@ -11506,7 +11506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1060
+            "subcategoryIndex": 1059
         }
     },
     "Taranaki": {
@@ -11516,7 +11516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1061
+            "subcategoryIndex": 1060
         }
     },
     "Idavirumaa": {
@@ -11526,7 +11526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1062
+            "subcategoryIndex": 1061
         }
     },
     "Targovishte": {
@@ -11536,7 +11536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1063
+            "subcategoryIndex": 1062
         }
     },
     "Idlib": {
@@ -11546,7 +11546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1064
+            "subcategoryIndex": 1063
         }
     },
     "Tarija": {
@@ -11556,7 +11556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1065
+            "subcategoryIndex": 1064
         }
     },
     "Ifugao": {
@@ -11566,7 +11566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1066
+            "subcategoryIndex": 1065
         }
     },
     "Tarlac": {
@@ -11576,7 +11576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1067
+            "subcategoryIndex": 1066
         }
     },
     "Igdir": {
@@ -11586,7 +11586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1068
+            "subcategoryIndex": 1067
         }
     },
     "Tarntaransahib": {
@@ -11596,7 +11596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1069
+            "subcategoryIndex": 1068
         }
     },
     "Iledefrance": {
@@ -11606,7 +11606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1070
+            "subcategoryIndex": 1069
         }
     },
     "Tartumaa": {
@@ -11616,7 +11616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1071
+            "subcategoryIndex": 1070
         }
     },
     "Illinois": {
@@ -11626,7 +11626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1072
+            "subcategoryIndex": 1071
         }
     },
     "Tartus": {
@@ -11636,7 +11636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1073
+            "subcategoryIndex": 1072
         }
     },
     "Illinoisareacode": {
@@ -11646,7 +11646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1074
+            "subcategoryIndex": 1073
         }
     },
     "Tashkent": {
@@ -11656,7 +11656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1075
+            "subcategoryIndex": 1074
         }
     },
     "Illinoiscongressional": {
@@ -11666,7 +11666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1076
+            "subcategoryIndex": 1075
         }
     },
     "Tashkentcity": {
@@ -11676,7 +11676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1077
+            "subcategoryIndex": 1076
         }
     },
     "Ilocosnorte": {
@@ -11686,7 +11686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1078
+            "subcategoryIndex": 1077
         }
     },
     "Tasman": {
@@ -11696,7 +11696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1079
+            "subcategoryIndex": 1078
         }
     },
     "Ilocosregion": {
@@ -11706,7 +11706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1080
+            "subcategoryIndex": 1079
         }
     },
     "Tasmania": {
@@ -11716,7 +11716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1081
+            "subcategoryIndex": 1080
         }
     },
     "Ilocossur": {
@@ -11726,7 +11726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1082
+            "subcategoryIndex": 1081
         }
     },
     "Tawitawi": {
@@ -11736,7 +11736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1083
+            "subcategoryIndex": 1082
         }
     },
     "Iloilo": {
@@ -11746,7 +11746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1084
+            "subcategoryIndex": 1083
         }
     },
     "Tehran": {
@@ -11756,7 +11756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1085
+            "subcategoryIndex": 1084
         }
     },
     "Incheon": {
@@ -11766,7 +11766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1086
+            "subcategoryIndex": 1085
         }
     },
     "Tekirdag": {
@@ -11776,7 +11776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1087
+            "subcategoryIndex": 1086
         }
     },
     "India": {
@@ -11786,7 +11786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1088
+            "subcategoryIndex": 1087
         }
     },
     "Telangana": {
@@ -11796,7 +11796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1089
+            "subcategoryIndex": 1088
         }
     },
     "Indiana": {
@@ -11806,7 +11806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1090
+            "subcategoryIndex": 1089
         }
     },
     "Telemark": {
@@ -11816,7 +11816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1091
+            "subcategoryIndex": 1090
         }
     },
     "Indianaareacode": {
@@ -11826,7 +11826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1092
+            "subcategoryIndex": 1091
         }
     },
     "Tennessee": {
@@ -11836,7 +11836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1093
+            "subcategoryIndex": 1092
         }
     },
     "Indianacongressional": {
@@ -11846,7 +11846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1094
+            "subcategoryIndex": 1093
         }
     },
     "Tennesseeareacode": {
@@ -11856,7 +11856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1095
+            "subcategoryIndex": 1094
         }
     },
     "Indonesia": {
@@ -11866,7 +11866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1096
+            "subcategoryIndex": 1095
         }
     },
     "Tennesseecongressional": {
@@ -11876,7 +11876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1097
+            "subcategoryIndex": 1096
         }
     },
     "Iowa": {
@@ -11886,7 +11886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1098
+            "subcategoryIndex": 1097
         }
     },
     "Texas": {
@@ -11896,7 +11896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1099
+            "subcategoryIndex": 1098
         }
     },
     "Iowaareacode": {
@@ -11906,7 +11906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1100
+            "subcategoryIndex": 1099
         }
     },
     "Texasareacode": {
@@ -11916,7 +11916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1101
+            "subcategoryIndex": 1100
         }
     },
     "Iowacongressional": {
@@ -11926,7 +11926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1102
+            "subcategoryIndex": 1101
         }
     },
     "Texascongressional": {
@@ -11936,7 +11936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1103
+            "subcategoryIndex": 1102
         }
     },
     "Iran": {
@@ -11946,7 +11946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1104
+            "subcategoryIndex": 1103
         }
     },
     "Thailand": {
@@ -11956,7 +11956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1105
+            "subcategoryIndex": 1104
         }
     },
     "Iranregions": {
@@ -11966,7 +11966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1106
+            "subcategoryIndex": 1105
         }
     },
     "Thurgau": {
@@ -11976,7 +11976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1107
+            "subcategoryIndex": 1106
         }
     },
     "Iraq": {
@@ -11986,7 +11986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1108
+            "subcategoryIndex": 1107
         }
     },
     "Thuringia": {
@@ -11996,7 +11996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1109
+            "subcategoryIndex": 1108
         }
     },
     "Ireland": {
@@ -12006,7 +12006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1110
+            "subcategoryIndex": 1109
         }
     },
     "Tianjin": {
@@ -12016,7 +12016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1111
+            "subcategoryIndex": 1110
         }
     },
     "Isabela": {
@@ -12026,7 +12026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1112
+            "subcategoryIndex": 1111
         }
     },
     "Tibet": {
@@ -12036,7 +12036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1113
+            "subcategoryIndex": 1112
         }
     },
     "Ishikawa": {
@@ -12046,7 +12046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1114
+            "subcategoryIndex": 1113
         }
     },
     "Ticino": {
@@ -12056,7 +12056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1115
+            "subcategoryIndex": 1114
         }
     },
     "Islamabad": {
@@ -12066,7 +12066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1116
+            "subcategoryIndex": 1115
         }
     },
     "Tirana": {
@@ -12076,7 +12076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1117
+            "subcategoryIndex": 1116
         }
     },
     "Islands": {
@@ -12086,7 +12086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1118
+            "subcategoryIndex": 1117
         }
     },
     "Tirol": {
@@ -12096,7 +12096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1119
+            "subcategoryIndex": 1118
         }
     },
     "Ismailia": {
@@ -12106,7 +12106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1120
+            "subcategoryIndex": 1119
         }
     },
     "Tocantins": {
@@ -12116,7 +12116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1121
+            "subcategoryIndex": 1120
         }
     },
     "Isparta": {
@@ -12126,7 +12126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1122
+            "subcategoryIndex": 1121
         }
     },
     "Tochigi": {
@@ -12136,7 +12136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1123
+            "subcategoryIndex": 1122
         }
     },
     "Israel": {
@@ -12146,7 +12146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1124
+            "subcategoryIndex": 1123
         }
     },
     "Togo": {
@@ -12156,7 +12156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1125
+            "subcategoryIndex": 1124
         }
     },
     "Istanbul": {
@@ -12166,7 +12166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1126
+            "subcategoryIndex": 1125
         }
     },
     "Tokat": {
@@ -12176,7 +12176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1127
+            "subcategoryIndex": 1126
         }
     },
     "Italy": {
@@ -12186,7 +12186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1128
+            "subcategoryIndex": 1127
         }
     },
     "Tokushima": {
@@ -12196,7 +12196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1129
+            "subcategoryIndex": 1128
         }
     },
     "Iwate": {
@@ -12206,7 +12206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1130
+            "subcategoryIndex": 1129
         }
     },
     "Tokyo": {
@@ -12216,7 +12216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1131
+            "subcategoryIndex": 1130
         }
     },
     "Izmir": {
@@ -12226,7 +12226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1132
+            "subcategoryIndex": 1131
         }
     },
     "Tonga": {
@@ -12236,7 +12236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1133
+            "subcategoryIndex": 1132
         }
     },
     "Jalandhar": {
@@ -12246,7 +12246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1134
+            "subcategoryIndex": 1133
         }
     },
     "Tottori": {
@@ -12256,7 +12256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1135
+            "subcategoryIndex": 1134
         }
     },
     "Jamaica": {
@@ -12266,7 +12266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1136
+            "subcategoryIndex": 1135
         }
     },
     "Tov": {
@@ -12276,7 +12276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1137
+            "subcategoryIndex": 1136
         }
     },
     "Jambyl": {
@@ -12286,7 +12286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1138
+            "subcategoryIndex": 1137
         }
     },
     "Toyama": {
@@ -12296,7 +12296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1139
+            "subcategoryIndex": 1138
         }
     },
     "Jammuandkashmir": {
@@ -12306,7 +12306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1140
+            "subcategoryIndex": 1139
         }
     },
     "Trabzon": {
@@ -12316,7 +12316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1141
+            "subcategoryIndex": 1140
         }
     },
     "Jamtland": {
@@ -12326,7 +12326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1142
+            "subcategoryIndex": 1141
         }
     },
     "Trencin": {
@@ -12336,7 +12336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1143
+            "subcategoryIndex": 1142
         }
     },
     "Janakpur": {
@@ -12346,7 +12346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1144
+            "subcategoryIndex": 1143
         }
     },
     "Trentinoaltoadige": {
@@ -12356,7 +12356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1145
+            "subcategoryIndex": 1144
         }
     },
     "Japan": {
@@ -12366,7 +12366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1146
+            "subcategoryIndex": 1145
         }
     },
     "Trinidadandtobago": {
@@ -12376,7 +12376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1147
+            "subcategoryIndex": 1146
         }
     },
     "Jarvamaa": {
@@ -12386,7 +12386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1148
+            "subcategoryIndex": 1147
         }
     },
     "Tripura": {
@@ -12396,7 +12396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1149
+            "subcategoryIndex": 1148
         }
     },
     "Jawf": {
@@ -12406,7 +12406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1150
+            "subcategoryIndex": 1149
         }
     },
     "Trnava": {
@@ -12416,7 +12416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1151
+            "subcategoryIndex": 1150
         }
     },
     "Jeju": {
@@ -12426,7 +12426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1152
+            "subcategoryIndex": 1151
         }
     },
     "Troms": {
@@ -12436,7 +12436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1153
+            "subcategoryIndex": 1152
         }
     },
     "Jejudo": {
@@ -12446,7 +12446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1154
+            "subcategoryIndex": 1153
         }
     },
     "Trondelag": {
@@ -12456,7 +12456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1155
+            "subcategoryIndex": 1154
         }
     },
     "Jeollabukdo": {
@@ -12466,7 +12466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1156
+            "subcategoryIndex": 1155
         }
     },
     "Tsuenwan": {
@@ -12476,7 +12476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1157
+            "subcategoryIndex": 1156
         }
     },
     "Jeollanamdo": {
@@ -12486,7 +12486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1158
+            "subcategoryIndex": 1157
         }
     },
     "Tuenmun": {
@@ -12496,7 +12496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1159
+            "subcategoryIndex": 1158
         }
     },
     "Jharkhand": {
@@ -12506,7 +12506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1160
+            "subcategoryIndex": 1159
         }
     },
     "Tunceli": {
@@ -12516,7 +12516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1161
+            "subcategoryIndex": 1160
         }
     },
     "Jiangsu": {
@@ -12526,7 +12526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1162
+            "subcategoryIndex": 1161
         }
     },
     "Tunisia": {
@@ -12536,7 +12536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1163
+            "subcategoryIndex": 1162
         }
     },
     "Jiangxi": {
@@ -12546,7 +12546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1164
+            "subcategoryIndex": 1163
         }
     },
     "Turkey": {
@@ -12556,7 +12556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1165
+            "subcategoryIndex": 1164
         }
     },
     "Jilin": {
@@ -12566,7 +12566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1166
+            "subcategoryIndex": 1165
         }
     },
     "Turkmenistan": {
@@ -12576,7 +12576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1167
+            "subcategoryIndex": 1166
         }
     },
     "Jizan": {
@@ -12586,7 +12586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1168
+            "subcategoryIndex": 1167
         }
     },
     "Turksandcaicos": {
@@ -12596,7 +12596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1169
+            "subcategoryIndex": 1168
         }
     },
     "Jizzakh": {
@@ -12606,7 +12606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1170
+            "subcategoryIndex": 1169
         }
     },
     "Tuscany": {
@@ -12616,7 +12616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1171
+            "subcategoryIndex": 1170
         }
     },
     "Jogevamaa": {
@@ -12626,7 +12626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1172
+            "subcategoryIndex": 1171
         }
     },
     "Tuvalu": {
@@ -12636,7 +12636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1173
+            "subcategoryIndex": 1172
         }
     },
     "Jonkoping": {
@@ -12646,7 +12646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1174
+            "subcategoryIndex": 1173
         }
     },
     "Uae": {
@@ -12656,7 +12656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1175
+            "subcategoryIndex": 1174
         }
     },
     "Jordan": {
@@ -12666,7 +12666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1176
+            "subcategoryIndex": 1175
         }
     },
     "Uganda": {
@@ -12676,7 +12676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1177
+            "subcategoryIndex": 1176
         }
     },
     "Jowzjan": {
@@ -12686,7 +12686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1178
+            "subcategoryIndex": 1177
         }
     },
     "Uk": {
@@ -12696,7 +12696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1179
+            "subcategoryIndex": 1178
         }
     },
     "Jura": {
@@ -12706,7 +12706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1180
+            "subcategoryIndex": 1179
         }
     },
     "Uk7": {
@@ -12716,7 +12716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1181
+            "subcategoryIndex": 1180
         }
     },
     "Kabul": {
@@ -12726,7 +12726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1182
+            "subcategoryIndex": 1181
         }
     },
     "Ukraine": {
@@ -12736,7 +12736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1183
+            "subcategoryIndex": 1182
         }
     },
     "Kaesong": {
@@ -12746,7 +12746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1184
+            "subcategoryIndex": 1183
         }
     },
     "Ulaanbaatar": {
@@ -12756,7 +12756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1185
+            "subcategoryIndex": 1184
         }
     },
     "Kafralsheikh": {
@@ -12766,7 +12766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1186
+            "subcategoryIndex": 1185
         }
     },
     "Ulsan": {
@@ -12776,7 +12776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1187
+            "subcategoryIndex": 1186
         }
     },
     "Kagawa": {
@@ -12786,7 +12786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1188
+            "subcategoryIndex": 1187
         }
     },
     "Umbria": {
@@ -12796,7 +12796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1189
+            "subcategoryIndex": 1188
         }
     },
     "Kagoshima": {
@@ -12806,7 +12806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1190
+            "subcategoryIndex": 1189
         }
     },
     "Uppsala": {
@@ -12816,7 +12816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1191
+            "subcategoryIndex": 1190
         }
     },
     "Kahramanmaras": {
@@ -12826,7 +12826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1192
+            "subcategoryIndex": 1191
         }
     },
     "Urozgan": {
@@ -12836,7 +12836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1193
+            "subcategoryIndex": 1192
         }
     },
     "Kalbajarlachin": {
@@ -12846,7 +12846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1194
+            "subcategoryIndex": 1193
         }
     },
     "Uruguay": {
@@ -12856,7 +12856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1195
+            "subcategoryIndex": 1194
         }
     },
     "Kalinga": {
@@ -12866,7 +12866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1196
+            "subcategoryIndex": 1195
         }
     },
     "Usa": {
@@ -12876,7 +12876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1197
+            "subcategoryIndex": 1196
         }
     },
     "Kalmar": {
@@ -12886,7 +12886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1198
+            "subcategoryIndex": 1197
         }
     },
     "Usacentralregion": {
@@ -12896,7 +12896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1199
+            "subcategoryIndex": 1198
         }
     },
     "Kanagawa": {
@@ -12906,7 +12906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1200
+            "subcategoryIndex": 1199
         }
     },
     "Usadma": {
@@ -12916,7 +12916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1201
+            "subcategoryIndex": 1200
         }
     },
     "Kandahar": {
@@ -12926,7 +12926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1202
+            "subcategoryIndex": 1201
         }
     },
     "Usak": {
@@ -12936,7 +12936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1203
+            "subcategoryIndex": 1202
         }
     },
     "Kangwon": {
@@ -12946,7 +12946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1204
+            "subcategoryIndex": 1203
         }
     },
     "Usanortheastregion": {
@@ -12956,7 +12956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1205
+            "subcategoryIndex": 1204
         }
     },
     "Kansas": {
@@ -12966,7 +12966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1206
+            "subcategoryIndex": 1205
         }
     },
     "Usanorthwestregion": {
@@ -12976,7 +12976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1207
+            "subcategoryIndex": 1206
         }
     },
     "Kansasareacode": {
@@ -12986,7 +12986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1208
+            "subcategoryIndex": 1207
         }
     },
     "Usaregion": {
@@ -12996,7 +12996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1209
+            "subcategoryIndex": 1208
         }
     },
     "Kansascongressional": {
@@ -13006,7 +13006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1210
+            "subcategoryIndex": 1209
         }
     },
     "Usasoutheastregion": {
@@ -13016,7 +13016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1211
+            "subcategoryIndex": 1210
         }
     },
     "Kaohsiungcity": {
@@ -13026,7 +13026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1212
+            "subcategoryIndex": 1211
         }
     },
     "Usasouthwestregion": {
@@ -13036,7 +13036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1213
+            "subcategoryIndex": 1212
         }
     },
     "Kapisa": {
@@ -13046,7 +13046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1214
+            "subcategoryIndex": 1213
         }
     },
     "Usatimezone": {
@@ -13056,7 +13056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1215
+            "subcategoryIndex": 1214
         }
     },
     "Kapurthala": {
@@ -13066,7 +13066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1216
+            "subcategoryIndex": 1215
         }
     },
     "Usmsa": {
@@ -13076,7 +13076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1217
+            "subcategoryIndex": 1216
         }
     },
     "Karabuk": {
@@ -13086,7 +13086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1218
+            "subcategoryIndex": 1217
         }
     },
     "Ustinadlabem": {
@@ -13096,7 +13096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1219
+            "subcategoryIndex": 1218
         }
     },
     "Karaganda": {
@@ -13106,7 +13106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1220
+            "subcategoryIndex": 1219
         }
     },
     "Usvirginisland": {
@@ -13116,7 +13116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1221
+            "subcategoryIndex": 1220
         }
     },
     "Karakalpakstan": {
@@ -13126,7 +13126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1222
+            "subcategoryIndex": 1221
         }
     },
     "Usvirginislandscongressional": {
@@ -13136,7 +13136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1223
+            "subcategoryIndex": 1222
         }
     },
     "Karaman": {
@@ -13146,7 +13146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1224
+            "subcategoryIndex": 1223
         }
     },
     "Utah": {
@@ -13156,7 +13156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1225
+            "subcategoryIndex": 1224
         }
     },
     "Kardzhali": {
@@ -13166,7 +13166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1226
+            "subcategoryIndex": 1225
         }
     },
     "Utahareacode": {
@@ -13176,7 +13176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1227
+            "subcategoryIndex": 1226
         }
     },
     "Karlovyvaryregion": {
@@ -13186,7 +13186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1228
+            "subcategoryIndex": 1227
         }
     },
     "Utahcongressional": {
@@ -13196,7 +13196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1229
+            "subcategoryIndex": 1228
         }
     },
     "Karnali": {
@@ -13206,7 +13206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1230
+            "subcategoryIndex": 1229
         }
     },
     "Uttarakhand": {
@@ -13216,7 +13216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1231
+            "subcategoryIndex": 1230
         }
     },
     "Karnataka": {
@@ -13226,7 +13226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1232
+            "subcategoryIndex": 1231
         }
     },
     "Uttarpradesh": {
@@ -13236,7 +13236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1233
+            "subcategoryIndex": 1232
         }
     },
     "Karnten": {
@@ -13246,7 +13246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1234
+            "subcategoryIndex": 1233
         }
     },
     "Uvs": {
@@ -13256,7 +13256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1235
+            "subcategoryIndex": 1234
         }
     },
     "Kars": {
@@ -13266,7 +13266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1236
+            "subcategoryIndex": 1235
         }
     },
     "Uzbekistan": {
@@ -13276,7 +13276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1237
+            "subcategoryIndex": 1236
         }
     },
     "Kastamonu": {
@@ -13286,7 +13286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1238
+            "subcategoryIndex": 1237
         }
     },
     "Valais": {
@@ -13296,7 +13296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1239
+            "subcategoryIndex": 1238
         }
     },
     "Kayseri": {
@@ -13306,7 +13306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1240
+            "subcategoryIndex": 1239
         }
     },
     "Valenciancommunity": {
@@ -13316,7 +13316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1241
+            "subcategoryIndex": 1240
         }
     },
     "Kazakhstan": {
@@ -13326,7 +13326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1242
+            "subcategoryIndex": 1241
         }
     },
     "Valgamaa": {
@@ -13336,7 +13336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1243
+            "subcategoryIndex": 1242
         }
     },
     "Keelungcity": {
@@ -13346,7 +13346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1244
+            "subcategoryIndex": 1243
         }
     },
     "Valledaosta": {
@@ -13356,7 +13356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1245
+            "subcategoryIndex": 1244
         }
     },
     "Kentucky": {
@@ -13366,7 +13366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1246
+            "subcategoryIndex": 1245
         }
     },
     "Van": {
@@ -13376,7 +13376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1247
+            "subcategoryIndex": 1246
         }
     },
     "Kentuckyareacode": {
@@ -13386,7 +13386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1248
+            "subcategoryIndex": 1247
         }
     },
     "Vanuatu": {
@@ -13396,7 +13396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1249
+            "subcategoryIndex": 1248
         }
     },
     "Kentuckycongressional": {
@@ -13406,7 +13406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1250
+            "subcategoryIndex": 1249
         }
     },
     "Varmland": {
@@ -13416,7 +13416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1251
+            "subcategoryIndex": 1250
         }
     },
     "Kenya": {
@@ -13426,7 +13426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1252
+            "subcategoryIndex": 1251
         }
     },
     "Varna": {
@@ -13436,7 +13436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1253
+            "subcategoryIndex": 1252
         }
     },
     "Kerala": {
@@ -13446,7 +13446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1254
+            "subcategoryIndex": 1253
         }
     },
     "Vasterbotten": {
@@ -13456,7 +13456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1255
+            "subcategoryIndex": 1254
         }
     },
     "Kermanshah": {
@@ -13466,7 +13466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1256
+            "subcategoryIndex": 1255
         }
     },
     "Vasternorrland": {
@@ -13476,7 +13476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1257
+            "subcategoryIndex": 1256
         }
     },
     "Khammouane": {
@@ -13486,7 +13486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1258
+            "subcategoryIndex": 1257
         }
     },
     "Vastmanland": {
@@ -13496,7 +13496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1259
+            "subcategoryIndex": 1258
         }
     },
     "Khentii": {
@@ -13506,7 +13506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1260
+            "subcategoryIndex": 1259
         }
     },
     "Vastragotaland": {
@@ -13516,7 +13516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1261
+            "subcategoryIndex": 1260
         }
     },
     "Khost": {
@@ -13526,7 +13526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1262
+            "subcategoryIndex": 1261
         }
     },
     "Vaticancity": {
@@ -13536,7 +13536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1263
+            "subcategoryIndex": 1262
         }
     },
     "Khovd": {
@@ -13546,7 +13546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1264
+            "subcategoryIndex": 1263
         }
     },
     "Vaud": {
@@ -13556,7 +13556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1265
+            "subcategoryIndex": 1264
         }
     },
     "Khovsgol": {
@@ -13566,7 +13566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1266
+            "subcategoryIndex": 1265
         }
     },
     "Velikotarnovo": {
@@ -13576,7 +13576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1267
+            "subcategoryIndex": 1266
         }
     },
     "Khulna": {
@@ -13586,7 +13586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1268
+            "subcategoryIndex": 1267
         }
     },
     "Veneto": {
@@ -13596,7 +13596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1269
+            "subcategoryIndex": 1268
         }
     },
     "Khyberpakhtunkhwa": {
@@ -13606,7 +13606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1270
+            "subcategoryIndex": 1269
         }
     },
     "Venezuela": {
@@ -13616,7 +13616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1271
+            "subcategoryIndex": 1270
         }
     },
     "Kilis": {
@@ -13626,7 +13626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1272
+            "subcategoryIndex": 1271
         }
     },
     "Vermont": {
@@ -13636,7 +13636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1273
+            "subcategoryIndex": 1272
         }
     },
     "Kinmencounty": {
@@ -13646,7 +13646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1274
+            "subcategoryIndex": 1273
         }
     },
     "Vermontareacode": {
@@ -13656,7 +13656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1275
+            "subcategoryIndex": 1274
         }
     },
     "Kiribati": {
@@ -13666,7 +13666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1276
+            "subcategoryIndex": 1275
         }
     },
     "Vermontcongressional": {
@@ -13676,7 +13676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1277
+            "subcategoryIndex": 1276
         }
     },
     "Kirikkale": {
@@ -13686,7 +13686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1278
+            "subcategoryIndex": 1277
         }
     },
     "Vest": {
@@ -13696,7 +13696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1279
+            "subcategoryIndex": 1278
         }
     },
     "Kirklareli": {
@@ -13706,7 +13706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1280
+            "subcategoryIndex": 1279
         }
     },
     "Vestagder": {
@@ -13716,7 +13716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1281
+            "subcategoryIndex": 1280
         }
     },
     "Kirsehir": {
@@ -13726,7 +13726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1282
+            "subcategoryIndex": 1281
         }
     },
     "Vestfold": {
@@ -13736,7 +13736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1283
+            "subcategoryIndex": 1282
         }
     },
     "Kocaeli": {
@@ -13746,7 +13746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1284
+            "subcategoryIndex": 1283
         }
     },
     "Vianadocastelo": {
@@ -13756,7 +13756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1285
+            "subcategoryIndex": 1284
         }
     },
     "Kochi": {
@@ -13766,7 +13766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1286
+            "subcategoryIndex": 1285
         }
     },
     "Victoria": {
@@ -13776,7 +13776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1287
+            "subcategoryIndex": 1286
         }
     },
     "Konya": {
@@ -13786,7 +13786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1288
+            "subcategoryIndex": 1287
         }
     },
     "Vidin": {
@@ -13796,7 +13796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1289
+            "subcategoryIndex": 1288
         }
     },
     "Korce": {
@@ -13806,7 +13806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1290
+            "subcategoryIndex": 1289
         }
     },
     "Vientianecapital": {
@@ -13816,7 +13816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1291
+            "subcategoryIndex": 1290
         }
     },
     "Koshi": {
@@ -13826,7 +13826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1292
+            "subcategoryIndex": 1291
         }
     },
     "Vientianeprovince": {
@@ -13836,7 +13836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1293
+            "subcategoryIndex": 1292
         }
     },
     "Kosice": {
@@ -13846,7 +13846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1294
+            "subcategoryIndex": 1293
         }
     },
     "Vietnam": {
@@ -13856,7 +13856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1295
+            "subcategoryIndex": 1294
         }
     },
     "Kosovodistricts": {
@@ -13866,7 +13866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1296
+            "subcategoryIndex": 1295
         }
     },
     "Vilareal": {
@@ -13876,7 +13876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1297
+            "subcategoryIndex": 1296
         }
     },
     "Kostanay": {
@@ -13886,7 +13886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1298
+            "subcategoryIndex": 1297
         }
     },
     "Viljandimaa": {
@@ -13896,7 +13896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1299
+            "subcategoryIndex": 1298
         }
     },
     "Kowlooncity": {
@@ -13906,7 +13906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1300
+            "subcategoryIndex": 1299
         }
     },
     "Viqueque": {
@@ -13916,7 +13916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1301
+            "subcategoryIndex": 1300
         }
     },
     "Kronoberg": {
@@ -13926,7 +13926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1302
+            "subcategoryIndex": 1301
         }
     },
     "Virginia": {
@@ -13936,7 +13936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1303
+            "subcategoryIndex": 1302
         }
     },
     "Kujawskopomorskie": {
@@ -13946,7 +13946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1304
+            "subcategoryIndex": 1303
         }
     },
     "Virginiaareacode": {
@@ -13956,7 +13956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1305
+            "subcategoryIndex": 1304
         }
     },
     "Kukes": {
@@ -13966,7 +13966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1306
+            "subcategoryIndex": 1305
         }
     },
     "Virginiacongressional": {
@@ -13976,7 +13976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1307
+            "subcategoryIndex": 1306
         }
     },
     "Kumamoto": {
@@ -13986,7 +13986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1308
+            "subcategoryIndex": 1307
         }
     },
     "Viseu": {
@@ -13996,7 +13996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1309
+            "subcategoryIndex": 1308
         }
     },
     "Kumgangsan": {
@@ -14006,7 +14006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1310
+            "subcategoryIndex": 1309
         }
     },
     "Vlore": {
@@ -14016,7 +14016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1311
+            "subcategoryIndex": 1310
         }
     },
     "Kunar": {
@@ -14026,7 +14026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1312
+            "subcategoryIndex": 1311
         }
     },
     "Vorarlberg": {
@@ -14036,7 +14036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1313
+            "subcategoryIndex": 1312
         }
     },
     "Kunduz": {
@@ -14046,7 +14046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1314
+            "subcategoryIndex": 1313
         }
     },
     "Vorumaa": {
@@ -14056,7 +14056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1315
+            "subcategoryIndex": 1314
         }
     },
     "Kutahya": {
@@ -14066,7 +14066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1316
+            "subcategoryIndex": 1315
         }
     },
     "Vratsa": {
@@ -14076,7 +14076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1317
+            "subcategoryIndex": 1316
         }
     },
     "Kuwait": {
@@ -14086,7 +14086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1318
+            "subcategoryIndex": 1317
         }
     },
     "Vysocina": {
@@ -14096,7 +14096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1319
+            "subcategoryIndex": 1318
         }
     },
     "Kwaitsing": {
@@ -14106,7 +14106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1320
+            "subcategoryIndex": 1319
         }
     },
     "Wadygadid": {
@@ -14116,7 +14116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1321
+            "subcategoryIndex": 1320
         }
     },
     "Kwuntong": {
@@ -14126,7 +14126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1322
+            "subcategoryIndex": 1321
         }
     },
     "Waikato": {
@@ -14136,7 +14136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1323
+            "subcategoryIndex": 1322
         }
     },
     "Kyoto": {
@@ -14146,7 +14146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1324
+            "subcategoryIndex": 1323
         }
     },
     "Wakayama": {
@@ -14156,7 +14156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1325
+            "subcategoryIndex": 1324
         }
     },
     "Kyrgyzstan": {
@@ -14166,7 +14166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1326
+            "subcategoryIndex": 1325
         }
     },
     "Wales": {
@@ -14176,7 +14176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1327
+            "subcategoryIndex": 1326
         }
     },
     "Kyustendil": {
@@ -14186,7 +14186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1328
+            "subcategoryIndex": 1327
         }
     },
     "Walloonbrabant": {
@@ -14196,7 +14196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1329
+            "subcategoryIndex": 1328
         }
     },
     "Kyzylorda": {
@@ -14206,7 +14206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1330
+            "subcategoryIndex": 1329
         }
     },
     "Wanchai": {
@@ -14216,7 +14216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1331
+            "subcategoryIndex": 1330
         }
     },
     "Laanemaa": {
@@ -14226,7 +14226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1332
+            "subcategoryIndex": 1331
         }
     },
     "Warminskomazurskie": {
@@ -14236,7 +14236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1333
+            "subcategoryIndex": 1332
         }
     },
     "Laanevirumaa": {
@@ -14246,7 +14246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1334
+            "subcategoryIndex": 1333
         }
     },
     "Washington": {
@@ -14256,7 +14256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1335
+            "subcategoryIndex": 1334
         }
     },
     "Laghman": {
@@ -14266,7 +14266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1336
+            "subcategoryIndex": 1335
         }
     },
     "Washingtonareacode": {
@@ -14276,7 +14276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1337
+            "subcategoryIndex": 1336
         }
     },
     "Laguna": {
@@ -14286,7 +14286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1338
+            "subcategoryIndex": 1337
         }
     },
     "Washingtoncongressional": {
@@ -14296,7 +14296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1339
+            "subcategoryIndex": 1338
         }
     },
     "Lakshadweep": {
@@ -14306,7 +14306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1340
+            "subcategoryIndex": 1339
         }
     },
     "Wellington": {
@@ -14316,7 +14316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1341
+            "subcategoryIndex": 1340
         }
     },
     "Lakshadweepislands": {
@@ -14326,7 +14326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1342
+            "subcategoryIndex": 1341
         }
     },
     "Westbengal": {
@@ -14336,7 +14336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1343
+            "subcategoryIndex": 1342
         }
     },
     "Lanaodelnorte": {
@@ -14346,7 +14346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1344
+            "subcategoryIndex": 1343
         }
     },
     "Westcoast": {
@@ -14356,7 +14356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1345
+            "subcategoryIndex": 1344
         }
     },
     "Lanaodelsur": {
@@ -14366,7 +14366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1346
+            "subcategoryIndex": 1345
         }
     },
     "Westernafrica": {
@@ -14376,7 +14376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1347
+            "subcategoryIndex": 1346
         }
     },
     "Lankaran": {
@@ -14386,7 +14386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1348
+            "subcategoryIndex": 1347
         }
     },
     "Westernasia": {
@@ -14396,7 +14396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1349
+            "subcategoryIndex": 1348
         }
     },
     "Laos": {
@@ -14406,7 +14406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1350
+            "subcategoryIndex": 1349
         }
     },
     "Westernaustralia": {
@@ -14416,7 +14416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1351
+            "subcategoryIndex": 1350
         }
     },
     "Lapaz": {
@@ -14426,7 +14426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1352
+            "subcategoryIndex": 1351
         }
     },
     "Westerndevelopmentregion": {
@@ -14436,7 +14436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1353
+            "subcategoryIndex": 1352
         }
     },
     "Larioja": {
@@ -14446,7 +14446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1354
+            "subcategoryIndex": 1353
         }
     },
     "Westernnorway": {
@@ -14456,7 +14456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1355
+            "subcategoryIndex": 1354
         }
     },
     "Latakia": {
@@ -14466,7 +14466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1356
+            "subcategoryIndex": 1355
         }
     },
     "Westernsahara": {
@@ -14476,7 +14476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1357
+            "subcategoryIndex": 1356
         }
     },
     "Latvia": {
@@ -14486,7 +14486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1358
+            "subcategoryIndex": 1357
         }
     },
     "Westerntransdanubia": {
@@ -14496,7 +14496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1359
+            "subcategoryIndex": 1358
         }
     },
     "Launion": {
@@ -14506,7 +14506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1360
+            "subcategoryIndex": 1359
         }
     },
     "Westernvisayas": {
@@ -14516,7 +14516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1361
+            "subcategoryIndex": 1360
         }
     },
     "Lautem": {
@@ -14526,7 +14526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1362
+            "subcategoryIndex": 1361
         }
     },
     "Westeuropeanregion": {
@@ -14536,7 +14536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1363
+            "subcategoryIndex": 1362
         }
     },
     "Lazio": {
@@ -14546,7 +14546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1364
+            "subcategoryIndex": 1363
         }
     },
     "Westflanders": {
@@ -14556,7 +14556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1365
+            "subcategoryIndex": 1364
         }
     },
     "Lebanon": {
@@ -14566,7 +14566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1366
+            "subcategoryIndex": 1365
         }
     },
     "Westkazakhstan": {
@@ -14576,7 +14576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1367
+            "subcategoryIndex": 1366
         }
     },
     "Lesotho": {
@@ -14586,7 +14586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1368
+            "subcategoryIndex": 1367
         }
     },
     "Westnorthcentraldma": {
@@ -14596,7 +14596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1369
+            "subcategoryIndex": 1368
         }
     },
     "Leyte": {
@@ -14606,7 +14606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1370
+            "subcategoryIndex": 1369
         }
     },
     "Westsouthcentraldma": {
@@ -14616,7 +14616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1371
+            "subcategoryIndex": 1370
         }
     },
     "Lezhe": {
@@ -14626,7 +14626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1372
+            "subcategoryIndex": 1371
         }
     },
     "Westvirginia": {
@@ -14636,7 +14636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1373
+            "subcategoryIndex": 1372
         }
     },
     "Liaoning": {
@@ -14646,7 +14646,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1374
+            "subcategoryIndex": 1373
         }
     },
     "Westvirginiaareacode": {
@@ -14656,7 +14656,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1375
+            "subcategoryIndex": 1374
         }
     },
     "Liberec": {
@@ -14666,7 +14666,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1376
+            "subcategoryIndex": 1375
         }
     },
     "Westvirginiacongressional": {
@@ -14676,7 +14676,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1377
+            "subcategoryIndex": 1376
         }
     },
     "Liberia": {
@@ -14686,7 +14686,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1378
+            "subcategoryIndex": 1377
         }
     },
     "Wielkopolskie": {
@@ -14696,7 +14696,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1379
+            "subcategoryIndex": 1378
         }
     },
     "Libya": {
@@ -14706,7 +14706,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1380
+            "subcategoryIndex": 1379
         }
     },
     "Wien": {
@@ -14716,7 +14716,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1381
+            "subcategoryIndex": 1380
         }
     },
     "Liechtenstein": {
@@ -14726,7 +14726,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1382
+            "subcategoryIndex": 1381
         }
     },
     "Wisconsin": {
@@ -14736,7 +14736,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1383
+            "subcategoryIndex": 1382
         }
     },
     "Liege": {
@@ -14746,7 +14746,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1384
+            "subcategoryIndex": 1383
         }
     },
     "Wisconsinareacode": {
@@ -14756,7 +14756,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1385
+            "subcategoryIndex": 1384
         }
     },
     "Lienchiangcounty": {
@@ -14766,7 +14766,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1386
+            "subcategoryIndex": 1385
         }
     },
     "Wisconsincongressional": {
@@ -14776,7 +14776,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1387
+            "subcategoryIndex": 1386
         }
     },
     "Lieria": {
@@ -14786,7 +14786,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1388
+            "subcategoryIndex": 1387
         }
     },
     "Wongtaisin": {
@@ -14796,7 +14796,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1389
+            "subcategoryIndex": 1388
         }
     },
     "Liguria": {
@@ -14806,7 +14806,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1390
+            "subcategoryIndex": 1389
         }
     },
     "World": {
@@ -14816,7 +14816,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1391
+            "subcategoryIndex": 1390
         }
     },
     "Limburgbgomeenten": {
@@ -14826,7 +14826,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1392
+            "subcategoryIndex": 1391
         }
     },
     "World8": {
@@ -14836,7 +14836,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1393
+            "subcategoryIndex": 1392
         }
     },
     "Liquica": {
@@ -14846,7 +14846,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1394
+            "subcategoryIndex": 1393
         }
     },
     "World8withantarctica": {
@@ -14856,7 +14856,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1395
+            "subcategoryIndex": 1394
         }
     },
     "Lisboa": {
@@ -14866,7 +14866,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1396
+            "subcategoryIndex": 1395
         }
     },
     "Worldwithantarctica": {
@@ -14876,7 +14876,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1397
+            "subcategoryIndex": 1396
         }
     },
     "Lithuania": {
@@ -14886,7 +14886,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1398
+            "subcategoryIndex": 1397
         }
     },
     "Worldwithcountries": {
@@ -14896,7 +14896,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1399
+            "subcategoryIndex": 1398
         }
     },
     "Lodzkie": {
@@ -14906,7 +14906,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1400
+            "subcategoryIndex": 1399
         }
     },
     "Wyoming": {
@@ -14916,7 +14916,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1401
+            "subcategoryIndex": 1400
         }
     },
     "Logar": {
@@ -14926,7 +14926,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1402
+            "subcategoryIndex": 1401
         }
     },
     "Wyomingareacode": {
@@ -14936,7 +14936,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1403
+            "subcategoryIndex": 1402
         }
     },
     "Lombardy": {
@@ -14946,7 +14946,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1404
+            "subcategoryIndex": 1403
         }
     },
     "Wyomingcongressional": {
@@ -14956,7 +14956,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1405
+            "subcategoryIndex": 1404
         }
     },
     "Louisiana": {
@@ -14966,7 +14966,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1406
+            "subcategoryIndex": 1405
         }
     },
     "Xaisombounprovince": {
@@ -14976,7 +14976,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1407
+            "subcategoryIndex": 1406
         }
     },
     "Louisianaareacode": {
@@ -14986,7 +14986,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1408
+            "subcategoryIndex": 1407
         }
     },
     "Xiengkhouang": {
@@ -14996,7 +14996,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1409
+            "subcategoryIndex": 1408
         }
     },
     "Louisianacongressional": {
@@ -15006,7 +15006,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1410
+            "subcategoryIndex": 1409
         }
     },
     "Xinjiang": {
@@ -15016,7 +15016,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1411
+            "subcategoryIndex": 1410
         }
     },
     "Lovech": {
@@ -15026,7 +15026,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1412
+            "subcategoryIndex": 1411
         }
     },
     "Xorazm": {
@@ -15036,7 +15036,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1413
+            "subcategoryIndex": 1412
         }
     },
     "Lowersaxony": {
@@ -15046,7 +15046,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1414
+            "subcategoryIndex": 1413
         }
     },
     "Yalova": {
@@ -15056,7 +15056,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1415
+            "subcategoryIndex": 1414
         }
     },
     "Luangnamtha": {
@@ -15066,7 +15066,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1416
+            "subcategoryIndex": 1415
         }
     },
     "Yamagata": {
@@ -15076,7 +15076,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1417
+            "subcategoryIndex": 1416
         }
     },
     "Luangprabang": {
@@ -15086,7 +15086,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1418
+            "subcategoryIndex": 1417
         }
     },
     "Yamaguchi": {
@@ -15096,7 +15096,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1419
+            "subcategoryIndex": 1418
         }
     },
     "Lubelskie": {
@@ -15106,7 +15106,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1420
+            "subcategoryIndex": 1419
         }
     },
     "Yamanashi": {
@@ -15116,7 +15116,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1421
+            "subcategoryIndex": 1420
         }
     },
     "Lubuskie": {
@@ -15126,7 +15126,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1422
+            "subcategoryIndex": 1421
         }
     },
     "Yambol": {
@@ -15136,7 +15136,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1423
+            "subcategoryIndex": 1422
         }
     },
     "Lucerne": {
@@ -15146,7 +15146,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1424
+            "subcategoryIndex": 1423
         }
     },
     "Yautsimmong": {
@@ -15156,7 +15156,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1425
+            "subcategoryIndex": 1424
         }
     },
     "Ludhiana": {
@@ -15166,7 +15166,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1426
+            "subcategoryIndex": 1425
         }
     },
     "Yemen": {
@@ -15176,7 +15176,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1427
+            "subcategoryIndex": 1426
         }
     },
     "Lumbini": {
@@ -15186,7 +15186,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1428
+            "subcategoryIndex": 1427
         }
     },
     "Yilancounty": {
@@ -15196,7 +15196,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1429
+            "subcategoryIndex": 1428
         }
     },
     "Luxembourg": {
@@ -15206,7 +15206,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1430
+            "subcategoryIndex": 1429
         }
     },
     "Yozgat": {
@@ -15216,7 +15216,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1431
+            "subcategoryIndex": 1430
         }
     },
     "Luxer": {
@@ -15226,7 +15226,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1432
+            "subcategoryIndex": 1431
         }
     },
     "Yuenlong": {
@@ -15236,7 +15236,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1433
+            "subcategoryIndex": 1432
         }
     },
     "Lyon": {
@@ -15246,7 +15246,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1434
+            "subcategoryIndex": 1433
         }
     },
     "Yukharigarabakh": {
@@ -15256,7 +15256,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1435
+            "subcategoryIndex": 1434
         }
     },
     "Macau": {
@@ -15266,7 +15266,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1436
+            "subcategoryIndex": 1435
         }
     },
     "Yukonterritory": {
@@ -15276,7 +15276,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1437
+            "subcategoryIndex": 1436
         }
     },
     "Macedonia": {
@@ -15286,7 +15286,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1438
+            "subcategoryIndex": 1437
         }
     },
     "Yunlincounty": {
@@ -15296,7 +15296,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1439
+            "subcategoryIndex": 1438
         }
     },
     "Madagascar": {
@@ -15306,7 +15306,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1440
+            "subcategoryIndex": 1439
         }
     },
     "Yunnan": {
@@ -15316,7 +15316,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1441
+            "subcategoryIndex": 1440
         }
     },
     "Madagascarregions": {
@@ -15326,7 +15326,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1442
+            "subcategoryIndex": 1441
         }
     },
     "Zabul": {
@@ -15336,7 +15336,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1443
+            "subcategoryIndex": 1442
         }
     },
     "Madhyapradesh": {
@@ -15346,7 +15346,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1444
+            "subcategoryIndex": 1443
         }
     },
     "Zacatecas": {
@@ -15356,7 +15356,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1445
+            "subcategoryIndex": 1444
         }
     },
     "Madinah": {
@@ -15366,7 +15366,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1446
+            "subcategoryIndex": 1445
         }
     },
     "Zachodniopomorskie": {
@@ -15376,7 +15376,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1447
+            "subcategoryIndex": 1446
         }
     },
     "Maguindanao": {
@@ -15386,7 +15386,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1448
+            "subcategoryIndex": 1447
         }
     },
     "Zambales": {
@@ -15396,7 +15396,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1449
+            "subcategoryIndex": 1448
         }
     },
     "Mahakali": {
@@ -15406,7 +15406,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1450
+            "subcategoryIndex": 1449
         }
     },
     "Zambia": {
@@ -15416,7 +15416,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1451
+            "subcategoryIndex": 1450
         }
     },
     "Maharashtra": {
@@ -15426,7 +15426,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1452
+            "subcategoryIndex": 1451
         }
     },
     "Zamboangadelnorte": {
@@ -15436,7 +15436,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1453
+            "subcategoryIndex": 1452
         }
     },
     "Maidanwardak": {
@@ -15446,7 +15446,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1454
+            "subcategoryIndex": 1453
         }
     },
     "Zamboangadelsur": {
@@ -15456,7 +15456,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1455
+            "subcategoryIndex": 1454
         }
     },
     "Maine": {
@@ -15466,7 +15466,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1456
+            "subcategoryIndex": 1455
         }
     },
     "Zamboangapeninsula": {
@@ -15476,7 +15476,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1457
+            "subcategoryIndex": 1456
         }
     },
     "Maineareacode": {
@@ -15486,7 +15486,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1458
+            "subcategoryIndex": 1457
         }
     },
     "Zamboangasibugay": {
@@ -15496,7 +15496,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1459
+            "subcategoryIndex": 1458
         }
     },
     "Mainecongressional": {
@@ -15506,7 +15506,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1460
+            "subcategoryIndex": 1459
         }
     },
     "Zavkhan": {
@@ -15516,7 +15516,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1461
+            "subcategoryIndex": 1460
         }
     },
     "Makkah": {
@@ -15526,7 +15526,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1462
+            "subcategoryIndex": 1461
         }
     },
     "Zhejiang": {
@@ -15536,7 +15536,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1463
+            "subcategoryIndex": 1462
         }
     },
     "Malatya": {
@@ -15546,7 +15546,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1464
+            "subcategoryIndex": 1463
         }
     },
     "Zilina": {
@@ -15556,7 +15556,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1465
+            "subcategoryIndex": 1464
         }
     },
     "Malawi": {
@@ -15566,7 +15566,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1466
+            "subcategoryIndex": 1465
         }
     },
     "Zimbabwe": {
@@ -15576,7 +15576,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1467
+            "subcategoryIndex": 1466
         }
     },
     "Malaysia": {
@@ -15586,7 +15586,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1468
+            "subcategoryIndex": 1467
         }
     },
     "Zlin": {
@@ -15596,7 +15596,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1469
+            "subcategoryIndex": 1468
         }
     },
     "Mali": {
@@ -15606,7 +15606,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1470
+            "subcategoryIndex": 1469
         }
     },
     "Zonguldak": {
@@ -15616,7 +15616,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1471
+            "subcategoryIndex": 1470
         }
     },
     "Malopolskie": {
@@ -15626,7 +15626,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1472
+            "subcategoryIndex": 1471
         }
     },
     "Zurich": {
@@ -15636,7 +15636,7 @@ module.exports = exports = {
         "category": {
             "categoryName": "map",
             "categoryIndex": 5,
-            "subcategoryIndex": 1473
+            "subcategoryIndex": 1472
         }
     }
 }
