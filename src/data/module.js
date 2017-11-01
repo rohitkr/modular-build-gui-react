@@ -49,7 +49,6 @@ class DependencyManager {
           this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
-          pubModule.notUserSelected = true;
         }
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -139,7 +138,7 @@ class DependencyManager {
     if (node.visitedCount === 0) {
       // console.log(name);
       this.totalSize += (node.size || 0);
-      // console.log(node.name,':',node.size);
+      console.log(node.name,':',node.size);
       // increment the count
       node.visitedCount = node.visitedCount + 1;
       // console.log(name +" visited count: "+node.visitedCount);
@@ -208,7 +207,7 @@ class DependencyManager {
       node.disabled = false;
       // console.log(name);
       this.totalSize += (node.size || 0);
-      // console.log(node.displayName,':',node.size);
+      console.log(node.displayName,':',node.size);
       this.iterateDep(name, true);
       return true;
     }
@@ -301,7 +300,7 @@ class DependencyManager {
       return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
     this.publicModules = publicModule;
-    this.offset = this.totalSize;
+    // this.offset = this.totalSize;
     return publicModule;
   }
   //select module by name
@@ -346,7 +345,7 @@ class DependencyManager {
   }
   //get current total size , according to build offset added
   getSize() {
-    var kb = Math.round((this.totalSize + this.offset /*+ 1470000 */ ) / 1000 * 100) / 100,
+    var kb = Math.round((this.totalSize  /*+ 1470000 */ ) / 1000 * 100) / 100,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -354,7 +353,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize + this.offset /*+ 1470000 */ ) + ' bytes';
+      return (this.totalSize  /*+ 1470000 */ ) + ' bytes';
   }
   //list of current public modules selected
   getModules() {
@@ -377,7 +376,7 @@ class DependencyManager {
       i = 0;
     // console.log(publicModules);
     for (key in publicModules) {
-      if ((publicModules[key].checked) && (publicModules[key].isUserSelected)) {
+      if ((publicModules[key].checked) && (publicModules[key].includeInCommand)) {
         if (shortName) {
           selectedModuleName[i] = publicModules[key].displayName;
         } else {
