@@ -1036,10 +1036,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in Annotation",
         "displayName": "Annotation",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "XMLTranscoder": {
         "path": "../mantle/updater/xml-transcoder",
@@ -1050,10 +1050,10 @@ module.exports = exports = {
             "subcategoryIndex": 2
         },
         "displayName": "XMLTranscoder",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "JSONTranscoder": {
         "path": "../mantle/updater/json-transcoder",
@@ -1064,10 +1064,10 @@ module.exports = exports = {
             "subcategoryIndex": 3
         },
         "displayName": "JSONTranscoder",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "JSONUrlTranscoder": {
         "path": "../mantle/updater/json-url-transcoder",
@@ -1078,10 +1078,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in JSONUrlTranscoder",
         "displayName": "JSONUrlTranscoder",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "XMLUrlTranscoder": {
         "path": "../mantle/updater/xml-url-transcoder",
@@ -1092,10 +1092,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in XMLUrlTranscoder",
         "displayName": "XMLUrlTranscoder",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "CSVTranscoder": {
         "path": "../mantle/updater/csv-transcoder",
@@ -1162,10 +1162,10 @@ module.exports = exports = {
             "subcategoryIndex": 10
         },
         "displayName": "IgnoreCaseExt",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "ThemeEngine": {
         "path": "../crust/themes/themes",
@@ -1176,10 +1176,10 @@ module.exports = exports = {
             "subcategoryIndex": 11
         },
         "displayName": "ThemeEngine",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "DefaultTheme": {
         "path": "../crust/themes/themes.default",
@@ -1190,10 +1190,10 @@ module.exports = exports = {
             "subcategoryIndex": 12
         },
         "displayName": "DefaultTheme",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "ToolTipController": {
         "path": "../mantle/renderer-javascript/redraphael/tooltip-controller",
@@ -1204,10 +1204,10 @@ module.exports = exports = {
             "subcategoryIndex": 13
         },
         "displayName": "ToolTipController",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "ToolTipAdapter": {
         "path": "../mantle/renderer-javascript/redraphael/tooltip-adapter",
@@ -1218,10 +1218,10 @@ module.exports = exports = {
             "subcategoryIndex": 14
         },
         "displayName": "ToolTipAdapter",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "InteractionAdapter": {
         "path": "../mantle/renderer-javascript/components/interaction-manager/interaction-adapter",
@@ -1232,10 +1232,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in InteractionAdapter",
         "displayName": "InteractionAdapter",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "AlertManager": {
         "path": "../mantle/renderer-javascript/components/alertmanager-linker",
@@ -1246,10 +1246,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in AlertManager",
         "displayName": "AlertManager",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "MessageLogger": {
         "path": "../mantle/renderer-javascript/components/msglogger-linker",
@@ -1260,10 +1260,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in MessageLogger",
         "displayName": "MessageLogger",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "RedRaphael": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael",
@@ -1274,10 +1274,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphael",
         "displayName": "RedRaphael",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "RedRaphaelSVG": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael.svg",
@@ -1288,10 +1288,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphaelSVG",
         "displayName": "RedRaphaelSVG",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "VML": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael.vml",
@@ -1316,10 +1316,10 @@ module.exports = exports = {
         },
         "description": "Visualize Data in RedRaphaelEXT",
         "displayName": "RedRaphaelEXT",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "BaseChart": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.basechart",
@@ -1330,10 +1330,10 @@ module.exports = exports = {
             "subcategoryIndex": 30
         },
         "displayName": "BaseChart",
-        "selected": false,
-        "disable": false,
+        "selected": true,
+        "disable": true,
         "render": true,
-        "includeInCommand": true
+        "includeInCommand": false
     },
     "Maps": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.maps",

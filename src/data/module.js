@@ -41,13 +41,15 @@ class DependencyManager {
         pubModule.displayName = PublicMod[i].displayName;
         pubModule.description = PublicMod[i].description;
         pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
-        if (PublicMod[i].checked) {
-          // console.log('Public Module: ',PublicMod[i].displayName);
-          PublicMod[i].checked = false;
+        pubModule.disable = PublicMod[i].disable;
+        pubModule.render = PublicMod[i].render;
+        pubModule.includeInCommand = PublicMod[i].includeInCommand;
+        if (PublicMod[i].selected) {
+          console.log('Public Module: ',PublicMod[i].displayName);
           this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
-          // pubModule.notUserSelected = true;
+          pubModule.notUserSelected = true;
         }
         pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
         return true;
@@ -76,19 +78,22 @@ class DependencyManager {
     let node = this.getNode(name);
     // decrease the selectedDep count
     node.visitedCount = (node.visitedCount || 1) - 1;
+
+    if(node.visitedCount === 0) {
+      this.totalSize -= (node.size || 0);
+      node.disabled = false;
+      node.checked = false;
+      return true;
+    }
+
+    if(node.visitedCount === 1 && node.isUserSelected){
+      node.disabled = false;
+    }
+    return false;
+    /*
     // console.log(name + " visited count: " + node.visitedCount);
     // if for the first time it is getting included
-    if (this._isPublic(node.name) && node.visitedCount === 0 && node.isUserSelected && !node.disabled) {
-      this.totalSize -= (node.size || 0);
-      if (this._isPublic(node.name)) {
-        // public nodes should be reset now
-        // remove the disablity
-        node.disabled = false;
-        // make it un-checked
-        node.checked = false;
-      }
-      return true;
-    } else
+
     if (!(this._isPublic(node.name)) && node.visitedCount === 0) {
       // do the first inclusion procedure
       this.totalSize -= (node.size || 0);
@@ -113,6 +118,7 @@ class DependencyManager {
       // this node is not excluded, so don't need to iterate through children
       return false;
     }
+    */
   }
   _includePublicDep(name) {
     let node = this.getNode(name);
@@ -219,31 +225,33 @@ class DependencyManager {
       this.totalSize -= (node.size || 0);
       // iterate the de-selector among all children
       this.iterateDep(name, false);
-      this.totalSize = 0;
 
-      //iterate through all modules make visitedCount 0
-      for (key in modules) {
-        modules[key].visitedCount = 0;
-      }
-      //iterate through all checkbox of public modules
-      for (key in modules) {
-        node = modules[key];
-        if (this._isPublic(node.name)) {
-          if ((node.checked === true) && (node.disabled === true)) {
-            node.disabled = false;
-            if (!node.isUserSelected) node.checked = false;
-          }
-        }
-      }
-      //iterate through all checkbox of public modules
-      for (key in modules) {
-        node = modules[key];
-        if (this._isPublic(node.name)) {
-          if ((node.checked === true) && (node.disabled === false)) {
-            this.nodeSelect(node.name);
-          }
-        }
-      }
+      // removed this code as there is no circular dependencies
+      // this.totalSize = 0;
+
+      // //iterate through all modules make visitedCount 0
+      // for (key in modules) {
+      //   modules[key].visitedCount = 0;
+      // }
+      // //iterate through all checkbox of public modules
+      // for (key in modules) {
+      //   node = modules[key];
+      //   if (this._isPublic(node.name)) {
+      //     if ((node.checked === true) && (node.disabled === true)) {
+      //       node.disabled = false;
+      //       if (!node.isUserSelected) node.checked = false;
+      //     }
+      //   }
+      // }
+      // //iterate through all checkbox of public modules
+      // for (key in modules) {
+      //   node = modules[key];
+      //   if (this._isPublic(node.name)) {
+      //     if ((node.checked === true) && (node.disabled === false)) {
+      //       this.nodeSelect(node.name);
+      //     }
+      //   }
+      // }
     }
   }
   //return all public modules
@@ -293,6 +301,7 @@ class DependencyManager {
       return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
     this.publicModules = publicModule;
+    this.offset = this.totalSize;
     return publicModule;
   }
   //select module by name
