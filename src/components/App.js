@@ -4,43 +4,39 @@ import Modules from './Modules';
 import './App.css';
 import ModuleManager from '../data/module';
 import statsJSON from '../data/stats.json';
-import mapSize from '../data/mapSizeObj.json';
+// import mapSize from '../data/mapSizeObj.json';
 import publicModules from '../dependency';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
 
 var arr= statsJSON.children[0].modules;
 // to calculate size of maps and make it compatible pushing it in stats array
-for (var k in publicModules) {
-    var addObj = {};
-    if (publicModules[k].category.categoryName === 'map') {
-      // added name that will be used for search
-      addObj.name = publicModules[k].displayName + 'mapCategory';
-      addObj.isPublic = true;
-      addObj.description = publicModules[k].description;
-      addObj.displayName = publicModules[k].displayName;
-      addObj.size = mapSize[publicModules[k].displayName.toLowerCase()] * 1000;
-      // console.log('Name: ',addObj.displayName, ' Size:  ',addObj.size);
-      addObj.isUserSelected = true;
-      addObj.primaryIndex = publicModules[k].category.categoryIndex;
-      addObj.secondaryIndex = publicModules[k].category.subcategoryIndex;
-      arr.push(addObj);
-    }
-    // } else if(alreadySelected[k]) {
-    //   moduleManager.selectModule(alreadySelected[k]);
-    //   addObj.name = alreadySelected[k];
-    //   addObj.description = publicModules[k].description;
-    //   addObj.displayName = publicModules[k].displayName;
-    //   addObj.checked = true;
-    //   addObj.disabled = true;
-    // }
-}
+// for (var k in publicModules) {
+//     var addObj = {};
+//     if (publicModules[k].category.categoryName === 'map') {
+//       // added name that will be used for search
+//       addObj.name = publicModules[k].displayName + 'mapCategory';
+//       addObj.description = publicModules[k].description;
+//       addObj.displayName = publicModules[k].displayName;
+//       addObj.size = mapSize[publicModules[k].displayName.toLowerCase()] * 1000;
+//       addObj.category = publicModules[k].category.categoryName;
+//       addObj.primaryIndex = publicModules[k].category.categoryIndex;
+//       addObj.secondaryIndex = publicModules[k].category.subcategoryIndex;
+//       addObj.selected = publicModules[k].selected;
+//       addObj.disable = publicModules[k].disable;
+//       addObj.render = publicModules[k].render;
+//       addObj.includeInCommand = publicModules[k].includeInCommand;
+//       // arr.push(addObj);
+//     }
+// }
 
 // set header post to make ajax request
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 window.mm = moduleManager;
 let modulesJSON = moduleManager.getPublicModules();
+
+// let mapsJSON = moduleManager.getPublicModules(true);
 class App extends Component {
   style = {
     fontSize: ''
@@ -94,6 +90,14 @@ class App extends Component {
   clickHandler = (that, state) => {
     // console.log('That: ', that);
     // console.log('That Name: ',that.name);
+    if(that.name === './develop/src/mantle/renderer-javascript/charts/fusioncharts.maps.js') {
+      var ele = document.getElementById("Maps");
+      if (ele.style.display === "none") {
+          ele.style.display = "block";
+      } else {
+          ele.style.display = "none";
+      }
+    }
     state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
     this.size = moduleManager.getSize();
     this.setState(({ isChecked }) => ({
@@ -139,7 +143,12 @@ class App extends Component {
                   <span className="pull-right">Total Size: {this.size}</span>
                 </div>
                 <input type="hidden" value="This is a sample hidden input element" id="hiddeninp"/>
-                <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
+                <div>
+                  <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
+                </div>
+                <div id="Maps" style = {{ display:'none' }}>
+                  <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
+                </div>
               </form>
           </div>
         </div>

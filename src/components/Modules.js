@@ -25,20 +25,19 @@ class Modules extends Component {
 
   createCheckbox = (module) => {
     let checked = module.checked;
-
-    return (
-      <Checkbox
-        module={module}
-        description={module.description}
-        checked={checked}
-        /*checked={this.state.checked}*/
-        disabled={module.disabled}
-        name={module.name}
-        displayName={module.displayName}
-        checkboxClickHandler={this.onCheckboxClick}
-        key={module.name}
-      />
-    );
+      return (
+        <Checkbox
+          module={module}
+          description={module.description}
+          checked={checked}
+          /*checked={this.state.checked}*/
+          disabled={module.disabled}
+          name={module.name}
+          displayName={module.displayName}
+          checkboxClickHandler={this.onCheckboxClick}
+          key={module.name}
+        />
+      );
   }
 
   drawCheckboxes = () => {

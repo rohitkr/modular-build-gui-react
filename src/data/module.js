@@ -4,14 +4,14 @@ class DependencyManager {
     this.treeData = treeJSON;
     this.moduleData = treeJSON.modules;
     this.totalSize = 0;
-    this.offset = 0;
+    this.offset = 100000;
     this.publicModules = [];
+    // this.mapPath = PublicMod['Maps'].path.substr(2);
   }
   // for optimisation replaced
   _isPublic(modulePath) {
-    for(var i = 0;i< this.publicModules.length;i++) {
-      if(this.publicModules[i].name === modulePath){
-        console.log('Public Modulesss...');
+    for (var i = 0; i < this.publicModules.length; i++) {
+      if (this.publicModules[i].name === modulePath) {
         return true;
       }
     }
@@ -21,31 +21,22 @@ class DependencyManager {
     var i, pubModule, strToMatch;
 
     // write a function avoid redundancy
-    if (modulePath.endsWith('mapCategory')) {
-      return true;
-    }
-
-
+    // if (modulePath.endsWith('mapCategory')) {
+    //   return true;
+    // }
 
     for (i in PublicMod) {
-      // console.log('path:',PublicMod[i].path);
-      // console.log('ModulePath:',modulePath);
       strToMatch = PublicMod[i].path.substr(2);
-      if (modulePath === './develop/src/mantle/renderer-javascript/redraphael/redraphael.svg.js') {
-        console.log(modulePath, ' ', i);
-      }
-      // console.log('String to match: ',strToMatch);
       if (modulePath.indexOf(strToMatch) !== -1) {
         pubModule = this.getNode(modulePath);
-        // console.log("ModulePath: ",modulePath);
         pubModule.displayName = PublicMod[i].displayName;
         pubModule.description = PublicMod[i].description;
         pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
+        pubModule.category = PublicMod[i].category.categoryName;
         pubModule.disable = PublicMod[i].disable;
         pubModule.render = PublicMod[i].render;
         pubModule.includeInCommand = PublicMod[i].includeInCommand;
         if (PublicMod[i].selected) {
-          console.log('Public Module: ',PublicMod[i].displayName);
           this.selectModule(pubModule.name);
           pubModule.checked = true;
           pubModule.disabled = true;
@@ -54,13 +45,6 @@ class DependencyManager {
         return true;
       }
     }
-    // for (i in PublicMod) {
-    //   if (new RegExp(PublicMod[i] + '.js').test(modulePath)) {
-    //     pubModule = this.getNode(modulePath);
-    //     pubModule.displayName = i;
-    //     return true;
-    //   }
-    // }
     return false;
   }
   getNode(name) {
@@ -78,14 +62,14 @@ class DependencyManager {
     // decrease the selectedDep count
     node.visitedCount = (node.visitedCount || 1) - 1;
 
-    if(node.visitedCount === 0) {
+    if (node.visitedCount === 0) {
       this.totalSize -= (node.size || 0);
       node.disabled = false;
       node.checked = false;
       return true;
     }
 
-    if(node.visitedCount === 1 && node.isUserSelected){
+    if (node.visitedCount === 1 && node.isUserSelected) {
       node.disabled = false;
     }
     return false;
@@ -138,7 +122,7 @@ class DependencyManager {
     if (node.visitedCount === 0) {
       // console.log(name);
       this.totalSize += (node.size || 0);
-      console.log(node.name,':',node.size);
+      // console.log(node.name,':',node.size);
       // increment the count
       node.visitedCount = node.visitedCount + 1;
       // console.log(name +" visited count: "+node.visitedCount);
@@ -207,7 +191,7 @@ class DependencyManager {
       node.disabled = false;
       // console.log(name);
       this.totalSize += (node.size || 0);
-      console.log(node.displayName,':',node.size);
+      // console.log(node.displayName,':',node.size);
       this.iterateDep(name, true);
       return true;
     }
@@ -253,7 +237,7 @@ class DependencyManager {
       // }
     }
   }
-  //return all public modules
+  //return all public modules 
   getPublicModules() {
 
     function isNameAlreadyIncluded(displayName) {
@@ -270,27 +254,12 @@ class DependencyManager {
       publicModule = [];
     for (key in moduleData) {
       node = moduleData[key];
-      if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
-        publicModule[i] = node;
-        i++;
-      }
+        if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
+          publicModule[i] = node;
+          i++;
+        }
     }
 
-    // for (var k in PublicMod) {
-    //   var addObj = {};
-    //   if (PublicMod[k].category.categoryName === 'map') {
-    //     // added name that will be used for search
-    //     addObj.name = PublicMod[k].displayName + 'mapCategory';
-    //     addObj.isPublic = true;
-    //     addObj.description = PublicMod[k].description;
-    //     addObj.displayName = PublicMod[k].displayName;
-    //     addObj.size = 0;
-    //     addObj.isUserSelected = true;
-    //     addObj.primaryIndex = PublicMod[k].category.categoryIndex;
-    //     addObj.secondaryIndex = PublicMod[k].category.subcategoryIndex;
-    //     publicModule.push(addObj);
-    //   }
-    // }
 
     // first sort on basis of primaryIndex then on basis of secondary Index
     publicModule.sort(function (a, b) {
@@ -299,53 +268,70 @@ class DependencyManager {
       }
       return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
-    this.publicModules = publicModule;
+    // arrayA.concat(arrayB);
+    this.publicModules = this.publicModules.concat(publicModule);
     // this.offset = this.totalSize;
     return publicModule;
   }
   //select module by name
   selectModule(name) {
+    // let path = this.mapPath;
+    // if (name.indexOf(path) > -1) {
+    //   for (var j = 0; j < this.publicModules.length; j++) {
+    //     if(this.publicModules[j].category === 'map'){
+    //       this.publicModules[j].render = true;
+    //     }
+    //   }
+    // }
     // console.log('Selecting Module: ', name);
-    if (name.endsWith('mapCategory')) {
-      var dName = name.slice(0, -11);
-      for (var i in this.moduleData) {
-        if (this.moduleData[i].displayName === dName) {
-          this.moduleData[i].checked = true;
-          this.moduleData[i].disabled = false;
-          this.moduleData[i].isUserSelected = true;
-          this.totalSize += (this.moduleData[i].size || 0);
-          // console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
-          // return this.getPublicModules();
-        }
-      }
-    } else {
+    // if (name.endsWith('mapCategory')) {
+    //   var dName = name.slice(0, -11);
+    //   for (var i in this.moduleData) {
+    //     if (this.moduleData[i].displayName === dName) {
+    //       this.moduleData[i].checked = true;
+    //       this.moduleData[i].disabled = false;
+    //       this.moduleData[i].isUserSelected = true;
+    //       this.totalSize += (this.moduleData[i].size || 0);
+    //       // console.log('Selected Module: ',name , '  Size: ',this.moduleData[i].size);
+    //       // return this.getPublicModules();
+    //     }
+    //   }
+    // } else {
       // console.log('Selected Module   not a Map Category: ',name);
       this.nodeSelect(name);
       // return this.getPublicModules();
-    }
+    // }
   }
   //deselect module by name
   deselectModule(name) {
+    // let path = this.mapPath;
+    // if (name.indexOf(path) > -1) {
+    //   for (var j = 0; j < this.publicModules.length; j++) {
+    //     if(this.publicModules[j].category === 'map'){
+    //       this.publicModules[j].render = false;
+    //     }
+    //   }
+    // }
     // console.log('DeSelecting Module: ', name);
-    if (name.endsWith('mapCategory')) {
-      var dName = name.slice(0, -11);
-      for (var i in this.moduleData) {
-        if (this.moduleData[i].displayName === dName) {
-          this.moduleData[i].checked = false;
-          this.moduleData[i].disabled = false;
-          this.totalSize -= (this.moduleData[i].size || 0);
-          //console.log('DeSelected Module: ',name);
-          // return this.getPublicModules();
-        }
-      }
-    } else {
+    // if (name.endsWith('mapCategory')) {
+    //   var dName = name.slice(0, -11);
+    //   for (var i in this.moduleData) {
+    //     if (this.moduleData[i].displayName === dName) {
+    //       this.moduleData[i].checked = false;
+    //       this.moduleData[i].disabled = false;
+    //       this.totalSize -= (this.moduleData[i].size || 0);
+    //       //console.log('DeSelected Module: ',name);
+    //       // return this.getPublicModules();
+    //     }
+    //   }
+    // } else {
       this.nodeDeSelect(name);
       // return this.getPublicModules();
-    }
+    // }
   }
   //get current total size , according to build offset added
   getSize() {
-    var kb = Math.round((this.totalSize  /*+ 1470000 */ ) / 1000 * 100) / 100,
+    var kb = Math.round((this.totalSize + this.offset /*+ 1470000 */ ) / 1000 * 100) / 100,
       mb;
     mb = Math.round(kb / 1000 * 100) / 100;
     if (mb > 1)
@@ -353,7 +339,7 @@ class DependencyManager {
     else if (kb > 1)
       return kb.toString() + ' KB';
     else
-      return (this.totalSize  /*+ 1470000 */ ) + ' bytes';
+      return (this.totalSize + this.offset /*+ 1470000 */ ) + ' bytes';
   }
   //list of current public modules selected
   getModules() {

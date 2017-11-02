@@ -1296,9 +1296,9 @@ module.exports = exports = {
     "VML": {
         "path": "../mantle/renderer-javascript/redraphael/redraphael.vml",
         "category": {
-            "categoryName": "VML",
+            "categoryName": "xTranscoder",
             "categoryIndex": 0,
-            "subcategoryIndex": null
+            "subcategoryIndex": 1
         },
         "description": "Visualize Data in VML",
         "displayName": "VML",
