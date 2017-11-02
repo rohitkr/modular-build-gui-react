@@ -18,32 +18,27 @@ class DependencyManager {
     return false;
   }
   isPublic(modulePath) {
-    var i, pubModule, strToMatch;
-
-    // write a function avoid redundancy
-    // if (modulePath.endsWith('mapCategory')) {
-    //   return true;
-    // }
-
-    for (i in PublicMod) {
-      strToMatch = PublicMod[i].path.substr(2);
-      if (modulePath.indexOf(strToMatch) !== -1) {
-        pubModule = this.getNode(modulePath);
-        pubModule.displayName = PublicMod[i].displayName;
-        pubModule.description = PublicMod[i].description;
-        pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
-        pubModule.category = PublicMod[i].category.categoryName;
-        pubModule.disable = PublicMod[i].disable;
-        pubModule.render = PublicMod[i].render;
-        pubModule.includeInCommand = PublicMod[i].includeInCommand;
-        if (PublicMod[i].selected) {
-          this.selectModule(pubModule.name);
-          pubModule.checked = true;
-          pubModule.disabled = true;
-        }
-        pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
-        return true;
-      }
+      var i, pubModule, strToMatch;
+      var path = modulePath.slice(0,-3);
+      for (i in PublicMod) {
+          strToMatch = PublicMod[i].path.substr(5);
+          if (path.endsWith(strToMatch)) {
+            pubModule = this.getNode(modulePath); 
+            pubModule.displayName = PublicMod[i].displayName;
+            pubModule.description = PublicMod[i].description;
+            pubModule.primaryIndex = PublicMod[i].category.categoryIndex;
+            pubModule.category = PublicMod[i].category.categoryName;
+            pubModule.disable = PublicMod[i].disable;
+            pubModule.render = PublicMod[i].render;
+            pubModule.includeInCommand = PublicMod[i].includeInCommand;
+            if (PublicMod[i].selected) {
+              this.selectModule(pubModule.name);
+              pubModule.checked = true;
+              pubModule.disabled = true;
+            }
+            pubModule.secondaryIndex = PublicMod[i].category.subcategoryIndex;
+            return true;
+          }
     }
     return false;
   }
@@ -254,10 +249,10 @@ class DependencyManager {
       publicModule = [];
     for (key in moduleData) {
       node = moduleData[key];
-        if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
-          publicModule[i] = node;
-          i++;
-        }
+      if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
+        publicModule[i] = node;
+        i++;
+      }
     }
 
 
@@ -298,9 +293,9 @@ class DependencyManager {
     //     }
     //   }
     // } else {
-      // console.log('Selected Module   not a Map Category: ',name);
-      this.nodeSelect(name);
-      // return this.getPublicModules();
+    // console.log('Selected Module   not a Map Category: ',name);
+    this.nodeSelect(name);
+    // return this.getPublicModules();
     // }
   }
   //deselect module by name
@@ -326,8 +321,8 @@ class DependencyManager {
     //     }
     //   }
     // } else {
-      this.nodeDeSelect(name);
-      // return this.getPublicModules();
+    this.nodeDeSelect(name);
+    // return this.getPublicModules();
     // }
   }
   //get current total size , according to build offset added
