@@ -269,7 +269,8 @@ class DependencyManager {
       return (a.primaryIndex > b.primaryIndex) ? 1 : -1;
     });
     // arrayA.concat(arrayB);
-    this.publicModules = this.publicModules.concat(publicModule);
+    // this.publicModules = this.publicModules.concat(publicModule);
+    this.publicModules = publicModule;
     // this.offset = this.totalSize;
     return publicModule;
   }
@@ -331,15 +332,7 @@ class DependencyManager {
   }
   //get current total size , according to build offset added
   getSize() {
-    var kb = Math.round((this.totalSize + this.offset /*+ 1470000 */ ) / 1000 * 100) / 100,
-      mb;
-    mb = Math.round(kb / 1000 * 100) / 100;
-    if (mb > 1)
-      return mb.toString() + ' MB';
-    else if (kb > 1)
-      return kb.toString() + ' KB';
-    else
-      return (this.totalSize + this.offset /*+ 1470000 */ ) + ' bytes';
+    return (this.totalSize + this.offset);
   }
   //list of current public modules selected
   getModules() {

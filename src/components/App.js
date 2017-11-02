@@ -3,11 +3,13 @@ import axios from 'axios';
 import Modules from './Modules';
 import './App.css';
 import ModuleManager from '../data/module';
+import MapManager from '../data/mapModules';
 import statsJSON from '../data/stats.json';
 // import mapSize from '../data/mapSizeObj.json';
 import publicModules from '../dependency';
 
 let moduleManager = new ModuleManager(statsJSON.children[0]);
+let mapManager = new MapManager();
 
 var arr= statsJSON.children[0].modules;
 // to calculate size of maps and make it compatible pushing it in stats array
@@ -34,9 +36,23 @@ var arr= statsJSON.children[0].modules;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
 window.mm = moduleManager;
+window.map = mapManager;
 let modulesJSON = moduleManager.getPublicModules();
-
+let mapsJSON = mapManager.getMaps();
+let totalSize = 0;
 // let mapsJSON = moduleManager.getPublicModules(true);
+
+function getSize(totalSize) {
+  var kb = Math.round((totalSize) / 1000 * 100) / 100;
+  var mb = Math.round(kb / 1000 * 100) / 100;
+  if (mb > 1)
+    return mb.toString() + ' MB';
+  else if (kb > 1)
+    return kb.toString() + ' KB';
+  else
+    return (this.totalSize) + ' bytes';
+}
+
 class App extends Component {
   style = {
     fontSize: ''
@@ -50,8 +66,11 @@ class App extends Component {
     event.preventDefault();
 
     let modulesArr = [];
-
+    let mapsArr = [];
     modulesArr = moduleManager.getUserSelectedModules(true);
+    mapsArr = mapManager.getSelectedMaps();
+    // arrayA.concat(arrayB);
+    modulesArr = modulesArr.concat(mapsArr);
     // console.log(modulesArr);
     if (!modulesArr.length) {
       console.warn('No modules selected.');
@@ -98,8 +117,14 @@ class App extends Component {
           ele.style.display = "none";
       }
     }
-    state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
-    this.size = moduleManager.getSize();
+    
+    if(isNaN(that.name) === true) {
+      state.isChecked ? moduleManager.deselectModule(that.name) : moduleManager.selectModule(that.name);
+    } else {
+      state.isChecked ? mapManager.deselectMap(that.name) : mapManager.selectMap(that.name);
+    }
+    totalSize = moduleManager.getSize() + mapManager.getMapSize();
+    this.size = getSize(totalSize);
     this.setState(({ isChecked }) => ({
       isChecked: !isChecked
     }));
@@ -147,7 +172,7 @@ class App extends Component {
                   <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
                 </div>
                 <div id="Maps" style = {{ display:'none' }}>
-                  <Modules modulesJSON={modulesJSON} clickHandler={this.clickHandler} />
+                  <Modules modulesJSON={mapsJSON} clickHandler={this.clickHandler} />
                 </div>
               </form>
           </div>
