@@ -249,7 +249,7 @@ class DependencyManager {
       publicModule = [];
     for (key in moduleData) {
       node = moduleData[key];
-      if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName)) {
+      if (this.isPublic(node.name) && !isNameAlreadyIncluded(node.displayName) && node.render) {
         publicModule[i] = node;
         i++;
       }

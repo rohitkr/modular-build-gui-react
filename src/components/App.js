@@ -4,7 +4,7 @@ import Modules from './Modules';
 import './App.css';
 import ModuleManager from '../data/module';
 import MapManager from '../data/mapModules';
-import statsJSON from '../data/stats.json';
+import statsJSON from '../data/statsMinified.json';
 // import mapSize from '../data/mapSizeObj.json';
 import publicModules from '../dependency';
 
@@ -12,25 +12,6 @@ let moduleManager = new ModuleManager(statsJSON.children[0]);
 let mapManager = new MapManager();
 
 var arr= statsJSON.children[0].modules;
-// to calculate size of maps and make it compatible pushing it in stats array
-// for (var k in publicModules) {
-//     var addObj = {};
-//     if (publicModules[k].category.categoryName === 'map') {
-//       // added name that will be used for search
-//       addObj.name = publicModules[k].displayName + 'mapCategory';
-//       addObj.description = publicModules[k].description;
-//       addObj.displayName = publicModules[k].displayName;
-//       addObj.size = mapSize[publicModules[k].displayName.toLowerCase()] * 1000;
-//       addObj.category = publicModules[k].category.categoryName;
-//       addObj.primaryIndex = publicModules[k].category.categoryIndex;
-//       addObj.secondaryIndex = publicModules[k].category.subcategoryIndex;
-//       addObj.selected = publicModules[k].selected;
-//       addObj.disable = publicModules[k].disable;
-//       addObj.render = publicModules[k].render;
-//       addObj.includeInCommand = publicModules[k].includeInCommand;
-//       // arr.push(addObj);
-//     }
-// }
 
 // set header post to make ajax request
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';

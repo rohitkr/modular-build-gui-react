@@ -26,7 +26,7 @@ echo "Removing build.zip" >> ${DIR}/build.log;
 rm -rf build.zip >> ${DIR}/build.log;
 
 echo "webpack building ${MODULES}" >> ${DIR}/build.log;
-./node_modules/.bin/webpack --env.modules=${MODULES} --env.minify=false --env.ie8=true >> ${DIR}/build.log;
+./node_modules/.bin/webpack --env.modules=${MODULES} --env.minify=true --env.ie8=true >> ${DIR}/build.log;
 
 echo "Lists out ./out/_build/*" >> ${DIR}/build.log;
 ls -la out/_build >> ${DIR}/build.log;

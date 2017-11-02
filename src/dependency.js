@@ -1332,7 +1332,7 @@ module.exports = exports = {
         "displayName": "BaseChart",
         "selected": true,
         "disable": true,
-        "render": true,
+        "render": false,
         "includeInCommand": false
     },
     "Maps": {
