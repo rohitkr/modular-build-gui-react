@@ -1321,6 +1321,20 @@ module.exports = exports = {
         "render": true,
         "includeInCommand": false
     },
+    "Maps": {
+        "path": "../mantle/renderer-javascript/charts/fusioncharts.maps",
+        "category": {
+            "categoryName": "xTranscoder",
+            "categoryIndex": 4,
+            "subcategoryIndex": 21
+        },
+        "description": "Visualize Data in Maps",
+        "displayName": "Maps",
+        "selected": false,
+        "disable": false,
+        "render": true,
+        "includeInCommand": true
+    },
     "BaseChart": {
         "path": "../mantle/renderer-javascript/charts/fusioncharts.basechart",
         "description": "Visualize Data in BaseChart",
@@ -1334,20 +1348,6 @@ module.exports = exports = {
         "disable": true,
         "render": false,
         "includeInCommand": false
-    },
-    "Maps": {
-        "path": "../mantle/renderer-javascript/charts/fusioncharts.maps",
-        "category": {
-            "categoryName": "chart",
-            "categoryIndex": 1,
-            "subcategoryIndex": 31
-        },
-        "description": "Visualize Data in Maps",
-        "displayName": "Maps",
-        "selected": false,
-        "disable": false,
-        "render": true,
-        "includeInCommand": true
     },
     "Aargau": {
         "path": "../../vendors/xt-maps/source/maps/fusioncharts.aargau",
