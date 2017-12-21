@@ -4,7 +4,7 @@ class DependencyManager {
     this.treeData = treeJSON;
     this.moduleData = treeJSON.modules;
     this.totalSize = 0;
-    this.offset = 190000;
+    this.offset = 195000;
     this.publicModules = [];
     // this.mapPath = PublicMod['Maps'].path.substr(2);
   }
