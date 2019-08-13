@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# Stop on error
+set -e
+
+# modules to be build
+MODULES=$1;
+# directory in which build request will be served
+PROJECT_NAME=$2;
+# Current directory
+DIR=`pwd`;
+
+echo "test" > ${DIR}/build.log;
+
+echo "Project = ${PROJECT_NAME}" >> ${DIR}/build.log;
+echo "Modules = ${MODULES}" >> ${DIR}/build.log;
+
+echo "cd to /vendors/" >> ${DIR}/build.log;
+cd ./vendors/ >> ${DIR}/build.log;
+
+echo "copying xt-edge to ${PROJECT_NAME}" >> ${DIR}/build.log;
+# yes | cp -rf xt-edge $2 >> ${DIR}/build.log;
+
+# in mac
+cp -R xt-edge $2 >> ${DIR}/build.log;
+ 
+echo "cd to ${PROJECT_NAME}" >> ${DIR}/build.log;
+cd ${PROJECT_NAME}/ >> ${DIR}/build.log;
+
+echo "Removing ./out/_build/*" >> ${DIR}/build.log;
+rm -rf ./out/_build/* >> ${DIR}/build.log;
+
+echo "Removing build.zip" >> ${DIR}/build.log;
+rm -rf build.zip >> ${DIR}/build.log;
+
+echo "webpack building ${MODULES}" >> ${DIR}/build.log;
+./node_modules/.bin/webpack --env.modules=${MODULES} --env.minify=true --env.ie8=true >> ${DIR}/build.log;
+
+echo "Lists out ./out/_build/*" >> ${DIR}/build.log;
+ls -la out/_build >> ${DIR}/build.log;
+
+echo "cd to out/" >> ${DIR}/build.log;
+cd out >> ${DIR}/build.log;
+
+echo "Removing package/" >> ${DIR}/build.log;
+rm -rf package/ >> ${DIR}/build.log;
+
+echo "creating a directory package/" >> ${DIR}/build.log;
+mkdir package/ >> ${DIR}/build.log;
+
+echo "Copying _build/* to package/" >> ${DIR}/build.log;
+cp _build/*.js package/ >> ${DIR}/build.log;
+
+echo "Creating zip of package/ as package.zip" >> ${DIR}/build.log;
+zip -r package.zip package/ >> ${DIR}/build.log;
